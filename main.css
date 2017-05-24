@@ -249,7 +249,7 @@ footer{
 } /* FIN du css pour le menu animé de la barre de navigation */
 
 ul {
-    z-index: 45;
+    z-index: 0;
     position: relative;
 }
 
