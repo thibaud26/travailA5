@@ -18,7 +18,7 @@
     </nav>
     
     <section>
-                    <h2>Qu'es que Develo'pont?</h2>
+                    <h2>Qu'est-ce que Develo'Pont?</h2>
         
          <article>
              
