@@ -14,8 +14,6 @@ html {
     font-size: 14px;
 }
 
-
-
 body {
     background: rgb(227, 240, 229);
     box-shadow: 0px 10px 20px darkslategray;
@@ -29,6 +27,7 @@ body {
     max-width: 1300px;
     padding-bottom: 10%;
     padding-top: 1%;
+   
 }
 
 
@@ -200,17 +199,16 @@ footer{
 .hvr-shutter-in-horizontal { /* DEBUT du css pour le menu animé de la barre de navigation */
       display: inline-block;
       vertical-align: middle;
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
       box-shadow: 0 0 1px transparent;
       position: relative;
       background: #b5c046;
-      -webkit-transition-property: color;
+      /*-webkit-transition-property: color;
       transition-property: color;
       -webkit-transition-duration: 0.7s;
-      transition-duration: 0.7s;
+      transition-duration: 0.7s; */
       margin-bottom: 30px;
       margin-top: 15px;
+      z-index: 0;
 }
 
 
@@ -223,8 +221,8 @@ footer{
       left: 0;
       right: 0;
       background: #91b589;
-      -webkit-transform: scaleX(1);
-      transform: scaleX(1);
+      /*-webkit-transform: scaleX(1);
+      transform: scaleX(1);*/
       -webkit-transform-origin: 50%;
       transform-origin: 50%;
       -webkit-transition-property: transform;
@@ -238,7 +236,6 @@ footer{
 
 .hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active 
 
-
 {
       color: white;
 }
@@ -251,6 +248,42 @@ footer{
       transform: scaleX(0);
 } /* FIN du css pour le menu animé de la barre de navigation */
 
+ul {
+    z-index: 45;
+    position: relative;
+}
+
+.sousmenu {
+    display: none;
+    position: absolute;
+    top: 36px;
+    height: 0;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: #91b589;
+    list-style-type: none;
+    transition: all 1s, height 2s;
+    border: 3px solid black;
+    border-top: none;
+    z-index: 0;
+    transform: scale(0, 0);    
+} /* Sous menu */
+
+ul ul li {
+    text-align: left;
+    font-size: 0.9em;
+    float: left;
+    display: block;
+}
+
+.hvr-shutter-in-horizontal:hover .sousmenu {
+    position: absolute;
+    display: block;
+    top: 36px;
+    height: auto;
+    transform: scale(1, 1);
+} /* Apparition du sous menu */
 
 .mail {
     width: 80px;
