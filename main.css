@@ -116,12 +116,48 @@ nav {
 }
 
 
-
 section {
     padding-left: 4%;
     padding-right: 4%;
     text-align: justify;
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
+    -ms-animation: fadin 1.5s;
 }
+
+                /* ANIMATIONS FONDU & CLIGNOTEMENTS */
+@keyframes {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+@keyframes fadein {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-moz-keyframes fadein { /* Compatibilité Firefox */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-webkit-keyframes fadein { /* Compatibilité Safari et Chrome */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-o-keyframes fadein { /* Compatibilité Opera */
+    from {opacity:0;}
+    to {opacity: 1;}
+}
+@-ms-keyframes fadein { /* Compatibilité IE */
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes Test{    
+    0%{opacity: 1;}
+    50%{opacity: 0.3;}
+    100%{opacity: 1;}
+}               
+                /* FIN DES ANIMATIONS */
 
 
 article {
@@ -240,4 +276,9 @@ footer{
     min-width: 300px;
     position: relative;
     width: 60em;
+}
+
+
+#candidature {
+    animation: Test 1s infinite;
 }
