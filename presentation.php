@@ -9,7 +9,7 @@
     
     <header>
         
-        <h2>Qu'est-ce que Simplon.co?</h2>
+        <h2>Qu'est-ce que Simplon.co ?</h2>
         
     </header>
     

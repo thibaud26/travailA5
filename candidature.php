@@ -10,7 +10,7 @@
     
     <header>
         
-         <h2>Candidature pour Develo'pont</h2>
+         <h2>Candidature pour Develo'Pont</h2>
         
     </header>
     

@@ -4,7 +4,7 @@
 <head>
         <?php include ('head.html'); ?>
     
-        <title> develo'pont </title>  
+        <title> Develo'Pont </title>  
     
 </head>
 <body>
