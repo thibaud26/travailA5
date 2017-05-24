@@ -101,7 +101,7 @@ a {
 /* Contact footer */
 #contact{
     float: right;
-    margin: -0.72em 2.4em 0 0;
+    margin: -0.75em 2.4em 0 0;
 }
 
 
@@ -260,7 +260,14 @@ footer{
 
 .simplon {
     width: 200px;
-    vertical-align: middle;
+    position: absolute;
+    left: 41.5em;
+    top: 0.9em;
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
+    -ms-animation: fadin 1.5s;
 }
 
 
