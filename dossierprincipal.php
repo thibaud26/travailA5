@@ -3,6 +3,7 @@
 
 <head>
         <?php include ('head.html'); ?>
+        <?php include ('background.php'); ?>
     
         <title> develo'pont </title>  
     

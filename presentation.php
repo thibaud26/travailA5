@@ -3,7 +3,7 @@
 
 <head>
         <?php include ('head.html'); ?>
-        
+        <?php include ('background.php'); ?>
 </head>
 <body>
     
