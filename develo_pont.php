@@ -8,27 +8,34 @@
 <body>
     
     <header>
+
+        <?php include ('header-logo.html'); ?>
         
-        <h2>Qu'est-ce que Develo'Pont ?</h2>
     </header>
-    
     
     <nav>
         <?php include ('entete.html'); ?>
     </nav>
     
     <section>
+                    <h2>Qu'es que Develo'pont?</h2>
         
          <article>
              
-             <p><a href="https://fr-fr.facebook.com/developont/" target="_blank">DEVELO'PONT</a> est un projet initié par l'Espace Public Numérique du Royans (EPN) et <a href="simplon.co" target="_blank"><span class="span-simplon">SIMPLON.CO</span></a> . C'est une formation <b>GRATUITE</b>, <b>INTENSIVE</b>, <b>QUALIFIANTE</b> de 7 mois en développement web et mobile.
-Notre mission est également de proposer des profils de poste adaptés aux entreprises et collectivités locales dans leur développement numérique.
+        <p>
+            <a href="https://fr-fr.facebook.com/developont/" target="_blank">DEVELO'PONT</a> est un projet initié par l'Espace Public Numérique du Royans (EPN) et <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPLON.CO</span></a> .
+            
+            C'est une formation <b>GRATUITE</b>, <b>INTENSIVE</b>, <b>QUALIFIANTE</b> de 7 mois en développement web et mobile.
+
+            Notre mission est également de proposer des profils de poste adaptés aux entreprises et collectivités locales dans leur développement numérique.
         </p>
              <br>
              <br>
              
             
-            <p><strong>Article du site: <a href="http://www.memorialdelisere.fr/actualite-95355-dYvelopont-cest-parti-pour-7-mois-formation-.html" target="_blank"> Memorialdelisere.fr</a></strong></p>
+            <p><strong>Article du site: 
+            
+            <a href="http://www.memorialdelisere.fr/actualite-95355-dYvelopont-cest-parti-pour-7-mois-formation-.html" target="_blank"> Memorialdelisere.fr</a></strong></p>
            
             <p> A Pont-en-Royans, l’école Dévelo’Pont, initiée par l’Espace public numérique du Royans vient d’ouvrir ses portes. 20 élèves se formeront pendant 7 mois pour devenir web développeur. </p>
 
