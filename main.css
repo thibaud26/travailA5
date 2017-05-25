@@ -194,28 +194,41 @@ footer{
     background-color: #9ec8b6;*/
 }
 
-/*---Menu----*/
+/*-----Menu Déroulant--------*/
 
 .menuDeroulant {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .menu {
     list-style-type: none;
-    border: 1px solid black;
+    position: relative;
     padding: 0 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 1px black;
+    background-color: #9ec8b6; 
+    color: black;
+    transition: all 1s;
 }
 
 .sousmenu {
     position: absolute;
     max-height: 0;
+    width: 150px;
+    top: 30px;
+    left: 0px;
     overflow: hidden;
+    background-color: #9ec8b6;
     transition: all 1s;
-    border: none;
-    z-index: 0;
+    box-shadow: none;
+    z-index: -1;
     padding: 0 10px;
+    text-align: left;
 }
 
 .sousmenu li {
@@ -223,9 +236,14 @@ footer{
 }
 
 .menu:hover ul {
-    max-height: 100%;
+    max-height: 300px;
     z-index: 1;
-    border: 1px solid black;
+    animation: fadin 1.5s;
+    /* box-shadow: 1px 2px 2px 1px #9EC8B6; */
+}
+
+.menu:hover a {
+    color: white;
 }
 
 /*--------Fin du menu------*/
