@@ -120,13 +120,20 @@ a {
 
 
 nav {
-    list-style-type: none;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
     position: fixed;
     width: 1302px;
     background-color: #9ec8b6;
     top: 0;
     border-bottom: 1px solid black;
+}
+
+.logoDeveloPont {
+    height: 50px;
+    width: auto;
+    margin-left: auto;
 }
 
 
@@ -183,7 +190,7 @@ article {
 
 
 footer{
-    height: 100px;
+    height: 60px;
     width: 1302px;
     position: fixed;
     bottom: 0;
