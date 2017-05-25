@@ -3,12 +3,13 @@
 
 <head>
         <?php include ('head.html'); ?>
+        <?php include ('background.php'); ?>
 </head>
     
 <body>
     
     <header>
-        <h2>Contact</h2>
+        <?php include ('header-logo.html'); ?>
     </header>
     
     <nav>
@@ -16,6 +17,8 @@
     </nav>
     
     <section>
+        
+                    <h2>Contact</h2>
         
          <article>
              

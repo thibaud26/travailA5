@@ -3,13 +3,13 @@
 
 <head>
         <?php include ('head.html'); ?>
-        
+        <?php include ('background.php'); ?>
 </head>
 <body>
     
     <header>
-        
-        <h2>Qu'est-ce que Simplon.co?</h2>
+
+        <?php include ('header-logo.html'); ?>
         
     </header>
     
@@ -18,6 +18,8 @@
     </nav>
     
     <section>
+        
+                <h2>Qu'est-ce que Simplon.co?</h2>
     
     <article>
         <p>Entreprise de l’économie sociale et solidaire (agrément ESUS), <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPLON.CO</span></a> est un réseau de « fabriques » (écoles) qui propose des formations GRATUITES pour devenir développeur de sites web et d’applications mobiles, intégrateur, référent numérique, datartisan, e-commerçant… et bien d’autres métiers numériques “en tension” qui permettent de trouver rapidement un emploi ou de créer sa propre activité.</p>
