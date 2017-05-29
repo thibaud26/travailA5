@@ -158,11 +158,6 @@ nav {
     flex-flow: row wrap;
     max-width: 1300px;
     position: fixed;
-<<<<<<< HEAD:main.css
-    width: 66.35em;
-    background-color: #9ec8b6;
-=======
->>>>>>> c51102c1642fa27469c7adad52e52866513ffe4c:css/main.css
     top: 0;
     width: 100%;
 }
@@ -343,20 +338,22 @@ footer{
     width: 60em;
 }
 
-
-#candidature {
-    animation: Test 1s infinite;
-}
-<<<<<<< HEAD:main.css
 .menubarre {
     padding: 0 0 0 7em;
     margin: 0.3em -5em 0.3em -1em;
 }
+
 .menubarre  img {
     width: 20px;
     margin: 0 -0.2em 0 0;
     vertical-align: middle;
 }
+
+#candidature {
+    animation: Test 1s infinite;
+}
+<<<<<<< HEAD:main.css
+
 =======
 
 
