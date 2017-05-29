@@ -4,6 +4,8 @@
 <head>
         <?php include ('head.html'); ?>
         <?php include ('background.php'); ?>
+
+        <title>Develo'Pont</title>
 </head>
 <body>
          

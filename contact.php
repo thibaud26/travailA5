@@ -4,6 +4,8 @@
 <head>
         <?php include ('head.html'); ?>
         <?php include ('background.php'); ?>
+
+        <title>Develo'Pont</title>
 </head>
     
 <body>
@@ -18,10 +20,39 @@
 
     
     <section>
-        
+
+
                     <h2>Contact</h2>
         
          <article>
+             
+                <form action="mailto:joffrey@developont.fr" method="post"
+                       name="contact" class="formulaire">
+                    
+                    <p>
+                        <label for="user">Nom : </label>
+                        <input type="text" id="user" value="" />
+                    </p>
+                    
+                    <p>
+                        <label for="emailaddress">Email : </label>
+                        <input type="text" id="emailaddress" value="" />
+                    </p>
+                    
+                    <p>
+                        <label for="comments">Message : </label>
+                        <textarea id="comments" rows="5" cols="25"></textarea>
+                    </p>
+                    
+                    <p>
+                        <div>
+                            <input type="submit" value="Envoyer" />
+                            <input type="reset" value="Reset" />
+                        </div>
+                    </p>
+             
+             
+                </form>
              
                 
                 <a href="https://www.facebook.com/developont/" target="_blank"> 
