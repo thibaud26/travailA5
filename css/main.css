@@ -402,7 +402,53 @@ span {
 
 .logo_part2 {
      margin: 4em 0 0 8em;
-}               /* Fin des logos */
+}               /* Fin des logos partenaires */
+
+
+                /* Logos des financements */
+#bpifrance {
+     width: 250px;
+}
+
+
+#france_active {
+     margin: 0 0 0 2em;
+}
+
+
+#sncf {
+     width: 400px;
+     margin: 0 0 0 2em;
+}
+
+
+#UE {
+     width: 250px;  
+}
+
+
+#fse {
+     width: 250px;
+     margin-left: 4em;
+}
+
+
+#fse2 {
+     width: 250px;
+     margin-left: 4em;
+}
+
+
+.logo_financement1 {
+     margin: 0 0 0 5em;
+}
+
+
+.logo_financement2 {
+     margin: 3em 0 0 7em;
+}
+                /* Fin des logos des financements */
+
 
                 /*Options des liens des sous-menus du menu "Partenaires" */
 #part { 
