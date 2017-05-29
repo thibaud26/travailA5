@@ -11,6 +11,7 @@ html {
     max-width: 2000px;
     min-width: 300px;
     font-size: 14px;
+   
 }
 
 body {
@@ -27,6 +28,8 @@ body {
     max-width: 1300px;
     padding-bottom: 10%;
     padding-top: 1%;
+    display: flex;
+    flex-direction:column;
    
 }
 
@@ -120,20 +123,20 @@ a {
 
 
 nav {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    position: fixed;
-    width: 1302px;
     background-color: #9ec8b6;
-    top: 0;
     border-bottom: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1300px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .logoDeveloPont {
     height: 50px;
     width: auto;
-    margin-left: auto;
+    margin-left: 6px;
 }
 
 
