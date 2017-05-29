@@ -333,13 +333,11 @@ footer{
 
 
 .copyright {
-<<<<<<< HEAD
+
     margin: 0.8em 21em 0 0;
     color: #fffdfd;
-=======
     margin: 1.8em 21em 0 0;
-    color: black;
->>>>>>> 938b586196738f93532822fb5252f79a47d3e469
+    color: white;
     /* font-style: italic; */
     text-shadow: 0px 2px 6px black;
 }
