@@ -4,6 +4,8 @@
 <head>
         <?php include ('head.html'); ?>
         <?php include ('background.php'); ?>
+
+        <title>Develo'Pont</title>
 </head>
     
 <body>
@@ -18,7 +20,8 @@
 
     
     <section>
-        
+
+
                     <h2>Contact</h2>
         
          <article>
