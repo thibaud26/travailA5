@@ -23,46 +23,21 @@
         
          <article>
              
-                <form action="mailto:joffrey@developont.fr" method="post"
-                       name="contact" class="formulaire">
+                <form method="post" action="cible.php">
                     
                     <p>
-                        <label for="user">Nom : </label>
-                        <input type="text" id="user" value="" />
+                        <input type="text" name="nom" />
                     </p>
                     
                     <p>
-                        <label for="emailaddress">Email : </label>
-                        <input type="text" id="emailaddress" value="" />
+                        <textarea name="message" rows="8" cols="45" >
+                            Votre message.
+                        </textarea>
+                        <input type="submit" value="valider" />
                     </p>
                     
-                    <p>
-                        <label for="comments">Message : </label>
-                        <textarea id="comments" rows="5" cols="25"></textarea>
-                    </p>
-                    
-                    <p>
-                        <div>
-                            <input type="submit" value="Envoyer" />
-                            <input type="reset" value="Reset" />
-                        </div>
-                    </p>
-             
              
                 </form>
-             
-                
-                <a href="https://www.facebook.com/developont/" target="_blank"> 
-                    <img class="contact" src="img/facebook.png" alt="facebook">
-                </a> 
-             
-                <a href="https://twitter.com/developont" target="_blank">
-                   <img class="contact" src="img/twitter.png" alt="twitter"> 
-                </a>
-            
-             <a href="mailto:developont@gmail.com"
-               target="_blank"> <img class="contact" src="img/mail.jpg" alt="icone mail"> 
-             </a>
              
         </article>
 
