@@ -2,20 +2,25 @@
 <html>
 
 <head>
+<<<<<<< HEAD:develo'pont/develo'pont.php
+         <?php include ('../php/head.html'); ?>
+         <?php include ('../php/background.php'); ?>
+=======
          <?php include ('head.html'); ?>
          <?php include ('background.php'); ?>
 
          <title>Develo'Pont</title>
+>>>>>>> master:develo'pont.php
 </head>
 <body>
     
     <nav>
-        <?php include ('entete.html'); ?>
+        <?php include ('../php/entete.html'); ?>
     </nav>
     
     <header>
 
-        <?php include ('header-logo.html'); ?>
+        <?php include ('../php/header-logo.html'); ?>
         
     </header>
 
@@ -50,7 +55,7 @@
              
              
              
-             <a href="https://fr-fr.facebook.com/developont/" target="_blank"><img class="imageDAB" src="img/develo'pontDAB.jpg" alt="image develo'pont">
+             <a href="https://fr-fr.facebook.com/developont/" target="_blank"><img class="imageDAB" src="../img/develo'pontDAB.jpg" alt="image develo'pont">
              DEVELO'P<span>O</span>NT, promo 2017 de Develo'p<span>o</span>nt </a>
              
             
@@ -67,7 +72,7 @@
     
     <Footer>
              
-             <?php include ('copyright.html'); ?>
+             <?php include ('../php/copyright.html'); ?>
         
     </Footer>
 

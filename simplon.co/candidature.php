@@ -2,20 +2,25 @@
 <html>
 
 <head>
+<<<<<<< HEAD:simplon.co/candidature.php
+         <?php include ('../php/head.html'); ?>
+         <?php include ('../php/background.php'); ?>
+=======
          <?php include ('head.html'); ?>
          <?php include ('background.php'); ?>
 
          <title>Develo'Pont</title>
+>>>>>>> master:candidature.php
 </head>
 <body>
          
     <nav>
-        <?php include ('entete.html'); ?>
+        <?php include ('../php/entete.html'); ?>
     </nav>
     
     <header>
 
-         <?php include ('header-logo.html'); ?>
+         <?php include ('../php/header-logo.html'); ?>
     
     </header>
 
@@ -51,7 +56,7 @@
     
     
     <Footer>
-        <?php include ('copyright.html'); ?>
+        <?php include ('../php/copyright.html'); ?>
     </Footer>
 
 

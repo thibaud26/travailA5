@@ -2,8 +2,8 @@
 <html>
 
 <head>
-        <?php include ('head.html'); ?>
-        <?php include ('background.php'); ?>
+        <?php include ('../php/head.html'); ?>
+        <?php include ('../php/background.php'); ?>
     
         <title>Develo'Pont</title>  
     
@@ -17,13 +17,13 @@
     
      <nav>
         
-        <?php include ('entete.html'); ?>
+        <?php include ('../php/entete.html'); ?>
         
     </nav>
     
     <header>
         
-        <?php include ('header-logo.html'); ?> 
+        <?php include ('../php/header-logo.html'); ?> 
         
     </header>
     
@@ -64,7 +64,7 @@
     
     <aside>
 
-    
+
         
     </aside>
     
@@ -75,7 +75,7 @@
     <footer>
         
         
-        <?php include ('copyright.html'); ?>
+        <?php include ('../php/copyright.html'); ?>
        
     </footer>
 

@@ -2,20 +2,25 @@
 <html>
 
 <head>
+<<<<<<< HEAD:simplon.co/simplon.php
+        <?php include ('../php/head.html'); ?>
+        <?php include ('../php/background.php'); ?>
+=======
         <?php include ('head.html'); ?>
         <?php include ('background.php'); ?>
 
         <title>Develo'Pont</title>
+>>>>>>> master:simplon.php
 </head>
 <body>
          
     <nav>
-        <?php include ('entete.html'); ?>
+        <?php include ('../php/entete.html'); ?>
     </nav>
     
     <header>
 
-        <?php include ('header-logo.html'); ?>
+        <?php include ('../php/header-logo.html'); ?>
         
     </header>
 
@@ -42,7 +47,7 @@
     
     <Footer>
         <a href="http://simplon.co/" target="_blank"><img class="simplon" src="img/logosimplon.jpg" target="_blank"></a>
-        <?php include ('copyright.html'); ?>
+        <?php include ('../php/copyright.html'); ?>
     </Footer>
 
 

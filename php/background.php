@@ -23,6 +23,6 @@ fclose ($fp);/*ferme le fichier compteur.txt*/
 ?>
 <style type="text/css">
 html {
-    background-image: url(background/background<?php echo $number; ?>.jpg);/*charge une image au hasard en rajoutant un numéro a background ex"background12.jpg"*/
+    background-image: url(../background/background<?php echo $number; ?>.jpg);/*charge une image au hasard en rajoutant un numéro a background ex"background12.jpg"*/
 }
 </style>

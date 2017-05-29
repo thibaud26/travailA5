@@ -2,16 +2,21 @@
 <html>
 
 <head>
+<<<<<<< HEAD:seconnecter/seconnecter.php
+    <?php include ('../php/head.html'); ?>
+    <?php include ('../php/background.php'); ?>
+=======
     <?php include ('head.html'); ?>
     <?php include ('background.php'); ?>
 
     <title>Develo'Pont</title>
+>>>>>>> master:seconnecter.php
 </head>
     
 <body>
     
     <nav>
-        <?php include ('entete.html'); ?>
+        <?php include ('../php/entete.html'); ?>
     </nav>
     
     <header>
@@ -32,7 +37,7 @@
      
     
     <Footer>
-        <?php include ('copyright.html'); ?>
+        <?php include ('../php/copyright.html'); ?>
     </Footer>
 
     

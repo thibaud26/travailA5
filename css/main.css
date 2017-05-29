@@ -271,9 +271,9 @@ footer{
 .sousmenu {
     position: absolute;
     max-height: 0;
-    width: 150px;
-    top: 39px;
+    width: 9em;
     left: 0px;
+    top: 2em;
     overflow: hidden;
     background-color: #9ec8b6;
     transition: all 0.1s;
@@ -333,8 +333,13 @@ footer{
 
 
 .copyright {
+<<<<<<< HEAD
     margin: 0.8em 21em 0 0;
     color: #fffdfd;
+=======
+    margin: 1.8em 21em 0 0;
+    color: black;
+>>>>>>> 938b586196738f93532822fb5252f79a47d3e469
     /* font-style: italic; */
     text-shadow: 0px 2px 6px black;
 }
@@ -348,8 +353,7 @@ footer{
 }
 
 .menubarre {
-    padding: 0 0 0 7em;
-    margin: 0.3em -5em 0.3em -1em;
+    margin: 0.3em -5em 0.3em 5em;
 }
 
 .menubarre  img {
@@ -362,7 +366,6 @@ footer{
     animation: Test 1s infinite;
     color: black;
 }
-
 
 span {
     color: #ed1450;
@@ -464,3 +467,6 @@ span {
 #part:hover {
     color: white;
 }
+
+/* Fin des liens sous-menus */
+
