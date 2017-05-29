@@ -7,8 +7,9 @@
     <?php include ('../php/background.php'); ?>
 
     <title>Develo'Pont</title>
+
 </head>
-    
+
 <body>
     
     <nav>
