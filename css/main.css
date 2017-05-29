@@ -218,10 +218,10 @@ article {
     padding-left: 4%;
     padding-right: 4%;
     text-align: justify;
-    box-shadow: 10px 10px 0px #0009;
+    box-shadow: 10px 10px 0px rgba(0,0,0,0.4);
     border-top: 5px solid #0000001a;
     border-left: 5px solid #0000001a;
-    background-color: #fff9;
+    background-color: rgba(255,255,255,0.7);
 }
 
 
