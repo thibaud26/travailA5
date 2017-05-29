@@ -247,7 +247,7 @@ footer{
 }
 
 .sousmenu li {
-    list-style: none
+    list-style: none;
 }
 
 .menu:hover ul {
@@ -316,7 +316,54 @@ span {
     color: #ed1450;
 }
 
-
-#part { font-weight: bold;
-        margin: 0;
+                /* Logos des partenaires */
+#leader { 
+    width: 205px;
+    height: 205px;
 }
+
+
+#emploi { 
+    width: 250px;
+    height: 160px;
+}
+
+
+#legrand { 
+    width: 300px;
+    height: 120px;
+}
+
+
+#formation { 
+    width: 250px;
+    height: 160px;
+}
+
+
+#vercors { 
+    width: 250px;
+    height: 100px;
+}
+
+
+.logo_part1 {
+    margin: 0 0 0 4em;
+}
+
+
+.logo_part2 {
+     margin: 4em 0 0 8em;
+}               /* Fin des logos */
+
+                /*Options des liens des sous-menus du menu "Partenaires" */
+#part { 
+    color: black;
+    font-weight: normal;
+}
+
+
+#part:hover {
+    color: white;
+}
+                /* Fin des liens sous-menus */
