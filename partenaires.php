@@ -6,7 +6,7 @@
     <?php include ('head.html'); ?>
     <?php include ('background.php'); ?>
     
-    <title> Develo'Pont </title>
+    <title> Develo'P<span>o</span>nt </title>
     
 </head>
     

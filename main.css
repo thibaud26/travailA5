@@ -210,7 +210,6 @@ footer{
 }
 
 /*-----Menu Déroulant--------*/
-
 .menuDeroulant {
     display: flex;
     flex-flow: row wrap;
@@ -311,6 +310,13 @@ footer{
 #candidature {
     animation: Test 1s infinite;
 }
+
+
+span {
+    color: #ed1450;
+}
+
+
 #part { font-weight: bold;
         margin: 0;
 }
