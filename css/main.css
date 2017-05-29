@@ -268,8 +268,8 @@ footer{
     position: absolute;
     max-height: 0;
     width: 150px;
-    top: 39px;
     left: 0px;
+    top: 2em;
     overflow: hidden;
     background-color: #9ec8b6;
     transition: all 0.1s;
@@ -344,8 +344,7 @@ footer{
 }
 
 .menubarre {
-    padding: 0 0 0 7em;
-    margin: 0.3em -5em 0.3em -1em;
+    margin: 0.3em -5em 0.3em 5em;
 }
 
 .menubarre  img {
@@ -358,10 +357,6 @@ footer{
     animation: Test 1s infinite;
     color: black;
 }
-<<<<<<< HEAD:main.css
-
-=======
-
 
 span {
     color: #ed1450;
@@ -464,4 +459,3 @@ span {
     color: white;
 }
                 /* Fin des liens sous-menus */
->>>>>>> c51102c1642fa27469c7adad52e52866513ffe4c:css/main.css
