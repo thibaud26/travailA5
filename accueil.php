@@ -5,7 +5,7 @@
         <?php include ('head.html'); ?>
         <?php include ('background.php'); ?>
     
-        <title> Develo'Pont </title>  
+        <title> Develo'P<span>o</span>nt </title>  
     
 </head>
 <body>
@@ -26,7 +26,7 @@
         
         
         <article> 
-            <h2>La formation developpeur web a <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPLON.CO</span></a> c'est quoi?</h2>
+            <h2>La formation developpeur web a <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPL<span>O</span>N.CO</span></a> c'est quoi?</h2>
             <ul>
                 <li>Apprendre à créer des sites Internet et des applications web, et en faire son métier</li>
                 <li>En intensif, sur un cycle de 6 mois</li>
@@ -41,7 +41,7 @@
         
         <article>
         
-            <h2> Develo'Pont a pont en royans</h2>
+            <h2> Develo'P<span>o</span>nt a pont en royans</h2>
         
                 <p>Pour la première fois en Isère, mais aussi la première fois dans un petit village authentique adossé au Vercors, Simplon.co propose une formation en développement web, en PHP, gratuite et intensive, de 7 mois à partir du mois d’avril 2017.</p>
                 Mené dans une démarche d’innovation sociale, ce projet constitue un double défi :
@@ -57,7 +57,7 @@
     
     <aside>
 
-        <a id="candidature" href="candidature.php">Déposez votre candidature!</a>
+        <a id="candidature" href="candidature.php">Dép<span>o</span>sez votre candidature!</a>
         
     </aside>
     
