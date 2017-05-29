@@ -358,9 +358,6 @@ footer{
     animation: Test 1s infinite;
     color: black;
 }
-<<<<<<< HEAD:main.css
-
-=======
 
 
 span {
@@ -417,5 +414,4 @@ span {
 #part:hover {
     color: white;
 }
-                /* Fin des liens sous-menus */
->>>>>>> c51102c1642fa27469c7adad52e52866513ffe4c:css/main.css
+
