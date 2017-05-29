@@ -2,15 +2,11 @@
 <html>
 
 <head>
-<<<<<<< HEAD:simplon.co/candidature.php
+
          <?php include ('../php/head.html'); ?>
          <?php include ('../php/background.php'); ?>
-=======
-         <?php include ('head.html'); ?>
-         <?php include ('background.php'); ?>
 
          <title>Develo'Pont</title>
->>>>>>> master:candidature.php
 </head>
 <body>
          

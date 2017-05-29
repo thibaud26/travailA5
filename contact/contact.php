@@ -2,15 +2,12 @@
 <html>
 
 <head>
-<<<<<<< HEAD:contact/contact.php
         <?php include ('../php/head.html'); ?>
         <?php include ('../php/background.php'); ?>
-=======
         <?php include ('head.html'); ?>
         <?php include ('background.php'); ?>
 
         <title>Develo'Pont</title>
->>>>>>> master:contact.php
 </head>
     
 <body>
@@ -44,7 +41,6 @@
                         <input type="submit" value="valider" />
                     </p>
                     
-<<<<<<< HEAD:contact/contact.php
                     <p>
                         <label for="comments">Message : </label>
                         <textarea id="comments" rows="5" cols="25"></textarea>
@@ -58,10 +54,6 @@
                             </p>
                         </div>
                     
-             
-=======
->>>>>>> master:contact.php
-             
                 </form>
              
         </article>
