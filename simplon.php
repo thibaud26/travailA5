@@ -3,18 +3,20 @@
 
 <head>
         <?php include ('head.html'); ?>
-        
+        <?php include ('background.php'); ?>
 </head>
 <body>
-    
-    <header>
-        <?php include ('header-logo.html'); ?>
-        
-    </header>
-    
+         
     <nav>
         <?php include ('entete.html'); ?>
     </nav>
+    
+    <header>
+
+        <?php include ('header-logo.html'); ?>
+        
+    </header>
+
     
     <section>
         

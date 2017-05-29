@@ -3,25 +3,24 @@
 
 <head>
         <?php include ('head.html'); ?>
+        <?php include ('background.php'); ?>
     
-        <title> develo'pont </title>  
+        <title> Develo'Pont </title>  
     
 </head>
 <body>
     
-    <header>
-        
-        <?php include ('header-logo.html'); ?>
-        
-    </header>
-    
-    <nav>
-        
+     <nav>
         
         <?php include ('entete.html'); ?>
         
-        
     </nav>
+    
+    <header>
+        
+        <?php include ('header-logo.html'); ?> 
+        
+    </header>
     
     <section>
         
@@ -42,7 +41,7 @@
         
         <article>
         
-            <h2> Develo'pont a pont en royans</h2>
+            <h2> Develo'Pont a pont en royans</h2>
         
                 <p>Pour la première fois en Isère, mais aussi la première fois dans un petit village authentique adossé au Vercors, Simplon.co propose une formation en développement web, en PHP, gratuite et intensive, de 7 mois à partir du mois d’avril 2017.</p>
                 Mené dans une démarche d’innovation sociale, ce projet constitue un double défi :
@@ -58,7 +57,7 @@
     
     <aside>
 
-        <a href="candidature.php">Déposez votre candidature!</a>
+        <a id="candidature" href="candidature.php">Déposez votre candidature!</a>
         
     </aside>
     

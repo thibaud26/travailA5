@@ -4,12 +4,19 @@
 <head>
     
     <?php include ('head.html'); ?>
+    <?php include ('background.php'); ?>
     
-    <title> develo'pont </title>
+    <title> Develo'Pont </title>
     
 </head>
     
 <body>
+    
+    <nav>
+        
+        <?php include ('entete.html'); ?>
+        
+    </nav>
     
     <header>
         
@@ -17,11 +24,7 @@
         
     </header>
     
-    <nav>
-        
-        <?php include ('entete.html'); ?>
-        
-    </nav>
+
     
     <section>
         

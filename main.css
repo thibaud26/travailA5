@@ -2,7 +2,6 @@
 html {
     background: #e6e9e9;
     /* color: black; */
-    background-image: url(img/paysage1.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,12 +14,13 @@ html {
 }
 
 body {
+    
     background: rgb(227, 240, 229);
     box-shadow: 0px 10px 20px darkslategray;
     border-right: 1px solid black;
     border-left: 1px solid black;
     color: slategrey;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 140%;
     line-height: 1.5;
     margin: 0 auto;
@@ -35,6 +35,8 @@ header {
     text-align: center;
     background-color: #9ec8b6;
     border: 1px solid black;
+    border-left: none;
+    border-right: none;
     margin-bottom: 31px;
     margin-top: 20px;
     padding-left: 4%;
@@ -86,13 +88,21 @@ a {
     /* font-style: italic; */
     font-weight: bold;
     /* font-family: monospace; */
-    }
+}
 
 
+/* Contact barre de navigation */
 .contact{
     height: 100px;
     width: 250px;
     display:inline-block
+}
+
+
+/* Contact footer */
+#contact{
+    float: right;
+    margin: -0.75em 2.4em 0 0;
 }
 
 
@@ -110,17 +120,66 @@ a {
 
 
 nav {
-    list-style-type: none;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    position: fixed;
+    width: 1302px;
+    background-color: #9ec8b6;
+    top: 0;
+    border-bottom: 1px solid black;
 }
 
+.logoDeveloPont {
+    height: 50px;
+    width: auto;
+    margin-left: auto;
+}
 
 
 section {
     padding-left: 4%;
     padding-right: 4%;
     text-align: justify;
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
+    -ms-animation: fadin 1.5s;
 }
+
+                
+                /* ANIMATIONS FONDU & CLIGNOTEMENTS */
+@keyframes {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+@keyframes fadein {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-moz-keyframes fadein { /* Compatibilité Firefox */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-webkit-keyframes fadein { /* Compatibilité Safari et Chrome */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-o-keyframes fadein { /* Compatibilité Opera */
+    from {opacity:0;}
+    to {opacity: 1;}
+}
+@-ms-keyframes fadein { /* Compatibilité IE */
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes Test{    
+    0%{opacity: 1;}
+    50%{opacity: 0.3;}
+    100%{opacity: 1;}
+}               
+                /* FIN DES ANIMATIONS */
 
 
 article {
@@ -131,8 +190,8 @@ article {
 
 
 footer{
-    height: 100px;
-    width: 1301px;
+    height: 60px;
+    width: 1302px;
     position: fixed;
     bottom: 0;
     background-color: #91b589;
@@ -150,97 +209,61 @@ footer{
     background-color: #9ec8b6;*/
 }
 
-
-.hvr-shutter-in-horizontal { /* DEBUT du css pour le menu animé de la barre de navigation */
-      display: inline-block;
-      vertical-align: middle;
-      box-shadow: 0 0 1px transparent;
-      position: relative;
-      background: #b5c046;
-      /*-webkit-transition-property: color;
-      transition-property: color;
-      -webkit-transition-duration: 0.7s;
-      transition-duration: 0.7s; */
-      margin-bottom: 30px;
-      margin-top: 15px;
-      
+/*-----Menu Déroulant--------*/
+.menuDeroulant {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    max-width: 900px;
+    margin: auto;
 }
 
-
-.hvr-shutter-in-horizontal:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: #91b589;
-      /*-webkit-transform: scaleX(1);
-      transform: scaleX(1);*/
-      -webkit-transform-origin: 50%;
-      transform-origin: 50%;
-      -webkit-transition-property: transform;
-      transition-property: transform;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-timing-function: ease-out;
-      transition-timing-function: ease-out;
-}
-
-
-.hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active 
-z-index: 9999;
-
-{
-      color: white;
-z-index: 9999;
-}
-
-
-.hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before 
-
-
-{     -webkit-transform: scaleX(0);
-      transform: scaleX(0);
-} /* FIN du css pour le menu animé de la barre de navigation */
-
-ul {
-    z-index: 45;
+.menu {
+    list-style-type: none;
     position: relative;
+    padding: 0 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 1px black;
+    background-color: #9ec8b6; 
+    color: black;
+    transition: all 1s;
 }
 
 .sousmenu {
-    display: none;
     position: absolute;
-    top: 36px;
-    height: 0;
+    max-height: 0;
+    width: 150px;
+    top: 39px;
     left: 0px;
-    margin: 0px;
-    padding: 0px;
-    background: #91b589;
-    list-style-type: none;
-    transition: all 1s, height 2s;
-    border: 3px solid black;
-    border-top: none;
-    z-index: 0;
-    transform: scale(0, 0);    
-} /* Sous menu */
-
-ul ul li {
+    overflow: hidden;
+    background-color: #9ec8b6;
+    transition: all 0.1s;
+    box-shadow: none;
+    z-index: -1;
+    padding: 0 10px;
     text-align: left;
-    font-size: 0.9em;
-    float: left;
-    display: block;
+    border: none;
 }
 
-.hvr-shutter-in-horizontal:hover .sousmenu {
-    position: absolute;
-    display: block;
-    top: 36px;
-    height: auto;
-    transform: scale(1, 1);
-} /* Apparition du sous menu */
+.sousmenu li {
+    list-style: none
+}
+
+.menu:hover ul {
+    max-height: 300px;
+    z-index: 1;
+    animation: fadin 1.5s;
+    border: 1px solid black;
+    border-top: none;
+    /* box-shadow: 1px 2px 2px 1px #9EC8B6; */
+}
+
+.menu:hover a {
+    color: white;
+}
+
+/*--------Fin du menu------*/
 
 .mail {
     width: 80px;
@@ -250,7 +273,14 @@ ul ul li {
 
 .simplon {
     width: 200px;
-    vertical-align: middle;
+    position: absolute;
+    left: 41.5em;
+    top: 0.9em;
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
+    -ms-animation: fadin 1.5s;
 }
 
 
@@ -262,8 +292,7 @@ ul ul li {
 
 
 .copyright {
-    margin-top: 37px;
-    margin-top: 37px;
+    margin: 1.8em 21em 0 0;
     color: rgb(227, 240, 229);
     /* font-style: italic; */
     text-shadow: 0px 2px 6px black;
@@ -275,4 +304,9 @@ ul ul li {
     min-width: 300px;
     position: relative;
     width: 60em;
+}
+
+
+#candidature {
+    animation: Test 1s infinite;
 }

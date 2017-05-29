@@ -3,16 +3,19 @@
 
 <head>
     <?php include ('head.html'); ?>
+    <?php include ('background.php'); ?>
 </head>
     
 <body>
     
-    <header>
-    </header>
-    
     <nav>
         <?php include ('entete.html'); ?>
     </nav>
+    
+    <header>
+    </header>
+    
+
     
     <section>
         
