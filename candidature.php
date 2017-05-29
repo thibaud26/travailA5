@@ -6,16 +6,17 @@
          <?php include ('background.php'); ?>
 </head>
 <body>
+         
+    <nav>
+        <?php include ('entete.html'); ?>
+    </nav>
     
     <header>
 
          <?php include ('header-logo.html'); ?>
     
     </header>
-    
-    <nav>
-        <?php include ('entete.html'); ?>
-    </nav>
+
     
     <section>
         

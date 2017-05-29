@@ -12,17 +12,19 @@
     
 <body>
     
+    <nav>
+        
+        <?php include ('entete.html'); ?>
+        
+    </nav>
+    
     <header>
         
          <img class="logo" src="img/logo.png" alt="logo developont">
         
     </header>
     
-    <nav>
-        
-        <?php include ('entete.html'); ?>
-        
-    </nav>
+
     
     <section>
         

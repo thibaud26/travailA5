@@ -10,19 +10,17 @@
 </head>
 <body>
     
-    <header>
-        
-        <?php include ('header-logo.html'); ?>
-        
-    </header>
-    
-    <nav>
-        
+     <nav>
         
         <?php include ('entete.html'); ?>
         
-        
     </nav>
+    
+    <header>
+        
+        <?php include ('header-logo.html'); ?> 
+        
+    </header>
     
     <section>
         

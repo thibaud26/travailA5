@@ -7,15 +7,16 @@
 </head>
 <body>
     
+    <nav>
+        <?php include ('entete.html'); ?>
+    </nav>
+    
     <header>
 
         <?php include ('header-logo.html'); ?>
         
     </header>
-    
-    <nav>
-        <?php include ('entete.html'); ?>
-    </nav>
+
     
     <section>
                     <h2>Qu'est-ce que Develo'Pont?</h2>
