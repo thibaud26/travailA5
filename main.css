@@ -163,7 +163,7 @@ footer{
       transition-duration: 0.7s; */
       margin-bottom: 30px;
       margin-top: 15px;
-      z-index: 0;
+      
 }
 
 
@@ -190,9 +190,11 @@ footer{
 
 
 .hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active 
+z-index: 9999;
 
 {
       color: white;
+z-index: 9999;
 }
 
 
