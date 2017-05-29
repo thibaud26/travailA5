@@ -2,8 +2,15 @@
 <html>
 
 <head>
+<<<<<<< HEAD:contact/contact.php
         <?php include ('../php/head.html'); ?>
         <?php include ('../php/background.php'); ?>
+=======
+        <?php include ('head.html'); ?>
+        <?php include ('background.php'); ?>
+
+        <title>Develo'Pont</title>
+>>>>>>> master:contact.php
 </head>
     
 <body>
@@ -18,7 +25,8 @@
 
     
     <section>
-        
+
+
                     <h2>Contact</h2>
         
          <article>

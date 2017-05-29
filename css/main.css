@@ -246,9 +246,10 @@ footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0 10px;
-    max-width: 900px;
+    padding: 0px 100px 0px 1.5em;
+    max-width: 65em;
     margin: auto;
+    color:white;
 }
 
 .menu {
@@ -260,6 +261,7 @@ footer{
     background-color: #9ec8b6; 
     color: black;
     transition: all 1s;
+    color:white;
 }
 
 .sousmenu {
@@ -276,10 +278,12 @@ footer{
     padding: 0 10px;
     text-align: left;
     border: none;
+    color:white;
 }
 
 .sousmenu li {
     list-style: none;
+    color:white;
 }
 
 .menu:hover ul {
@@ -288,6 +292,7 @@ footer{
     animation: fadin 1.5s;
     border: 1px solid black;
     border-top: none;
+    color:white;
     /* box-shadow: 1px 2px 2px 1px #9EC8B6; */
 }
 
@@ -338,9 +343,20 @@ footer{
     width: 60em;
 }
 
+.menubarre {
+    padding: 0 0 0 7em;
+    margin: 0.3em -5em 0.3em -1em;
+}
+
+.menubarre  img {
+    width: 20px;
+    margin: 0 -0.2em 0 0;
+    vertical-align: middle;
+}
 
 #candidature {
     animation: Test 1s infinite;
+    color: black;
 }
 
 
@@ -386,7 +402,53 @@ span {
 
 .logo_part2 {
      margin: 4em 0 0 8em;
-}               /* Fin des logos */
+}               /* Fin des logos partenaires */
+
+
+                /* Logos des financements */
+#bpifrance {
+     width: 250px;
+}
+
+
+#france_active {
+     margin: 0 0 0 2em;
+}
+
+
+#sncf {
+     width: 400px;
+     margin: 0 0 0 2em;
+}
+
+
+#UE {
+     width: 250px;  
+}
+
+
+#fse {
+     width: 250px;
+     margin-left: 4em;
+}
+
+
+#fse2 {
+     width: 250px;
+     margin-left: 4em;
+}
+
+
+.logo_financement1 {
+     margin: 0 0 0 5em;
+}
+
+
+.logo_financement2 {
+     margin: 3em 0 0 7em;
+}
+                /* Fin des logos des financements */
+
 
                 /*Options des liens des sous-menus du menu "Partenaires" */
 #part { 

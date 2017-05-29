@@ -2,8 +2,15 @@
 <html>
 
 <head>
+<<<<<<< HEAD:seconnecter/seconnecter.php
     <?php include ('../php/head.html'); ?>
     <?php include ('../php/background.php'); ?>
+=======
+    <?php include ('head.html'); ?>
+    <?php include ('background.php'); ?>
+
+    <title>Develo'Pont</title>
+>>>>>>> master:seconnecter.php
 </head>
     
 <body>

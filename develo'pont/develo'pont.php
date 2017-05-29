@@ -2,8 +2,15 @@
 <html>
 
 <head>
+<<<<<<< HEAD:develo'pont/develo'pont.php
          <?php include ('../php/head.html'); ?>
          <?php include ('../php/background.php'); ?>
+=======
+         <?php include ('head.html'); ?>
+         <?php include ('background.php'); ?>
+
+         <title>Develo'Pont</title>
+>>>>>>> master:develo'pont.php
 </head>
 <body>
     
