@@ -311,3 +311,6 @@ footer{
 #candidature {
     animation: Test 1s infinite;
 }
+#part { font-weight: bold;
+        margin: 0;
+}
