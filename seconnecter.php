@@ -8,12 +8,14 @@
     
 <body>
     
-    <header>
-    </header>
-    
     <nav>
         <?php include ('entete.html'); ?>
     </nav>
+    
+    <header>
+    </header>
+    
+
     
     <section>
         
