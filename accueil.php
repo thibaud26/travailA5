@@ -7,6 +7,11 @@
     
         <title>Develo'Pont</title>  
     
+    
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+
+
+    
 </head>
 <body>
     
@@ -22,6 +27,8 @@
         
     </header>
     
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='main.css'>
+ 
     <section>
         
         
