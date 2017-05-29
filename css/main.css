@@ -246,8 +246,8 @@ footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0 10px;
-    max-width: 900px;
+    padding: 0px 100px 0px 1.5em;
+    max-width: 65em;
     margin: auto;
     color:white;
 }
@@ -343,11 +343,24 @@ footer{
     width: 60em;
 }
 
+.menubarre {
+    padding: 0 0 0 7em;
+    margin: 0.3em -5em 0.3em -1em;
+}
+
+.menubarre  img {
+    width: 20px;
+    margin: 0 -0.2em 0 0;
+    vertical-align: middle;
+}
 
 #candidature {
     animation: Test 1s infinite;
     color: black;
 }
+<<<<<<< HEAD:main.css
+
+=======
 
 
 span {

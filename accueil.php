@@ -5,7 +5,7 @@
         <?php include ('head.html'); ?>
         <?php include ('background.php'); ?>
     
-        <title> Develo'P<span>o</span>nt </title>  
+        <title>Develo'Pont</title>  
     
     
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
