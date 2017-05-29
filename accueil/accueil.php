@@ -56,7 +56,7 @@
                 <li> économique : participer à l’endiguement du chômage en répondant aux besoins de recrutement des entreprises du numérique engagées dans cette démarche citoyenne,</li>
                 <li> social : en agissant sur l’emploi et la qualification de publics marginalisés sélectionnés uniquement sur la base de critères sociaux et de leur motivation, et non selon les diplômes.</li>
             </ul>
-                <a id="candidature" href="candidature.php">Dép<span>o</span>sez votre candidature!</a>    
+                <a id="candidature" href="../simplon.co/candidature.php">Dép<span>o</span>sez votre candidature!</a>    
         </article>
         
     </section>
