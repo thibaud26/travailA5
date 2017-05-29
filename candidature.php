@@ -20,7 +20,7 @@
     
     <section>
         
-            <h2>Candidature pour Develo'Pont</h2>
+            <h2>Candidature pour Develo'P<span>o</span>nt</h2>
         
         <article>
             

@@ -19,7 +19,7 @@
 
     
     <section>
-                    <h2>Qu'est-ce que Develo'Pont?</h2>
+                    <h2>Qu'est-ce que Develo'P<span>o</span>nt?</h2>
         
          <article>
              
@@ -49,7 +49,7 @@
              
              
              <a href="https://fr-fr.facebook.com/developont/" target="_blank"><img class="imageDAB" src="img/develo'pontDAB.jpg" alt="image develo'pont">
-             DEVELO'PONT, promo 2017 de Develo'pont </a>
+             DEVELO'P<span>O</span>NT, promo 2017 de Develo'p<span>o</span>nt </a>
              
             
         </article>
