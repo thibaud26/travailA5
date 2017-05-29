@@ -8,7 +8,8 @@
 
     <title>Develo'Pont</title>
 
-    </head> 
+</head>
+
 <body>
     
     <nav>
