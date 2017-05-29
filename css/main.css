@@ -249,6 +249,7 @@ footer{
     padding: 0 10px;
     max-width: 900px;
     margin: auto;
+    color:white;
 }
 
 .menu {
@@ -260,6 +261,7 @@ footer{
     background-color: #9ec8b6; 
     color: black;
     transition: all 1s;
+    color:white;
 }
 
 .sousmenu {
@@ -276,10 +278,12 @@ footer{
     padding: 0 10px;
     text-align: left;
     border: none;
+    color:white;
 }
 
 .sousmenu li {
     list-style: none;
+    color:white;
 }
 
 .menu:hover ul {
@@ -288,6 +292,7 @@ footer{
     animation: fadin 1.5s;
     border: 1px solid black;
     border-top: none;
+    color:white;
     /* box-shadow: 1px 2px 2px 1px #9EC8B6; */
 }
 
@@ -341,6 +346,7 @@ footer{
 
 #candidature {
     animation: Test 1s infinite;
+    color: black;
 }
 
 
