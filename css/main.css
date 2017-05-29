@@ -330,7 +330,7 @@ footer{
 
 .copyright {
     margin: 1.8em 21em 0 0;
-    color: rgb(227, 240, 229);
+    color: black;
     /* font-style: italic; */
     text-shadow: 0px 2px 6px black;
 }
