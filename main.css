@@ -124,7 +124,7 @@ nav {
     justify-content: center;
     flex-flow: row wrap;
     position: fixed;
-    width: 1302px;
+    width: 66.35em;
     background-color: #9ec8b6;
     top: 0;
     border-bottom: 1px solid black;
@@ -214,8 +214,8 @@ footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0 10px;
-    max-width: 900px;
+    padding: 0px 100px 0px 1.5em;
+    max-width: 65em;
     margin: auto;
 }
 
@@ -309,4 +309,13 @@ footer{
 
 #candidature {
     animation: Test 1s infinite;
+}
+.menubarre {
+    padding: 0 0 0 7em;
+    margin: 0.3em -5em 0.3em -1em;
+}
+.menubarre  img {
+    width: 20px;
+    margin: 0 -0.2em 0 0;
+    vertical-align: middle;
 }
