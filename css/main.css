@@ -16,11 +16,11 @@ html {
 
 body {
     
-    background: rgb(227, 240, 229);
-    box-shadow: 0px 10px 20px darkslategray;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    color: slategrey;
+    /*! background: rgb(227, 240, 229); */
+    /*! box-shadow: 0px 10px 20px darkslategray; */
+    /*! border-right: 1px solid black; */
+    /*! border-left: 1px solid black; */
+    /*! color: slategrey; */
     font-family: 'Roboto', sans-serif;
     font-size: 140%;
     line-height: 1.5;
@@ -87,7 +87,7 @@ h2 {
 
 
 a {
-    color: black;
+    color: white;
     /* font-style: italic; */
     font-weight: bold;
     /* font-family: monospace; */
@@ -218,6 +218,10 @@ article {
     padding-left: 4%;
     padding-right: 4%;
     text-align: justify;
+    box-shadow: 10px 10px 0px #0009;
+    border-top: 5px solid #0000001a;
+    border-left: 5px solid #0000001a;
+    background-color: #fff9;
 }
 
 
@@ -226,7 +230,7 @@ footer{
     width: 1302px;
     position: fixed;
     bottom: 0;
-    background-color: #91b589;
+    background-color: #000;
     text-align: center;
     /*border-color: darkslategray;
     border-style: outset;
@@ -329,8 +333,8 @@ footer{
 
 
 .copyright {
-    margin: 1.8em 21em 0 0;
-    color: rgb(227, 240, 229);
+    margin: 0.8em 21em 0 0;
+    color: #fffdfd;
     /* font-style: italic; */
     text-shadow: 0px 2px 6px black;
 }
@@ -460,8 +464,3 @@ span {
 #part:hover {
     color: white;
 }
-<<<<<<< HEAD
-
-=======
-                /* Fin des liens sous-menus */
->>>>>>> cbd60ac29501ae44429ab6e7dbfaa36bc394d7d1
