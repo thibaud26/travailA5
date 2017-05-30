@@ -240,6 +240,8 @@ section {
 article {
     padding-left: 4%;
     padding-right: 4%;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
     text-align: justify;
     box-shadow: 10px 10px 0px rgba(0,0,0,0.4);
     border-top: 5px solid rgba(0,0,0,0.1);
