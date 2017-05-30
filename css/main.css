@@ -80,7 +80,7 @@ h2 {
     border-width: 4px;
     border-color: #9ec8b6;
     text-align: center;
-    
+    background-color: rgba(52,111,70,0.6);
         
 }
 
@@ -160,6 +160,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 .logoDeveloPont {
@@ -517,3 +518,43 @@ h4 {
 #mail_equipe {
     text-shadow: 1.5px 1.4px black
 }/* Fin de la page Develo'Pont > L'équipe */
+
+
+.PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
+    color: black;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.LIENCESTOU { /* tous les liens dans la section c'est ou */
+    
+    color: black;
+    font-size: 100%;
+    font-style: italic;
+    font-weight: bold;
+    }
+
+
+.imagemaisonsuspendu {
+    
+    
+    height: 185px;
+    width: 260px;
+    float: right;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+
+.imagepont1800 {
+    
+    height: 185px;
+    width: 260px;
+    float: left;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
