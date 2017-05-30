@@ -28,7 +28,7 @@
             <h2>Qu'est-ce que Develo'P<span>o</span>nt ?</h2>
              
         <p>
-            <a href="https://fr-fr.facebook.com/developont/" target="_blank">DEVELO'PONT</a> est un projet initié par l'Espace Public Numérique du Royans (EPN) et <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPLON.CO</span></a> .
+            <a href="https://fr-fr.facebook.com/developont/" target="_blank"><span id="prod">DEVELO'PONT</span></a> est un projet initié par l'Espace Public Numérique du Royans (EPN) et <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPLON.CO</span></a> .
             
             C'est une formation <b>GRATUITE</b>, <b>INTENSIVE</b>, <b>QUALIFIANTE</b> de 7 mois en développement web et mobile.
 
@@ -40,7 +40,7 @@
             
             <p><strong>Article du site: 
             
-            <a href="http://www.memorialdelisere.fr/actualite-95355-dYvelopont-cest-parti-pour-7-mois-formation-.html" target="_blank"> Memorialdelisere.fr</a></strong></p>
+                <a href="http://www.memorialdelisere.fr/actualite-95355-dYvelopont-cest-parti-pour-7-mois-formation-.html" target="_blank"> <span id="prod">Memorialdelisere.fr</span></a></strong></p>
            
             <p> A Pont-en-Royans, l’école Dévelo’Pont, initiée par l’Espace public numérique du Royans vient d’ouvrir ses portes. 20 élèves se formeront pendant 7 mois pour devenir web développeur. </p>
 
@@ -53,7 +53,7 @@
              
              
              <a href="https://fr-fr.facebook.com/developont/" target="_blank"><img class="imageDAB" src="../img/develo'pontDAB.jpg" alt="image develo'pont">
-             DEVELO'P<span>O</span>NT, promo 2017 de Develo'p<span>o</span>nt </a>
+                 <span id="prod">DEVELO'P<span>O</span>NT, promo 2017 de Develo'p<span>o</span>nt</span></a>
              
             
         </article>
