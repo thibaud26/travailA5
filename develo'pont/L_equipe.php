@@ -20,7 +20,7 @@
     <section>
         
          <article>
-             <h3>L'équipe Develo'P<span>o</span>nt</h3>
+             <h2>L'équipe Develo'P<span>o</span>nt</h2>
              <div class="l_equipe">
                 <div class="admin">
                     <h4>Présidente de l'association en charge de la formation</h4>
