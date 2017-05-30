@@ -95,10 +95,7 @@ h2 {
 
 }
 
-#prod {
-    color: white;
-    text-shadow: 1px 1px black;
-}
+
 
 a {
     color: rgba(255, 255, 255,1);
@@ -283,7 +280,7 @@ footer{
     color:white;
 }
 
-.menu a {
+nav a {
     align-self: center;
 }
 
