@@ -22,10 +22,11 @@
 
     
     <section>
-                    <h2>Qu'est-ce que Develo'P<span>o</span>nt?</h2>
+                    
         
          <article>
              
+             <h2>Qu'est-ce que Develo'P<span>o</span>nt?</h2>
         <p>
             <a href="https://fr-fr.facebook.com/developont/" target="_blank">DEVELO'PONT</a> est un projet initié par l'Espace Public Numérique du Royans (EPN) et <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPLON.CO</span></a> .
             

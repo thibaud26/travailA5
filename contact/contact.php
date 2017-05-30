@@ -22,9 +22,11 @@
     <section>
 
 
-                    <h2>Contact</h2>
+                    
         
          <article>
+             
+                        <h2>Contact</h2>
              
                 <form method="post" action="cible.php">
                     
