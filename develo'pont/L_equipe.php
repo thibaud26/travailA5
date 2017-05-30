@@ -28,13 +28,13 @@
                         <p>04 76 36 75 49 <br> 
                             <a id="mail_equipe" href="mailto:lr.amozigh@developont.fr">lr.amozigh@developont.fr</a>
                         </p>
-             
+             <hr id="HR_admin">
                     <h4>Chargée de promotion et du suivi administratif</h4>
                         <p id="nom_prenom">Chloë CECILIO</p>
                         <p>04 76 36 75 49 <br> 
                         <a id="mail_equipe" href="mailto:developont@gmail.com">developont@gmail.com</a>
                         </p>
-             
+             <hr id="HR_admin">
                     <h4>Chargée de placement</h4>
                         <p id="nom_prenom">Charlène SAHINOVIC</p>
                         <p>04 76 36 75 49 <br> 
@@ -47,11 +47,13 @@
                         <p>04 76 36 75 49 <br> 
                             <a id="mail_equipe" href="mailto:a.garciafernandez@developont.fr">arnaud@developont.fr</a>
                         </p>
+             <hr id="HR_formateur">
                         <p id="nom_prenom">Jérôme PIERSON</p>
                         <p>04 76 36 75 49 <br> 
                             <a id="mail_equipe" href="mailto:j.pierson@developont.fr">jerome@developont.fr</a>
                         </p>
                 </div>
+             <hr id="HR_dir">
                 <div class="directeur">
                     <h4>Directeur Simplon Auvergne Rhône-Alpes</h4>
                         <p id="nom_prenom">Pierre-Yves CHARPENET</p>

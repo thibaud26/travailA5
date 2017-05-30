@@ -521,7 +521,7 @@ h4 {
 
 .directeur {
     text-align: center;
-    margin: 11em 0 -3em 0;
+    margin: 2em 0 -3em 0;
     position: relative;
     bottom: 1em;
 } 
@@ -530,6 +530,21 @@ h4 {
 #mail_equipe {
     text-shadow: 1.1px 1px rgba(0, 0, 0, 1);
     color: rgba(158, 200, 182, 1);
+}
+
+
+#HR_admin {
+    margin-right: 2em; 
+}
+
+
+#HR_formateur {
+    margin-left: 7em;   
+}
+
+
+#HR_dir {
+    margin-top: 8em;
 }/* Fin de la page Develo'Pont > L'équipe */
 
 
