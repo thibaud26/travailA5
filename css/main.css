@@ -74,12 +74,10 @@ h1 {
 
 
 h2 {
-    border-style: double;
-    border-width: 4px;
-    border-color: #9ec8b6;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgba(71, 70, 76, 0.38);
     text-align: center;
-    
-        
 }
 
 
@@ -103,7 +101,7 @@ a {
 /* Contact footer */
 #contact{
     float: right;
-    margin: -0.75em 2.4em 0 0;
+    margin: -0.75em 0.4em 0 0;
 }
 
 .formulaire {
@@ -188,19 +186,19 @@ section {
     from {opacity:0;}
     to {opacity:1;}
 }
-@-moz-keyframes fadein { /* Compatibilité Firefox */
+@-moz-keyframes fadein { /* CompatibilitÃ© Firefox */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-webkit-keyframes fadein { /* Compatibilité Safari et Chrome */
+@-webkit-keyframes fadein { /* CompatibilitÃ© Safari et Chrome */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-o-keyframes fadein { /* Compatibilité Opera */
+@-o-keyframes fadein { /* CompatibilitÃ© Opera */
     from {opacity:0;}
     to {opacity: 1;}
 }
-@-ms-keyframes fadein { /* Compatibilité IE */
+@-ms-keyframes fadein { /* CompatibilitÃ© IE */
     from {opacity: 0;}
     to {opacity: 1;}
 }
@@ -243,7 +241,7 @@ footer{
     background-color: #9ec8b6;*/
 }
 
-/*-----Menu Déroulant--------*/
+/*-----Menu DÃ©roulant--------*/
 .menuDeroulant {
     display: flex;
     flex-flow: row wrap;
