@@ -468,3 +468,42 @@ span {
 
 /* Fin des liens sous-menus */
 
+
+.PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
+    color: black;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.LIENCESTOU { /* tous les liens dans la section c'est ou */
+    
+    color: black;
+    font-size: 100%;
+    font-style: italic;
+    font-weight: bold;
+    }
+
+
+.imagemaisonsuspendu {
+    
+    
+    height: 185px;
+    width: 260px;
+    float: right;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+
+.imagepont1800 {
+    
+    height: 185px;
+    width: 260px;
+    float: left;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
