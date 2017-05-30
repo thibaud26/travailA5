@@ -39,23 +39,6 @@
                         <input type="submit" value="valider" />
                     </p>
                     
-<<<<<<< HEAD
-                    <p>
-                        <label for="comments">Message : </label>
-                        <textarea id="comments" rows="5" cols="25"></textarea>
-                    </p>
-                    
-                
-                        <div>
-                            <p>
-                            <input type="submit" value="Envoyer" />
-                            <input type="reset" value="Reset" />
-                            </p>
-                        </div>
-                    
-=======
-             
->>>>>>> 6d8778039f1218a8ab71a09be9149419ccbb29b3
                 </form>
              
         </article>
