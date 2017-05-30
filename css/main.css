@@ -95,10 +95,7 @@ h2 {
 
 }
 
-#prod {
-    color: white;
-    text-shadow: 1px 1px black;
-}
+
 
 a {
     color: rgba(255, 255, 255,1);
@@ -166,7 +163,7 @@ a {
 
 
 nav {
-    background-color: rgba(103, 157, 46, 0.78);
+    background-color: rgb(103, 157, 46);
     border-bottom: 1px solid black;
     display: flex;
     justify-content: space-around;
@@ -283,7 +280,7 @@ footer{
     color:white;
 }
 
-.menu a {
+nav a {
     align-self: center;
 }
 
@@ -535,7 +532,7 @@ h4 {
 
 #mail_equipe {
     text-shadow: 1.1px 1px rgba(0, 0, 0, 1);
-    color: rgba(158, 200, 182, 1);
+    color: rgb(84, 173, 71);
 }
 
 
