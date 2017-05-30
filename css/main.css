@@ -308,7 +308,7 @@ nav a {
     left: 0px;
     top: 50px;
     overflow: hidden;
-    background-color: rgba(103, 157, 46, 0.78);
+    background-color: rgba(103, 157, 46, 0.9);
     transition: all 0.1s;
     box-shadow: none;
     z-index: -1;

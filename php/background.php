@@ -32,8 +32,6 @@ if ($number < 15) {
                     -moz-filter: invert(1);
                     -o-filter: invert(1);
                     -ms-filter: invert(1);
-                    /* margin-left: -53em; */
-                    /* position: fixed; */
                     max-width: 100%;
             }
             .logo img:hover
@@ -59,8 +57,6 @@ if ($number < 15) {
                     -moz-filter: invert(0);
                     -o-filter: invert(0);
                     -ms-filter: invert(0);
-                    /* margin-left: -53em; */
-                    /* position: fixed; */
                     max-width: 100%;
             }
             .logo img:hover
