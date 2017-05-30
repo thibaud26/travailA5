@@ -163,7 +163,7 @@ a {
 
 
 nav {
-    background-color: rgba(103, 157, 46, 0.78);
+    background-color: rgb(103, 157, 46);
     border-bottom: 1px solid black;
     display: flex;
     justify-content: space-around;
