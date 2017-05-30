@@ -464,7 +464,56 @@ span {
 
 #part:hover {
     color: white;
+}               /* Fin des liens sous-menus */
+
+
+                /* Page Develo'Pont > L'équipe */
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgba(71, 70, 76, 0.38);
+    
 }
 
-/* Fin des liens sous-menus */
 
+h4 {
+    
+}
+
+
+#nom_prenom {
+    
+}
+
+
+.l_equipe {
+    
+}
+
+
+.admin {
+    margin: 9em 30em 0 0;
+    
+}
+
+
+.formateurs {
+    margin: -25.25em 0 0 35em;
+    text-align: right;
+    position: relative;
+}
+
+
+.directeur {
+    text-align: center;
+    margin: 13em 0 -3em 0;
+    position: relative;
+    bottom: 1em;
+} 
+
+
+#mail_equipe {
+    text-shadow: 1.5px 1.4px black
+}/* Fin de la page Develo'Pont > L'équipe */
