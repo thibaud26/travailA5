@@ -80,7 +80,7 @@ h2 {
     border-width: 4px;
     border-color: #9ec8b6;
     text-align: center;
-    
+    background-color: rgba(52,111,70,0.6);
         
 }
 
@@ -160,6 +160,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 .logoDeveloPont {
@@ -468,6 +469,7 @@ span {
 
 /* Fin des liens sous-menus */
 
+<<<<<<< HEAD
 
 .PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
     color: black;
