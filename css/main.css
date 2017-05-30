@@ -84,6 +84,11 @@ h1 {
         -moz-filter: invert(0);
         -o-filter: invert(0);
         -ms-filter: invert(0);
+        animation: fadein 0.7s;
+        -moz-animation: fadein 0.7s;
+        -webkit-animation: fadein 0.7s;
+        -o-animation: fadein 0.7s;
+        -ms-animation: fadin 0.7s;
 }
 
 h2 {
