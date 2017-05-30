@@ -76,6 +76,7 @@ h1 {
         -ms-filter: invert(1);
         /* margin-left: -53em; */
         /* position: fixed; */
+        max-width: 100%;
 }
 .logo img:hover
 {
