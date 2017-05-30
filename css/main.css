@@ -251,7 +251,8 @@ article {
 
 footer{
     height: 60px;
-    width: 1302px;
+    width: 1198px;
+    align-self: center;
     position: fixed;
     bottom: 0;
     background-color: rgba(33, 60, 69, 0.93);
