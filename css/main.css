@@ -414,6 +414,7 @@ span {
                 /* Logos des financements */
 #bpifrance {
      width: 250px;
+     margin: 0 0 0 0;
 }
 
 
@@ -446,12 +447,12 @@ span {
 
 
 .logo_financement1 {
-     margin: 0 0 0 5em;
+     margin: 3em 0 0 2em;
 }
 
 
 .logo_financement2 {
-     margin: 3em 0 0 7em;
+     margin: 3em 0 0 4.5em;
 }
                 /* Fin des logos des financements */
 
