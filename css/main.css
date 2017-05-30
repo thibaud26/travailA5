@@ -85,6 +85,10 @@ h2 {
 }
 
 
+#prod {
+    color: white;
+    text-shadow: 1px 1px black;
+}
 
 a {
     color: white;
@@ -155,6 +159,7 @@ nav {
     background-color: #9ec8b6;
     border-bottom: 1px solid black;
     display: flex;
+    justify-content: space-around;
     flex-flow: row wrap;
     max-width: 1300px;
     position: fixed;
@@ -251,17 +256,16 @@ footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0px 100px 0px 1.5em;
     max-width: 65em;
-    margin: auto;
+    margin: 0 0 0 0;
     color:white;
 }
 
 .menu {
+    display: flex;
     list-style-type: none;
     position: relative;
     padding: 0 10px;
-    margin: 10px 0;
     box-shadow: 0 0 1px black;
     background-color: #9ec8b6; 
     color: black;
@@ -269,12 +273,18 @@ footer{
     color:white;
 }
 
+.menu a {
+    align-self: center;
+}
+
 .sousmenu {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     max-height: 0;
     width: 9em;
     left: 0px;
-    top: 2em;
+    top: 50px;
     overflow: hidden;
     background-color: #9ec8b6;
     transition: all 0.1s;
@@ -286,14 +296,26 @@ footer{
     color:white;
 }
 
+.sousmenu:before {
+    position: absolute;
+    height: 10px;
+    width: 9em;
+    left: 0px;
+    background-color: #9ec8b6;
+    padding: 0 10px;
+    
+}
+
 .sousmenu li {
     list-style: none;
     color:white;
 }
 
 .menu:hover ul {
+    position: absolute;
     max-height: 300px;
-    z-index: 1;
+    z-index: 0;
+    top: 50px;
     animation: fadin 1.5s;
     border: 1px solid black;
     border-top: none;
@@ -352,7 +374,8 @@ footer{
 }
 
 .menubarre {
-    margin: 0.3em -5em 0.3em 5em;
+    padding: 0 1em;
+    align-self: center;
 }
 
 .menubarre  img {
