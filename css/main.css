@@ -92,9 +92,13 @@ h2 {
     border-color: rgba(71, 70, 76, 0.38);
     text-align: center;
     background-color: rgba(33, 60, 69, 0.74);
+
 }
 
-
+#prod {
+    color: white;
+    text-shadow: 1px 1px black;
+}
 
 a {
     color: rgba(255, 255, 255,1);
@@ -165,6 +169,7 @@ nav {
     background-color: rgba(103, 157, 46, 0.78);
     border-bottom: 1px solid black;
     display: flex;
+    justify-content: space-around;
     flex-flow: row wrap;
     max-width: 1300px;
     position: fixed;
@@ -261,17 +266,16 @@ footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0px 100px 0px 1.5em;
     max-width: 65em;
-    margin: auto;
+    margin: 0 0 0 0;
     color:white;
 }
 
 .menu {
+    display: flex;
     list-style-type: none;
     position: relative;
     padding: 0 10px;
-    margin: 10px 0;
     box-shadow: 0 0 1px black;
     background-color: rgba(33, 60, 69, 0.8);
     color: black;
@@ -279,12 +283,18 @@ footer{
     color:white;
 }
 
+.menu a {
+    align-self: center;
+}
+
 .sousmenu {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     max-height: 0;
     width: 9em;
     left: 0px;
-    top: 2em;
+    top: 50px;
     overflow: hidden;
     background-color: rgba(103, 157, 46, 0.78);
     transition: all 0.1s;
@@ -296,14 +306,26 @@ footer{
     color:white;
 }
 
+.sousmenu:before {
+    position: absolute;
+    height: 10px;
+    width: 9em;
+    left: 0px;
+    background-color: #9ec8b6;
+    padding: 0 10px;
+    
+}
+
 .sousmenu li {
     list-style: none;
     color:white;
 }
 
 .menu:hover ul {
+    position: absolute;
     max-height: 300px;
-    z-index: 1;
+    z-index: 0;
+    top: 50px;
     animation: fadin 1.5s;
     border: 1px solid black;
     border-top: none;
@@ -354,7 +376,8 @@ footer{
 }
 
 .menubarre {
-    margin: 0.3em -5em 0.3em 5em;
+    padding: 0 1em;
+    align-self: center;
 }
 
 .menubarre  img {
@@ -416,6 +439,7 @@ span {
                 /* Logos des financements */
 #bpifrance {
      width: 250px;
+     margin: 0 0 0 0;
 }
 
 
@@ -448,12 +472,12 @@ span {
 
 
 .logo_financement1 {
-     margin: 0 0 0 5em;
+     margin: 3em 0 0 2em;
 }
 
 
 .logo_financement2 {
-     margin: 3em 0 0 7em;
+     margin: 3em 0 0 4.5em;
 }
                 /* Fin des logos des financements */
 
@@ -467,7 +491,104 @@ span {
 
 #part:hover {
     color: white;
+}               /* Fin des liens sous-menus */
+
+
+                /* Page Develo'Pont > L'équipe */
+h4 {
+    text-decoration: underline;
+    
 }
 
-/* Fin des liens sous-menus */
 
+#nom_prenom {
+    
+}
+
+
+.l_equipe {
+    margin: -5em 0 0 0;
+    
+}
+
+
+.admin {
+    margin: 9em 30em 0 0;
+    
+}
+
+
+.formateurs {
+    margin: -23.25em 0 0 35em;
+    text-align: right;
+    position: relative;
+}
+
+
+.directeur {
+    text-align: center;
+    margin: 2em 0 -3em 0;
+    position: relative;
+    bottom: 1em;
+} 
+
+
+#mail_equipe {
+    text-shadow: 1.1px 1px rgba(0, 0, 0, 1);
+    color: rgba(158, 200, 182, 1);
+}
+
+
+#HR_admin {
+    margin-right: 2em; 
+}
+
+
+#HR_formateur {
+    margin-left: 7em;   
+}
+
+
+#HR_dir {
+    margin-top: 8em;
+}/* Fin de la page Develo'Pont > L'équipe */
+
+
+.PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
+    color: black;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.LIENCESTOU { /* tous les liens dans la section c'est ou */
+    
+    color: black;
+    font-size: 100%;
+    font-style: italic;
+    font-weight: bold;
+    }
+
+
+.imagemaisonsuspendu {
+    
+    
+    height: 185px;
+    width: 260px;
+    float: right;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+
+.imagepont1800 {
+    
+    height: 185px;
+    width: 260px;
+    float: left;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
