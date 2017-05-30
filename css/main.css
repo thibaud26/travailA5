@@ -1,4 +1,3 @@
-
 html {
     background: #e6e9e9;
     /* color: black; */
@@ -36,15 +35,13 @@ body {
 
 header {
     text-align: center;
-    background-color: #9ec8b6;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-left: none;
     border-right: none;
     margin-bottom: 31px;
-    margin-top: 20px;
+    margin-top: 36px;
     padding-left: 4%;
     padding-right: 4%;
-    
 }
 
 
@@ -70,20 +67,33 @@ h1 {
 }
 
 
-.logo {
-    text-align: center;
+.logo img
+{
+        filter: invert(1);
+        -webkit-filter: invert(1);
+        -moz-filter: invert(1);
+        -o-filter: invert(1);
+        -ms-filter: invert(1);
+        /* margin-left: -53em; */
+        /* position: fixed; */
 }
-
+.logo img:hover
+{
+        filter: invert(0);
+        -webkit-filter: invert(0);
+        -moz-filter: invert(0);
+        -o-filter: invert(0);
+        -ms-filter: invert(0);
+}
 
 h2 {
-    border-style: double;
-    border-width: 4px;
-    border-color: #9ec8b6;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgba(71, 70, 76, 0.38);
     text-align: center;
-    background-color: rgba(52,111,70,0.6);
-        
-}
+    background-color: rgba(33, 60, 69, 0.74);
 
+}
 
 #prod {
     color: white;
@@ -91,7 +101,7 @@ h2 {
 }
 
 a {
-    color: white;
+    color: rgba(255, 255, 255,1);
     /* font-style: italic; */
     font-weight: bold;
     /* font-family: monospace; */
@@ -109,7 +119,7 @@ a {
 /* Contact footer */
 #contact{
     float: right;
-    margin: -0.75em 2.4em 0 0;
+    margin: -0.75em 0.4em 0 0;
 }
 
 .formulaire {
@@ -156,7 +166,7 @@ a {
 
 
 nav {
-    background-color: #9ec8b6;
+    background-color: rgba(103, 157, 46, 0.78);
     border-bottom: 1px solid black;
     display: flex;
     justify-content: space-around;
@@ -178,7 +188,7 @@ nav {
 section {
     padding-left: 4%;
     padding-right: 4%;
-    text-align: justify;
+    /* text-align: justify; */
     animation: fadein 1.5s;
     -moz-animation: fadein 1.5s;
     -webkit-animation: fadein 1.5s;
@@ -196,19 +206,19 @@ section {
     from {opacity:0;}
     to {opacity:1;}
 }
-@-moz-keyframes fadein { /* Compatibilité Firefox */
+@-moz-keyframes fadein { /* CompatibilitÃƒÂ© Firefox */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-webkit-keyframes fadein { /* Compatibilité Safari et Chrome */
+@-webkit-keyframes fadein { /* CompatibilitÃƒÂ© Safari et Chrome */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-o-keyframes fadein { /* Compatibilité Opera */
+@-o-keyframes fadein { /* CompatibilitÃƒÂ© Opera */
     from {opacity:0;}
     to {opacity: 1;}
 }
-@-ms-keyframes fadein { /* Compatibilité IE */
+@-ms-keyframes fadein { /* CompatibilitÃƒÂ© IE */
     from {opacity: 0;}
     to {opacity: 1;}
 }
@@ -236,7 +246,7 @@ footer{
     width: 1302px;
     position: fixed;
     bottom: 0;
-    background-color: #000;
+    background-color: rgba(33, 60, 69, 0.93);
     text-align: center;
     /*border-color: darkslategray;
     border-style: outset;
@@ -251,7 +261,7 @@ footer{
     background-color: #9ec8b6;*/
 }
 
-/*-----Menu Déroulant--------*/
+/*-----Menu DÃƒÂ©roulant--------*/
 .menuDeroulant {
     display: flex;
     flex-flow: row wrap;
@@ -267,7 +277,7 @@ footer{
     position: relative;
     padding: 0 10px;
     box-shadow: 0 0 1px black;
-    background-color: #9ec8b6; 
+    background-color: rgba(33, 60, 69, 0.8);
     color: black;
     transition: all 1s;
     color:white;
@@ -286,7 +296,7 @@ footer{
     left: 0px;
     top: 50px;
     overflow: hidden;
-    background-color: #9ec8b6;
+    background-color: rgba(103, 157, 46, 0.78);
     transition: all 0.1s;
     box-shadow: none;
     z-index: -1;
@@ -355,15 +365,7 @@ footer{
 }
 
 
-.copyright {
-
-    margin: 0.8em 21em 0 0;
-    color: #fffdfd;
-    margin: 1.8em 21em 0 0;
-    color: white;
-    /* font-style: italic; */
-    text-shadow: 0px 2px 6px black;
-}
+.copyright {margin: 0.8em 21em 0 0;color: #fffdfd;margin: 0.8em 32em 0 0;color: white;/* font-style: italic; */text-shadow: 0px 2px 6px black;}
 
 
 .imageDAB {
@@ -511,7 +513,7 @@ h4 {
 
 
 .admin {
-    margin: 9em 30em 0 0;
+    margin: 9em 28em 0 0;
     
 }
 
@@ -589,4 +591,58 @@ h4 {
     padding-bottom: 30px;
     padding-right: 30px;
     padding-top: 30px;
+}
+
+.sitegeologiques, .histoire, .pont {
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+}
+
+
+.clochet {
+    height: 185px;
+    width: 260px;
+    float: left;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.museedeleau {
+    height: 185px;
+    width: 260px;
+    float: right;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.grotte {
+    height: 185px;
+    width: 260px;
+    float: left;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.monuments {
+    padding-bottom: 100px;
+}
+
+.gorgebourne {
+    height: 185px;
+    width: 260px;
+    float: right;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+
+article h3 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    display: inline-table;
 }
