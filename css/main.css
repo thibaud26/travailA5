@@ -181,6 +181,10 @@ nav {
     z-index: 999;
 }
 
+.lienImage {
+    height: 50px;
+}
+
 .logoDeveloPont {
     height: 50px;
     width: auto;
