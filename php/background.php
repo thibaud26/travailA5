@@ -1,5 +1,5 @@
 <?php
-$fp = fopen ("compteur.txt", "r");/*ouvre le fichier compteur.txt, en lecture seule et place le pointeur au début du fichier*/
+$fp = fopen ("../php/compteur.txt","r");/*ouvre le fichier compteur.txt, en lecture seule et place le pointeur au début du fichier*/
 $contenu_fichier = fgets ($fp, 255);/*transfère le contenu de compteur.txt dans contenu_fichier 
 ($fp, contient l'emplacement du curseur)*/
 fclose ($fp);/*ferme le fichier compteur.txt*/
@@ -16,7 +16,7 @@ while ($i == 0) {
 		$i = 1;
 	}
 }
-$fp = fopen ("compteur.txt", "r+");/*ouvre le fichier compteur.txt, en lecture et ecriture et place le pointeur au début du fichier*/
+$fp = fopen ("../php/compteur.txt","r+");/*ouvre le fichier compteur.txt, en lecture et ecriture et place le pointeur au début du fichier*/
 fseek ($fp, 0);/* on place le pointeur du fichier à l'offset 0 grâce à l'instruction fseek(). En clair, on se positionne au tout début de notre fichier*/
 fputs ($fp, $number);/*grâce à l'instruction fputs(), on écrit dans notre fichier la nouvelle valeur correspondant a $number*/
 fclose ($fp);/*ferme le fichier compteur.txt*/
