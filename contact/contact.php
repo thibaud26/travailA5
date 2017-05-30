@@ -28,30 +28,6 @@
                     
         
          <article>
-             
-            <form method="post" action="contact.php">
- 
-                <h2>CONTACT</h2>
- 
-                    <p>
-                    Votre Email <br />
-                    <input type="text" name="votremail" />
-
-                    <!-- Valeur par défaut de l'objet du mail -->
-                    <input type="hidden" name="objet" value="Vous avez un nouveau message" />
-                    </p>
-
-                    <p>
-                    Votre message <br />
-                    <textarea cols="50" rows="10" name="message"></textarea>
-                    </p>
-
-                    <p>
-                    <input type="submit" value="Envoyer" />
-                    </p>
-
-            </form>
-        <!-- On ferme la balise form, notre formulaire est fini -->
         <?php
         // La variable $verif va nous permettre d'analyser si la sémantique de l'e-mail est bonne
         $verif="!^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]{2,}\.[a-zA-Z]{2,4}$!";
@@ -62,20 +38,23 @@
         $message=stripslashes(htmlspecialchars($_POST["message"]));
 
         // On met ici notre e-mail
-        $destinataire="alcaraz.joffrey@gmail.com";
+        $destinataire="stef.pachot@gmail.com";
 
         /* On place le sujet du message qui, ici, sera toujours le même
         puisque dans la partie Html, on l'a mis en caché grâce au type="hidden"<gras><couleur nom="rouge">  </couleur></gras> avec comme valeur "Vous avez un nouveau message"  */
         $objet=$_POST['objet'];
 
         // C'est bon : on est ok, vérifions si l'e-mail est valide, grâce à notre sympathique REGEX
-        
-             
-        if(!preg_match($verif,$votremail))
+
+        if(trim($message)=="" & trim($votremail)=="")
             {
-                echo "Votre e-mail n'est pas valide";
+                print "";
             }
 
+        elseif( !preg_match ($verif,$votremail))
+            {
+                print "Votre e-mail n'est pas valide";
+            }
         // On vérifie s'il y a un message
         elseif (trim($message)=="")
             {
@@ -90,8 +69,29 @@
             }
 
         ?>
-             
-             
+            <form method="post" action="contact.php">
+ 
+                <h2>CONTACT</h2>
+ 
+                    <p>
+                    Votre Email <br />
+                    <input type="text" name="votremail"/>
+
+                    <!-- Valeur par défaut de l'objet du mail -->
+                    <input type="hidden" name="objet" value="Vous avez un nouveau message"/>
+                    </p>
+
+                    <p>
+                    Votre message <br />
+                    <textarea cols="50" rows="10" name="message"></textarea>
+                    </p>
+
+                    <p>
+                    <button type="submit">Envoyer</button>
+                    </p>
+
+            </form>
+        <!-- On ferme la balise form, notre formulaire est fini -->
         </article>
 
     </section>
