@@ -292,6 +292,9 @@ footer{
 
 nav a {
     align-self: center;
+    letter-spacing: 1.5px;
+    font-size: 17px;
+    font-family: "Lato";
 }
 
 .sousmenu {
