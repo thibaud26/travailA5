@@ -415,6 +415,7 @@ span {
                 /* Logos des financements */
 #bpifrance {
      width: 250px;
+     margin: 0 0 0 0;
 }
 
 
@@ -447,12 +448,12 @@ span {
 
 
 .logo_financement1 {
-     margin: 0 0 0 5em;
+     margin: 3em 0 0 2em;
 }
 
 
 .logo_financement2 {
-     margin: 3em 0 0 7em;
+     margin: 3em 0 0 4.5em;
 }
                 /* Fin des logos des financements */
 
@@ -466,11 +467,53 @@ span {
 
 #part:hover {
     color: white;
+}               /* Fin des liens sous-menus */
+
+
+                /* Page Develo'Pont > L'équipe */
+h4 {
+    text-decoration: underline;
+    
 }
 
-/* Fin des liens sous-menus */
 
-<<<<<<< HEAD
+#nom_prenom {
+    
+}
+
+
+.l_equipe {
+    margin: -5em 0 0 0;
+    
+}
+
+
+.admin {
+    margin: 9em 30em 0 0;
+    
+}
+
+
+.formateurs {
+    margin: -23.25em 0 0 35em;
+    text-align: right;
+    position: relative;
+}
+
+
+.directeur {
+    text-align: center;
+    margin: 11em 0 -3em 0;
+    position: relative;
+    bottom: 1em;
+} 
+
+
+#mail_equipe {
+    text-shadow: 1.1px 1px rgba(0, 0, 0, 1);
+    color: rgba(158, 200, 182, 1);
+}/* Fin de la page Develo'Pont > L'équipe */
+
 
 .PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
     color: black;

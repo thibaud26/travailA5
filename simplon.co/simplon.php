@@ -45,7 +45,7 @@
     
     
     <Footer>
-        <a href="http://simplon.co/" target="_blank"><img class="simplon" src="img/logosimplon.jpg" target="_blank"></a>
+        <a href="http://simplon.co/" target="_blank"><img class="simplon" src="../img/logosimplon.jpg" target="_blank"></a>
         <?php include ('../php/copyright.html'); ?>
     </Footer>
 
