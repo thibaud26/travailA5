@@ -35,14 +35,13 @@ body {
 
 header {
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-left: none;
     border-right: none;
     margin-bottom: 31px;
     margin-top: 36px;
     padding-left: 4%;
     padding-right: 4%;
-    z-index: -1;
 }
 
 
@@ -75,7 +74,7 @@ h1 {
         -moz-filter: invert(1);
         -o-filter: invert(1);
         -ms-filter: invert(1);
-        margin-left: -5em;
+        /* margin-left: -53em; */
         /* position: fixed; */
 }
 .logo img:hover
@@ -171,6 +170,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 .logoDeveloPont {
@@ -286,7 +286,7 @@ footer{
     left: 0px;
     top: 2em;
     overflow: hidden;
-    background-color: #9ec8b6;
+    background-color: rgba(103, 157, 46, 0.78);
     transition: all 0.1s;
     box-shadow: none;
     z-index: -1;
