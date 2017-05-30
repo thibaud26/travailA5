@@ -42,6 +42,7 @@ header {
     margin-top: 36px;
     padding-left: 4%;
     padding-right: 4%;
+    z-index: -1;
 }
 
 
@@ -67,20 +68,17 @@ h1 {
 }
 
 
-.logo {
-    text-align: center;
-}
-
-
-.invert img
+.logo img
 {
         filter: invert(1);
         -webkit-filter: invert(1);
         -moz-filter: invert(1);
         -o-filter: invert(1);
         -ms-filter: invert(1);
+        margin-left: -5em;
+        /* position: fixed; */
 }
-.invert img:hover
+.logo img:hover
 {
         filter: invert(0);
         -webkit-filter: invert(0);
@@ -203,19 +201,19 @@ section {
     from {opacity:0;}
     to {opacity:1;}
 }
-@-moz-keyframes fadein { /* CompatibilitÃ© Firefox */
+@-moz-keyframes fadein { /* CompatibilitÃƒÂ© Firefox */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-webkit-keyframes fadein { /* CompatibilitÃ© Safari et Chrome */
+@-webkit-keyframes fadein { /* CompatibilitÃƒÂ© Safari et Chrome */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-o-keyframes fadein { /* CompatibilitÃ© Opera */
+@-o-keyframes fadein { /* CompatibilitÃƒÂ© Opera */
     from {opacity:0;}
     to {opacity: 1;}
 }
-@-ms-keyframes fadein { /* CompatibilitÃ© IE */
+@-ms-keyframes fadein { /* CompatibilitÃƒÂ© IE */
     from {opacity: 0;}
     to {opacity: 1;}
 }
@@ -258,7 +256,7 @@ footer{
     background-color: #9ec8b6;*/
 }
 
-/*-----Menu DÃ©roulant--------*/
+/*-----Menu DÃƒÂ©roulant--------*/
 .menuDeroulant {
     display: flex;
     flex-flow: row wrap;
