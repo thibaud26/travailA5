@@ -96,6 +96,8 @@ h1 {
         -ms-animation: fadin 0.7s;
 } */
 
+
+
 h2 {
     border-style: outset;
     border-width: 3px;
@@ -261,6 +263,7 @@ footer{
     bottom: 0;
     background-color: rgba(33, 60, 69, 0.93);
     text-align: center;
+    z-index: 999;
     /*border-color: darkslategray;
     border-style: outset;
     border-width: thick;
@@ -605,15 +608,39 @@ h4 {
 
 .imagemaisonsuspendu {
     
-    
     height: 185px;
     width: 260px;
     float: right;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-top: 40px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
 
+.imagemaisonsuspendu:hover{
+    
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.imagemaisonsuspendu:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
+}
 
 .imagepont1800 {
     
@@ -623,12 +650,39 @@ h4 {
     padding-bottom: 30px;
     padding-right: 30px;
     padding-top: 30px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
+
+.imagepont1800:hover{
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.imagepont1800:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
+}
+
 
 .sitegeologiques, .histoire, .pont {
     padding-bottom: 10px;
     margin-bottom: 35px;
 }
+
 
 
 .clochet {
@@ -638,6 +692,32 @@ h4 {
     padding-bottom: 30px;
     padding-right: 30px;
     padding-top: 30px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+}
+
+
+.clochet:hover {
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.clochet:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
 }
 
 .museedeleau {
@@ -647,6 +727,31 @@ h4 {
     padding-bottom: 30px;
     padding-left: 30px;
     padding-top: 40px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+}
+
+.museedeleau:hover{
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.museedeleau:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
 }
 
 .grotte {
@@ -656,7 +761,33 @@ h4 {
     padding-bottom: 30px;
     padding-right: 30px;
     padding-top: 30px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
+
+.grotte:hover {
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.grotte:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
+}
+
 
 .monuments {
     padding-bottom: 100px;
@@ -669,6 +800,32 @@ h4 {
     padding-bottom: 30px;
     padding-left: 30px;
     padding-top: 40px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+}
+
+
+.gorgebourne:hover{
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.gorgebourne:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
 }
 
 
@@ -678,3 +835,125 @@ article h3 {
     font-weight: 900;
     display: inline-table;
 }
+
+input[type="submit" i] {
+    background-image: url("../img/favicon.png");
+    padding: 1px 8px;
+}
+
+form {
+    display: inline-flex;
+    height: 1em;
+    vertical-align: middle;
+}
+                    /* Page Promo 2017 */
+.galerie li{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    padding: 1.5em;
+    list-style: none;
+}
+
+
+.galerie li a{
+    display:table;
+    overflow:hidden;
+    width: 200px;
+    height: 150px;
+    margin-top:0px;
+    margin-left:0px;
+    border:0px solid rgba(0,0,0,0.7);
+    transition-property:width,height,margin,z-index,border;
+    transition-duration:0.4s;
+}
+
+.galerie li a:hover{
+    position:absolute;
+    width: 320px;
+    height: 240px;
+    margin-top:-56px;
+    margin-left:-56px;
+    border:6px solid rgba(0,0,0,0.7);
+    z-index: 100;
+}
+          
+.galerie li a img{
+    position:absolute;
+    width: 200px;
+    height: 150px;
+    transition-property:width,height,z-index;
+    transition-duration:0.4s;
+    z-index: 20;
+}
+          
+.galerie li a:hover img{
+    width: 320px;
+    height: 240px;
+    z-index: 100;
+}                   /* Fin de la page 'Promo 2017' */
+
+
+#reseauxsociaux {
+    width: 4.2277%;
+    max-width: 75px;
+    min-width: 45px;
+    height: calc((275*100)/939);
+    position: fixed;
+    margin-left: -15.7182%;
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 5px;
+    z-index: 10;
+    top: 18em;
+}
+
+
+.socialicons
+{
+	border-radius:5px;
+	width:100%; /* 42 / 42 = 1*/
+	height:auto;
+	display:block;
+}
+
+#twittericon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
+#fbicon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
+#googleicon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
+#inicon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
