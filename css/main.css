@@ -214,19 +214,19 @@ section {
     from {opacity:0;}
     to {opacity:1;}
 }
-@-moz-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© Firefox */
+@-moz-keyframes fadein { /* Compatibilite Firefox */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-webkit-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© Safari et Chrome */
+@-webkit-keyframes fadein { /* Compatibilite Safari et Chrome */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-o-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© Opera */
+@-o-keyframes fadein { /* Compatibilite Opera */
     from {opacity:0;}
     to {opacity: 1;}
 }
-@-ms-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© IE */
+@-ms-keyframes fadein { /* Compatibilite IE */
     from {opacity: 0;}
     to {opacity: 1;}
 }
@@ -274,7 +274,7 @@ footer{
     background-color: #9ec8b6;*/
 }
 
-/*-----Menu DÃƒÆ’Ã‚Â©roulant--------*/
+/*-----Menu Deroulant--------*/
 .menuDeroulant {
     display: flex;
     flex-flow: row wrap;
@@ -517,7 +517,7 @@ span {
 }               /* Fin des liens sous-menus */
 
 
-                /* Page Develo'Pont > L'Ã©quipe */
+                /* Page Develo'Pont > L'equipe */
 h4 {
     text-decoration: underline;
     
@@ -574,7 +574,7 @@ h4 {
 
 #HR_dir {
     margin-top: 8em;
-}/* Fin de la page Develo'Pont > L'Ã©quipe */
+}               /* Fin de la page Develo'Pont > L'equipe */
 
 
 .PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
@@ -585,7 +585,7 @@ h4 {
 }
 
 
-.LIENCESTOU { /* tous les liens dans la section c'est ou */
+.LIENCESTOU {  /* tous les liens dans la section c'est ou */
     
     color: black;
     font-size: 100%;
@@ -852,7 +852,8 @@ form {
     height: 150px;
     margin-top:0px;
     margin-left:0px;
-    border:0px solid rgba(0,0,0,0.7);
+    border:0.3em solid rgba(0,0,0,0.7);
+    border-radius: 0.5em;
     transition-property:width,height,margin,z-index,border;
     transition-duration:0.4s;
 }
@@ -871,8 +872,10 @@ form {
     position:absolute;
     width: 200px;
     height: 150px;
+    border-radius: 0.2em;
     transition-property:width,height,z-index;
     transition-duration:0.4s;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
     z-index: 20;
 }
           
@@ -880,6 +883,13 @@ form {
     width: 320px;
     height: 240px;
     z-index: 100;
+}
+
+
+.galerie li a strong {
+    position: absolute;
+    bottom: -30px;
+    opacity: 0;
 }                   /* Fin de la page 'Promo 2017' */
 
 
@@ -945,3 +955,4 @@ form {
 	height:12%; /* 42 / 350 = 0.12*/;
 }
 
+>>>>>>> 8c2bea27a3068ddcda99943ca95bb0c0833eb4e4
