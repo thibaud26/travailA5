@@ -59,8 +59,9 @@
         </article>
         
     </section>
-    
+        
     <aside>
+        <?php include ('../php/reseauxsociaux.html'); ?> 
     </aside>
     
 </body> 

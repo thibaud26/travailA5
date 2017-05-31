@@ -133,9 +133,9 @@
 
         
         </article>
-    
+        <?php include ('../php/reseauxsociaux.html'); ?> 
     </section>
-     <?php include ('../php/reseauxsociaux.html'); ?> 
+     
     <aside>
             
     </aside> 

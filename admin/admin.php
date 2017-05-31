@@ -62,6 +62,7 @@
      
     
     <Footer>
+        <?php include ('../php/copyright.html'); ?>
     </Footer>
 
     
