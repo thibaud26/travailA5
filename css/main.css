@@ -14,7 +14,6 @@ html {
 }
  
 body {
-    
     /*! background: rgb(227, 240, 229); */
     /*! box-shadow: 0px 10px 20px darkslategray; */
     /*! border-right: 1px solid black; */
@@ -67,31 +66,6 @@ h1 {
     text-shadow: 5px 5px 5px black;
 }
 
-
-.logo img
-{
-        filter: invert(1);
-        -webkit-filter: invert(1);
-        -moz-filter: invert(1);
-        -o-filter: invert(1);
-        -ms-filter: invert(1);
-        /* margin-left: -53em; */
-        /* position: fixed; */
-        max-width: 100%;
-}
-.logo img:hover
-{
-        filter: invert(0);
-        -webkit-filter: invert(0);
-        -moz-filter: invert(0);
-        -o-filter: invert(0);
-        -ms-filter: invert(0);
-        animation: fadein 0.7s;
-        -moz-animation: fadein 0.7s;
-        -webkit-animation: fadein 0.7s;
-        -o-animation: fadein 0.7s;
-        -ms-animation: fadin 0.7s;
-}
 
 #reseauxsociaux {
     width: 4.2277%;
@@ -163,22 +137,7 @@ padding-top:25px;
 	width:56%; /* 42 / 75 = 0.56*/
 	height:12%; /* 42 / 350 = 0.12*/;
 }
-
-#inicon
-{
-	display: block;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	margin:auto;
-	width:56%; /* 42 / 75 = 0.56*/
-	height:12%; /* 42 / 350 = 0.12*/;
-}
-
-.entry-meta {
-	margin-left:0px;
-	width: 300px;
-	display:inline-block;
-}
+    
 
 
 
@@ -216,10 +175,12 @@ a {
     align-self: center;
 }
 
+
 .formulaire {
     display: flex;
     flex-flow: column wrap;
 }
+
 
 .formulaire p{
     width : 300px;
@@ -230,6 +191,7 @@ a {
     height: 1%
 }
 
+
 .formulaire label {
     font-weight: bold;
     float: left;
@@ -237,14 +199,17 @@ a {
     width: 150px;
 }
 
+
 .formulaire input {
     width: 180px;
 }
+
 
 .formulaire textarea{
     width: 250px;
     height: 150px;
 }
+
 
 .navigation {
     display: inline;
@@ -260,7 +225,7 @@ a {
 
 
 nav {
-    background-color: rgb(71, 68, 68);
+    background-color: rgb(101, 94, 94);
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -271,9 +236,11 @@ nav {
     z-index: 999;
 }
 
+
 .lienImage {
     height: 50px;
 }
+
 
 .logoDeveloPont {
     height: 50px;
@@ -303,19 +270,19 @@ section {
     from {opacity:0;}
     to {opacity:1;}
 }
-@-moz-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© Firefox */
+@-moz-keyframes fadein { /* Compatibilite Firefox */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-webkit-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© Safari et Chrome */
+@-webkit-keyframes fadein { /* Compatibilite Safari et Chrome */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-o-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© Opera */
+@-o-keyframes fadein { /* Compatibilite Opera */
     from {opacity:0;}
     to {opacity: 1;}
 }
-@-ms-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© IE */
+@-ms-keyframes fadein { /* Compatibilite IE */
     from {opacity: 0;}
     to {opacity: 1;}
 }
@@ -363,7 +330,8 @@ footer{
     background-color: #9ec8b6;*/
 }
 
-/*-----Menu DÃƒÆ’Ã‚Â©roulant--------*/
+
+/*-----Menu Deroulant--------*/
 .menuDeroulant {
     display: flex;
     flex-flow: row wrap;
@@ -372,6 +340,7 @@ footer{
     margin: 0 0 0 0;
     color:white;
 }
+
 
 .menu {
     display: flex;
@@ -385,12 +354,14 @@ footer{
     color:white;
 }
 
+
 nav a {
     align-self: center;
     letter-spacing: 1.5px;
     font-size: 17px;
     font-family: "Lato";
 }
+
 
 .sousmenu {
     display: flex;
@@ -411,6 +382,7 @@ nav a {
     color:white;
 }
 
+
 .sousmenu:before {
     position: absolute;
     height: 10px;
@@ -421,10 +393,12 @@ nav a {
     
 }
 
+
 .sousmenu li {
     list-style: none;
     color:white;
 }
+
 
 .menu:hover ul {
     position: absolute;
@@ -437,6 +411,7 @@ nav a {
     color:white;
     /* box-shadow: 1px 2px 2px 1px #9EC8B6; */
 }
+
 
 .menu:hover a {
     color: white;
@@ -492,16 +467,19 @@ nav a {
     align-self: center;
 }
 
+
 .menubarre  img {
     width: 20px;
     margin: 0 -0.2em 0 0;
     vertical-align: middle;
 }
 
+
 #candidature {
     animation: Test 1s infinite;
     color: black;
 }
+
 
 span {
     color: #ed1450;
@@ -606,7 +584,7 @@ span {
 }               /* Fin des liens sous-menus */
 
 
-                /* Page Develo'Pont > L'Ã©quipe */
+                /* Page Develo'Pont > L'equipe */
 h4 {
     text-decoration: underline;
     
@@ -663,7 +641,7 @@ h4 {
 
 #HR_dir {
     margin-top: 8em;
-}/* Fin de la page Develo'Pont > L'Ã©quipe */
+}               /* Fin de la page Develo'Pont > L'equipe */
 
 
 .PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
@@ -674,7 +652,7 @@ h4 {
 }
 
 
-.LIENCESTOU { /* tous les liens dans la section c'est ou */
+.LIENCESTOU {  /* tous les liens dans la section c'est ou */
     
     color: black;
     font-size: 100%;
@@ -698,6 +676,7 @@ h4 {
     transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
 
+
 .imagemaisonsuspendu:hover{
     
     
@@ -709,6 +688,7 @@ h4 {
     
 }
 
+
 .imagemaisonsuspendu:not(:hover) {
     
     -webkit-filter: grayscale(1) blur(0.5px);
@@ -718,6 +698,7 @@ h4 {
     filter: grayscale(1) blur(0.5px);
     
 }
+
 
 .imagepont1800 {
     
@@ -734,6 +715,7 @@ h4 {
     transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
 
+
 .imagepont1800:hover{
     
     -webkit-transform: scale(1.25);
@@ -744,6 +726,7 @@ h4 {
     
 }
 
+
 .imagepont1800:not(:hover) {
     
     -webkit-filter: grayscale(1) blur(0.5px);
@@ -753,6 +736,7 @@ h4 {
     filter: grayscale(1) blur(0.5px);
     
 }
+
 
 
 .sitegeologiques, .histoire, .pont {
@@ -787,6 +771,7 @@ h4 {
     
 }
 
+
 .clochet:not(:hover) {
     
     -webkit-filter: grayscale(1) blur(0.5px);
@@ -796,6 +781,7 @@ h4 {
     filter: grayscale(1) blur(0.5px);
     
 }
+
 
 .museedeleau {
     height: 185px;
@@ -811,6 +797,7 @@ h4 {
     transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
 
+
 .museedeleau:hover{
     
     -webkit-transform: scale(1.25);
@@ -821,6 +808,7 @@ h4 {
     
 }
 
+
 .museedeleau:not(:hover) {
     
     -webkit-filter: grayscale(1) blur(0.5px);
@@ -830,6 +818,7 @@ h4 {
     filter: grayscale(1) blur(0.5px);
     
 }
+
 
 .grotte {
     height: 185px;
@@ -845,6 +834,7 @@ h4 {
     transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
 
+
 .grotte:hover {
     
     -webkit-transform: scale(1.25);
@@ -854,6 +844,7 @@ h4 {
     transform: scale(1.25);
     
 }
+
 
 .grotte:not(:hover) {
     
@@ -869,6 +860,7 @@ h4 {
 .monuments {
     padding-bottom: 100px;
 }
+
 
 .gorgebourne {
     height: 185px;
@@ -895,6 +887,7 @@ h4 {
     
 }
 
+
 .gorgebourne:not(:hover) {
     
     -webkit-filter: grayscale(1) blur(0.5px);
@@ -913,10 +906,20 @@ article h3 {
     display: inline-table;
 }
 
+
 input[type="submit" i] {
     background-image: url("../img/favicon.png");
+    padding: 1px 8px;
 }
-                    /* Page Promo 2017 */
+
+
+form {
+    display: inline-flex;
+    height: 1em;
+    vertical-align: middle;
+}
+ 
+/* Page Promo 2017 */
 .galerie li{
     display: inline-block;
     position: relative;
@@ -934,10 +937,12 @@ input[type="submit" i] {
     height: 150px;
     margin-top:0px;
     margin-left:0px;
-    border:0px solid rgba(0,0,0,0.7);
+    border:0.3em solid rgba(0,0,0,0.7);
+    border-radius: 0.5em;
     transition-property:width,height,margin,z-index,border;
     transition-duration:0.4s;
 }
+
 
 .galerie li a:hover{
     position:absolute;
@@ -948,18 +953,106 @@ input[type="submit" i] {
     border:6px solid rgba(0,0,0,0.7);
     z-index: 100;
 }
-          
+ 
+
 .galerie li a img{
     position:absolute;
     width: 200px;
     height: 150px;
+    border-radius: 0.2em;
     transition-property:width,height,z-index;
     transition-duration:0.4s;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
     z-index: 20;
 }
-          
+ 
+
 .galerie li a:hover img{
     width: 320px;
     height: 240px;
     z-index: 100;
+}
+
+
+.galerie li a strong {
+    position: absolute;
+    bottom: -30px;
+    opacity: 0;
+}
+.galerie li a:hover strong{ 
+    opacity:1;
+    bottom:0em;
+    transition:bottom 0.3s ease 0.4s;
+    left:0px;
+    width:190px;
+    height:17px;
+    padding-bottom:1em;
+    padding-left:6.7em;
+    background:rgba(0,0,0,0.8);
+    margin-top:-30px;
+    z-index:150;
 }                   /* Fin de la page 'Promo 2017' */
+
+
+#reseauxsociaux {
+    width: 4.2277%;
+    max-width: 75px;
+    min-width: 45px;
+    height: calc((275*100)/939);
+    position: fixed;
+    margin-left: -15.7182%;
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 5px;
+    z-index: 10;
+    top: 18em;
+}
+
+
+.socialicons
+{
+	border-radius:5px;
+	width:100%; /* 42 / 42 = 1*/
+	height:auto;
+	display:block;
+}
+
+
+#twittericon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
+#fbicon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
+#googleicon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
+#inicon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
