@@ -66,7 +66,7 @@ h1 {
     text-shadow: 5px 5px 5px black;
 }
 
-
+/*
 .logo img
 {
         filter: invert(1);
@@ -90,7 +90,7 @@ h1 {
         -webkit-animation: fadein 0.7s;
         -o-animation: fadein 0.7s;
         -ms-animation: fadin 0.7s;
-}
+} */
 
 h2 {
     border-style: outset;
@@ -122,7 +122,7 @@ a {
 /* Contact footer */
 #contact{
     float: right;
-    margin: -0.75em 0.4em 0 0;
+    margin: -0.75em 1.4em 0 0;
 }
 
 .formulaire {
@@ -251,7 +251,8 @@ article {
 
 footer{
     height: 60px;
-    width: 1302px;
+    width: 1198px;
+    align-self: center;
     position: fixed;
     bottom: 0;
     background-color: rgba(33, 60, 69, 0.93);
@@ -307,7 +308,7 @@ nav a {
     left: 0px;
     top: 50px;
     overflow: hidden;
-    background-color: rgba(103, 157, 46, 0.78);
+    background-color: rgba(103, 157, 46, 0.9);
     transition: all 0.1s;
     box-shadow: none;
     z-index: -1;
@@ -376,7 +377,11 @@ nav a {
 }
 
 
-.copyright {margin: 0.8em 21em 0 0;color: #fffdfd;margin: 0.8em 32em 0 0;color: white;/* font-style: italic; */text-shadow: 0px 2px 6px black;}
+.copyright {
+    margin: 0.8em 21em 0 0;
+    color: #fffdfd;
+    color: white;
+    text-shadow: 0px 2px 6px black;}
 
 
 .imageDAB {
