@@ -662,3 +662,8 @@ article h3 {
     font-weight: 900;
     display: inline-table;
 }
+
+input[type="submit" i] {
+    background-image: url("../img/favicon.png");
+
+}
