@@ -53,13 +53,13 @@
                 <li>
                     <a>
                     <img src="../Photos/BenoitLi.jpg" alt="BenoitLi">
-                    <strong>BenoitLi</strong>
+                    <strong>Benoit Li</strong>
                     </a>
                 </li>
                 <li>
                     <a>
                     <img src="../Photos/BenoitLa.jpg" alt="BenoitLa">
-                    <strong>BenoitLa</strong>
+                    <strong>Benoit La</strong>
                     </a>
                 </li>
                 <li>
@@ -83,7 +83,7 @@
                 <li>
                     <a>
                     <img src="../Photos/Lise-Claire.jpg" alt="Lise-Claire">
-                    <strong>Lise-Claire</strong>
+                    <strong>Lise</strong>
                     </a>
                 </li>
                 <li>
@@ -139,6 +139,8 @@
                     <img src="../Photos/Sylvain.jpg" alt="Sylvain">
                     <strong>Sylvain</strong>
                     </a>
+                </li>
+                <li>
                 </li>
             </ul>
         </article>
