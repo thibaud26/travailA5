@@ -80,7 +80,7 @@ if ($number < 15) {
 <style type="text/css">
 html {
     background-image: url(../background/background<?php echo $number; ?>.jpg);/*charge une image au hasard en rajoutant un numéro a background ex"background12.jpg"*/
-    animation: backFadeIn 10s;
+   /* animation: backFadeIn 10s; */
 }
     
 @keyframes backFadeIn{
