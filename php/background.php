@@ -7,7 +7,7 @@ $i = 0;
 
 while ($i == 0) {
 	$nb_min = 10;/*nombre minimum au hasard (on commence a 10 car fputs remplace que les caractere qu'il a besoin) ex"13 -> fputs(6) -> 63" seul 1 a êtait remplacer par 6*/
-	$nb_max = 19;/*nombre maximum au hasard*/
+	$nb_max = 25;/*nombre maximum au hasard*/
 	$number = mt_rand($nb_min,$nb_max);/*variable contenant le numéros entre nb_min et nb_max*/
 	if ($contenu_fichier == $number) {/*teste si le nombre contenue dans notre fichier est egale a $number*/
 		$i = 0;
@@ -80,7 +80,7 @@ if ($number < 15) {
 <style type="text/css">
 html {
     background-image: url(../background/background<?php echo $number; ?>.jpg);/*charge une image au hasard en rajoutant un numéro a background ex"background12.jpg"*/
-    animation: backFadeIn 10s;
+   /* animation: backFadeIn 10s; */
 }
     
 @keyframes backFadeIn{
