@@ -122,7 +122,7 @@ a {
 /* Contact footer */
 #contact{
     float: right;
-    margin: -0.75em 0.4em 0 0;
+    margin: -0.75em 1.4em 0 0;
 }
 
 .formulaire {
@@ -376,7 +376,11 @@ nav a {
 }
 
 
-.copyright {margin: 0.8em 21em 0 0;color: #fffdfd;margin: 0.8em 32em 0 0;color: white;/* font-style: italic; */text-shadow: 0px 2px 6px black;}
+.copyright {
+    margin: 0.8em 21em 0 0;
+    color: #fffdfd;
+    color: white;
+    text-shadow: 0px 2px 6px black;}
 
 
 .imageDAB {
