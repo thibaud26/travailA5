@@ -556,18 +556,30 @@ h4 {
 
 
 #HR_admin {
-    margin-right: 2em; 
+    margin-right: 2em;
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
 #HR_formateur {
-    margin-left: 7em;   
+    margin-left: 7em;
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
 #HR_dir {
     margin-top: 8em;
-}/* Fin de la page Develo'Pont > L'équipe */
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}               /* Fin de la page Develo'Pont > L'équipe */
 
 
 .PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
