@@ -92,6 +92,96 @@ h1 {
         -ms-animation: fadin 0.7s;
 }
 
+#reseauxsociaux {
+    width: 4.2277%;
+    max-width: 75px;
+    min-width: 45px;
+    height: calc((275*100)/939);
+    position: fixed;
+    margin-left: -15.7182%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    z-index: 10;
+    top: 18em;
+}
+
+iframe[name="google_conversion_frame"]{
+       display: none;
+}
+
+#macaron_recrutement{
+	display: none;
+}
+
+.et_header_style_centered #main-header .container{
+padding-top:25px;
+}
+
+#top-header, #top-header a{
+  display:none;
+}
+
+.et_pb_section_0{
+       padding-top:0px !important;
+}
+
+.socialicons
+{
+	border-radius:5px;
+	width:100%; /* 42 / 42 = 1*/
+	height:auto;
+	display:block;
+}
+
+#twittericon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
+#fbicon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
+#googleicon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
+#inicon
+{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin:auto;
+	width:56%; /* 42 / 75 = 0.56*/
+	height:12%; /* 42 / 350 = 0.12*/;
+}
+
+.entry-meta {
+	margin-left:0px;
+	width: 300px;
+	display:inline-block;
+}
+
+
+
+
 h2 {
     border-style: outset;
     border-width: 3px;
