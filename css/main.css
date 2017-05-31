@@ -121,8 +121,8 @@ a {
 
 /* Contact footer */
 #contact{
-    float: right;
-    margin: -0.75em 1.4em 0 0;
+    justify-content: flex-end;
+    align-self: center;
 }
 
 .formulaire {
@@ -250,8 +250,10 @@ article {
 
 
 footer{
+    display: flex;
+    align-self: center;
     height: 60px;
-    width: 1302px;
+    width: 1196px;
     position: fixed;
     bottom: 0;
     background-color: rgba(33, 60, 69, 0.93);
@@ -358,9 +360,8 @@ nav a {
 
 .simplon {
     width: 200px;
-    position: absolute;
-    left: 41.5em;
-    top: 0.9em;
+    justify-content: center;
+    align-self: center;
     animation: fadein 1.5s;
     -moz-animation: fadein 1.5s;
     -webkit-animation: fadein 1.5s;
@@ -380,7 +381,10 @@ nav a {
     margin: 0.8em 21em 0 0;
     color: #fffdfd;
     color: white;
-    text-shadow: 0px 2px 6px black;}
+    text-shadow: 0px 2px 6px black;
+    justify-content: flex-start;
+    align-self: center;
+}
 
 
 .imageDAB {
