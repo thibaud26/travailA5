@@ -49,6 +49,10 @@ a:link {
     text-decoration: none;
 }
 
+article a {
+    color: #ed1450;
+}
+
 
 h1 {
     color: black;
