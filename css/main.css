@@ -97,7 +97,7 @@ h2 {
     border-width: 3px;
     border-color: rgba(71, 70, 76, 0.38);
     text-align: center;
-    background-color: rgba(33, 60, 69, 0.74);
+    background-color: rgb(97, 127, 127)
 
 }
 
@@ -169,7 +169,7 @@ a {
 
 
 nav {
-    background-color: rgba(51,51,51,1);
+    background-color: rgb(71, 68, 68);
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -285,7 +285,7 @@ footer{
     display: flex;
     list-style-type: none;
     position: relative;
-    padding: 0 21px;
+    padding: 0 16px;
     box-shadow: 0 0 1px black;
     background-color: rgba(97,127,127,1);
     color: black;
@@ -392,8 +392,23 @@ nav a {
     min-width: 300px;
     position: relative;
     width: 60em;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
 
+.imageDAB:hover {
+    
+     -webkit-transform: scale(1.09);
+     -moz-transform: scale(1.09);
+     -ms-transform: scale(1.09);
+     -o-transform: scale(1.09);
+     transform: scale(1.09);
+}
+
+    
 .menubarre {
     padding: 0 1em;
     align-self: center;
