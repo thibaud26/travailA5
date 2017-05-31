@@ -49,6 +49,10 @@ a:link {
     text-decoration: none;
 }
 
+article a {
+    color: #ed1450;
+}
+
 
 h1 {
     color: black;
@@ -66,7 +70,7 @@ h1 {
     text-shadow: 5px 5px 5px black;
 }
 
-
+/*
 .logo img
 {
         filter: invert(1);
@@ -90,7 +94,7 @@ h1 {
         -webkit-animation: fadein 0.7s;
         -o-animation: fadein 0.7s;
         -ms-animation: fadin 0.7s;
-}
+} */
 
 h2 {
     border-style: outset;
@@ -251,7 +255,8 @@ article {
 
 footer{
     height: 60px;
-    width: 1302px;
+    width: 1198px;
+    align-self: center;
     position: fixed;
     bottom: 0;
     background-color: rgba(33, 60, 69, 0.93);
@@ -307,7 +312,11 @@ nav a {
     left: 0px;
     top: 50px;
     overflow: hidden;
+<<<<<<< HEAD
     background-color: #849e95;
+=======
+    background-color: rgba(103, 157, 46, 0.9);
+>>>>>>> 821befcb9b1e460055ceae9558d75ba6f3db3413
     transition: all 0.1s;
     box-shadow: none;
     z-index: -1;
@@ -555,18 +564,34 @@ h4 {
 
 
 #HR_admin {
-    margin-right: 2em; 
+    margin-right: 2em;
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
 #HR_formateur {
-    margin-left: 7em;   
+    margin-left: 7em;
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
 #HR_dir {
     margin-top: 8em;
+<<<<<<< HEAD
 }/* Fin de la page Develo'Pont > L'Ã©quipe */
+=======
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}               /* Fin de la page Develo'Pont > L'équipe */
+>>>>>>> 821befcb9b1e460055ceae9558d75ba6f3db3413
 
 
 .PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
