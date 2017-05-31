@@ -49,6 +49,10 @@ a:link {
     text-decoration: none;
 }
 
+article a {
+    color: #ed1450g;
+}
+
 
 h1 {
     color: black;
@@ -66,7 +70,7 @@ h1 {
     text-shadow: 5px 5px 5px black;
 }
 
-
+/*
 .logo img
 {
         filter: invert(1);
@@ -90,14 +94,14 @@ h1 {
         -webkit-animation: fadein 0.7s;
         -o-animation: fadein 0.7s;
         -ms-animation: fadin 0.7s;
-}
+} */
 
 h2 {
     border-style: outset;
     border-width: 3px;
     border-color: rgba(71, 70, 76, 0.38);
     text-align: center;
-    background-color: rgb(97, 127, 127)
+    background-color: rgba(33, 60, 69, 0.74);
 
 }
 
@@ -121,8 +125,8 @@ a {
 
 /* Contact footer */
 #contact{
-    justify-content: flex-end;
-    align-self: center;
+    float: right;
+    margin: -0.75em 1.4em 0 0;
 }
 
 .formulaire {
@@ -169,7 +173,7 @@ a {
 
 
 nav {
-    background-color: rgb(71, 68, 68);
+    background-color: rgb(103, 157, 46);
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -212,19 +216,19 @@ section {
     from {opacity:0;}
     to {opacity:1;}
 }
-@-moz-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© Firefox */
+@-moz-keyframes fadein { /* CompatibilitÃƒÂ© Firefox */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-webkit-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© Safari et Chrome */
+@-webkit-keyframes fadein { /* CompatibilitÃƒÂ© Safari et Chrome */
     from {opacity:0;}
     to {opacity:1;}
 }
-@-o-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© Opera */
+@-o-keyframes fadein { /* CompatibilitÃƒÂ© Opera */
     from {opacity:0;}
     to {opacity: 1;}
 }
-@-ms-keyframes fadein { /* CompatibilitÃƒÆ’Ã‚Â© IE */
+@-ms-keyframes fadein { /* CompatibilitÃƒÂ© IE */
     from {opacity: 0;}
     to {opacity: 1;}
 }
@@ -250,10 +254,9 @@ article {
 
 
 footer{
-    display: flex;
-    align-self: center;
     height: 60px;
-    width: 1196px;
+    width: 1198px;
+    align-self: center;
     position: fixed;
     bottom: 0;
     background-color: rgba(33, 60, 69, 0.93);
@@ -271,7 +274,7 @@ footer{
     background-color: #9ec8b6;*/
 }
 
-/*-----Menu DÃƒÆ’Ã‚Â©roulant--------*/
+/*-----Menu DÃƒÂ©roulant--------*/
 .menuDeroulant {
     display: flex;
     flex-flow: row wrap;
@@ -285,9 +288,9 @@ footer{
     display: flex;
     list-style-type: none;
     position: relative;
-    padding: 0 16px;
+    padding: 0 10px;
     box-shadow: 0 0 1px black;
-    background-color: rgba(97,127,127,1);
+    background-color: rgba(33, 60, 69, 0.8);
     color: black;
     transition: all 1s;
     color:white;
@@ -309,7 +312,7 @@ nav a {
     left: 0px;
     top: 50px;
     overflow: hidden;
-    background-color: rgba(97,127,127,1);
+    background-color: rgba(103, 157, 46, 0.9);
     transition: all 0.1s;
     box-shadow: none;
     z-index: -1;
@@ -360,8 +363,9 @@ nav a {
 
 .simplon {
     width: 200px;
-    justify-content: center;
-    align-self: center;
+    position: absolute;
+    left: 41.5em;
+    top: 0.9em;
     animation: fadein 1.5s;
     -moz-animation: fadein 1.5s;
     -webkit-animation: fadein 1.5s;
@@ -381,10 +385,7 @@ nav a {
     margin: 0.8em 21em 0 0;
     color: #fffdfd;
     color: white;
-    text-shadow: 0px 2px 6px black;
-    justify-content: flex-start;
-    align-self: center;
-}
+    text-shadow: 0px 2px 6px black;}
 
 
 .imageDAB {
@@ -392,23 +393,8 @@ nav a {
     min-width: 300px;
     position: relative;
     width: 60em;
-    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
-    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
-    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
-    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
-    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
 
-.imageDAB:hover {
-    
-     -webkit-transform: scale(1.09);
-     -moz-transform: scale(1.09);
-     -ms-transform: scale(1.09);
-     -o-transform: scale(1.09);
-     transform: scale(1.09);
-}
-
-    
 .menubarre {
     padding: 0 1em;
     align-self: center;
@@ -528,7 +514,7 @@ span {
 }               /* Fin des liens sous-menus */
 
 
-                /* Page Develo'Pont > L'Ã©quipe */
+                /* Page Develo'Pont > L'équipe */
 h4 {
     text-decoration: underline;
     
@@ -574,18 +560,30 @@ h4 {
 
 
 #HR_admin {
-    margin-right: 2em; 
+    margin-right: 2em;
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
 #HR_formateur {
-    margin-left: 7em;   
+    margin-left: 7em;
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
 #HR_dir {
     margin-top: 8em;
-}/* Fin de la page Develo'Pont > L'Ã©quipe */
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}               /* Fin de la page Develo'Pont > L'équipe */
 
 
 .PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
