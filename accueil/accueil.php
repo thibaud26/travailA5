@@ -15,6 +15,7 @@
 </head>
 <body>
     
+    
      <nav>
         
         <?php include ('../php/entete.html'); ?>
@@ -27,12 +28,16 @@
         
     </header>
     
+    
+
+    
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='main.css'>
- 
+
     <section>
         
         
-        <article> 
+        
+     <article> 
             <h2>La formation developpeur web a <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPL<span>O</span>N.CO</span></a> c'est quoi?</h2>
             <ul>
                 <li>Apprendre à créer des sites Internet et des applications web, et en faire son métier</li>
@@ -46,7 +51,8 @@
             
         </article>
         
-        <article>
+      
+           <article>
         
             <h2> Develo'P<span>o</span>nt a pont en royans</h2>
         
@@ -59,9 +65,11 @@
                 <a id="candidature" href="../simplon.co/candidature.php">Dép<span>o</span>sez votre candidature!</a>    
         </article>
         
+           
+        
     </section>
-    
-    
+      <?php include ('../php/reseauxsociaux.html'); ?> 
+
     <aside>
 
 

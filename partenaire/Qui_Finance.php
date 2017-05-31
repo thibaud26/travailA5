@@ -37,7 +37,7 @@
         </article>
         
     </section>
-    
+     <?php include ('../php/reseauxsociaux.html'); ?> 
     <aside>
     </aside> 
      
