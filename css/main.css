@@ -826,6 +826,13 @@ article h3 {
 
 input[type="submit" i] {
     background-image: url("../img/favicon.png");
+    padding: 1px 8px;
+}
+
+form {
+    display: inline-flex;
+    height: 1em;
+    vertical-align: middle;
 }
                     /* Page Promo 2017 */
 .galerie li{
