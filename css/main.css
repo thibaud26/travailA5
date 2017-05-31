@@ -889,25 +889,6 @@ input[type="submit" i] {
     top: 18em;
 }
 
-iframe[name="google_conversion_frame"]{
-       display: none;
-}
-
-#macaron_recrutement{
-	display: none;
-}
-
-.et_header_style_centered #main-header .container{
-padding-top:25px;
-}
-
-#top-header, #top-header a{
-  display:none;
-}
-
-.et_pb_section_0{
-       padding-top:0px !important;
-}
 
 .socialicons
 {
@@ -957,8 +938,3 @@ padding-top:25px;
 	height:12%; /* 42 / 350 = 0.12*/;
 }
 
-.entry-meta {
-	margin-left:0px;
-	width: 300px;
-	display:inline-block;
-}
