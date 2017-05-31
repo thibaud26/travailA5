@@ -99,7 +99,7 @@ h1 {
     height: calc((275*100)/939);
     position: fixed;
     margin-left: -15.7182%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.80);
     border-radius: 5px;
     z-index: 10;
     top: 18em;
