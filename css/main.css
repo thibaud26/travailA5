@@ -12,7 +12,7 @@ html {
     font-size: 14px;
    
 }
-
+ 
 body {
     
     /*! background: rgb(227, 240, 229); */
@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction:column;
    
-}
+} 
 
 
 header {
@@ -48,6 +48,7 @@ header {
 a:link {
     text-decoration: none;
 }
+
 
 
 h1 {
@@ -103,7 +104,7 @@ h1 {
     border-radius: 5px;
     z-index: 10;
     top: 18em;
-}
+} 
 
 iframe[name="google_conversion_frame"]{
        display: none;
