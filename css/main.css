@@ -829,39 +829,39 @@ article h3 {
     position: relative;
     width: 200px;
     height: 150px;
-    padding-top: 2.5em;
+    padding: 1.5em;
     list-style: none;
 }
 
 
 .galerie li a{
-     display:block;
+    display:table;
     overflow:hidden;
     width: 200px;
     height: 150px;
-     margin-top:0px;
+    margin-top:0px;
     margin-left:0px;
-     border:0px solid rgba(0,0,0,0.7);
-     transition-property:width,height,margin,z-index,border;
-     transition-duration:0.4s;
+    border:0px solid rgba(0,0,0,0.7);
+    transition-property:width,height,margin,z-index,border;
+    transition-duration:0.4s;
 }
 
 .galerie li a:hover{
-     position:absolute;
+    position:absolute;
     width: 320px;
     height: 240px;
-     margin-top:-56px;
+    margin-top:-56px;
     margin-left:-56px;
-     border:6px solid rgba(0,0,0,0.7);
+    border:6px solid rgba(0,0,0,0.7);
     z-index: 100;
 }
           
 .galerie li a img{
-     position:absolute;
+    position:absolute;
     width: 200px;
     height: 150px;
-     transition-property:width,height,z-index;
-     transition-duration:0.4s;
+    transition-property:width,height,z-index;
+    transition-duration:0.4s;
     z-index: 20;
 }
           
