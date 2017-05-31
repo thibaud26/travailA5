@@ -392,20 +392,6 @@ nav a {
     min-width: 300px;
     position: relative;
     width: 60em;
-    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
-    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
-    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
-    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
-    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
-}
-
-.imageDAB:hover {
-    
-     -webkit-transform: scale(1.09);
-     -moz-transform: scale(1.09);
-     -ms-transform: scale(1.09);
-     -o-transform: scale(1.09);
-     transform: scale(1.09);
 }
 
     
@@ -607,15 +593,39 @@ h4 {
 
 .imagemaisonsuspendu {
     
-    
     height: 185px;
     width: 260px;
     float: right;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-top: 40px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
 
+.imagemaisonsuspendu:hover{
+    
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.imagemaisonsuspendu:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
+}
 
 .imagepont1800 {
     
@@ -625,12 +635,39 @@ h4 {
     padding-bottom: 30px;
     padding-right: 30px;
     padding-top: 30px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
+
+.imagepont1800:hover{
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.imagepont1800:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
+}
+
 
 .sitegeologiques, .histoire, .pont {
     padding-bottom: 10px;
     margin-bottom: 35px;
 }
+
 
 
 .clochet {
@@ -640,6 +677,32 @@ h4 {
     padding-bottom: 30px;
     padding-right: 30px;
     padding-top: 30px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+}
+
+
+.clochet:hover {
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.clochet:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
 }
 
 .museedeleau {
@@ -649,6 +712,31 @@ h4 {
     padding-bottom: 30px;
     padding-left: 30px;
     padding-top: 40px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+}
+
+.museedeleau:hover{
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.museedeleau:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
 }
 
 .grotte {
@@ -658,7 +746,33 @@ h4 {
     padding-bottom: 30px;
     padding-right: 30px;
     padding-top: 30px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
 }
+
+.grotte:hover {
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.grotte:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
+}
+
 
 .monuments {
     padding-bottom: 100px;
@@ -671,6 +785,32 @@ h4 {
     padding-bottom: 30px;
     padding-left: 30px;
     padding-top: 40px;
+    -webkit-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -moz-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -ms-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    -o-transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+    transition: all .3s cubic-bezier( .4, 2, .3, 0.2);
+}
+
+
+.gorgebourne:hover{
+    
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    
+}
+
+.gorgebourne:not(:hover) {
+    
+    -webkit-filter: grayscale(1) blur(0.5px);
+    -moz-filter: grayscale(1) blur(0.5px);
+    -ms-filter: grayscale(1) blur(0.5px);
+    -o-filter: grayscale(1) blur(0.5px);
+    filter: grayscale(1) blur(0.5px);
+    
 }
 
 
