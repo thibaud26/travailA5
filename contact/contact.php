@@ -69,6 +69,7 @@
             }
 
         ?>
+             <div class="formulaireContact">
             <form method="post" action="contact.php">
  
                 <h2>CONTACT</h2>
@@ -91,6 +92,7 @@
                     </p>
 
             </form>
+                 </div>
         <!-- On ferme la balise form, notre formulaire est fini -->
         </article>
 
