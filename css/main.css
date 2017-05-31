@@ -911,6 +911,7 @@ input[type="submit" i] {
     background-image: url("../img/favicon.png");
     height: 20px;
     width: 20px;
+    border-radius: 10px;
 }
 
 
