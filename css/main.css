@@ -909,7 +909,8 @@ article h3 {
 
 input[type="submit" i] {
     background-image: url("../img/favicon.png");
-    padding: 1px 8px;
+    height: 20px;
+    width: 20px;
 }
 
 
