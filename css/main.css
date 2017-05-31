@@ -283,7 +283,7 @@ footer{
     display: flex;
     list-style-type: none;
     position: relative;
-    padding: 0 21px;
+    padding: 0 16px;
     box-shadow: 0 0 1px black;
     background-color: rgba(97,127,127,1);
     color: black;
