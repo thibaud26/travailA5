@@ -1,4 +1,4 @@
-AuthName "Page d'administration protégée"
+AuthName "Stop"
 AuthType Basic
 AuthUserFile "/var/www/htdocs/SiteSimplonProjet/travailA5/admin/.htpasswd"
 Require valid-user
