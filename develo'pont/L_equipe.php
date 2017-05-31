@@ -65,7 +65,7 @@
         </article>
     
     </section> 
-     
+      <?php include ('../php/reseauxsociaux.html'); ?> 
     
     <Footer>
         <?php include ('../php/copyright.html'); ?>
