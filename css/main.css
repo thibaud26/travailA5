@@ -1116,10 +1116,7 @@ input[type="submit" i] {
 	width:56%;
 	height:12%; 
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> c54217cb26e443449d2d6f078f868117aa50134d
 /* Fin Reseaux Sociaux*/
 
 
@@ -1127,12 +1124,11 @@ input[type="submit" i] {
     height: 12em;
     width: 12em;
 }
-<<<<<<< HEAD
 
-
-
-.galeriePhoto input {  /* galerie photo*/
-    display:none
+/* galerie photo*/
+.galeriePhoto input {  
+    display:none;
+    opacity:0;
 }
 
 
@@ -1142,9 +1138,8 @@ input[type="submit" i] {
     margin-left: 88px;
     
 }
-.galeriePhoto input {
-    opacity:0
-}
+
+
 .galeriePhoto input[type="checkbox"] + label{
     cursor:pointer;
     width:180px;
@@ -1319,7 +1314,3 @@ input[type="submit" i] {
   /* galerie photo*/
     
     
-
-
-=======
->>>>>>> c54217cb26e443449d2d6f078f868117aa50134d
