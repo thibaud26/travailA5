@@ -248,7 +248,7 @@ nav {
     width: 14em;
     margin: 0.5em 0em 0em -1em;
     position: relative;
-    left: 1.5em;
+    left: 2em;
 }
 
 
@@ -320,17 +320,7 @@ footer{
     background-color: rgba(33, 60, 69, 0.93);
     text-align: center;
     z-index: 999;
-    /*border-color: darkslategray;
-    border-style: outset;
-    border-width: thick;
-    text-align: center;
-    font-size: 32px;
-    margin-top: 140px;
-    position: relative;
-    bottom: -136px;
-    /* left: 0px; */
-    /* right: 169px;
-    background-color: #9ec8b6;*/
+    
 }
 
 
@@ -518,14 +508,25 @@ span, .liencandidature {
 }
 
 
+#EPN {
+    margin: 3em 0em 0em 18em;
+}
+
+
 .logo_part1 {
     margin: 0 0 0 4em;
 }
 
 
 .logo_part2 {
-     margin: 4em 0 0 8em;
-}               /* Fin des logos partenaires */
+    margin: 4em 0 0 8em;
+}
+
+
+.logo_part3{
+    
+}
+                /* Fin des logos partenaires */
 
 
                 /* Logos des financements */
