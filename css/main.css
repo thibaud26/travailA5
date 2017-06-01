@@ -211,6 +211,24 @@ a {
     height: 150px;
 }
 
+/* -----Page Contact ----- */
+
+.articleContact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.sectionContact {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* Carte google dans contact */
+iframe {
+    float: left;
+}
+
 
 .navigation {
     display: inline;
