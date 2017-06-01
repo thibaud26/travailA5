@@ -26,11 +26,11 @@
         
          <article>
             <p id='attente'>cette page est en construction<p>
-            <p class="dd">
-            <img src="https://media.giphy.com/media/nIUav1AOaK06s/giphy.gif">
-            <img src="https://media.giphy.com/media/Sx6mNBsKpRoRy/giphy.gif">
-            <img src="https://media.giphy.com/media/eDpmSnSvWS2EU/giphy.gif">
-            <img src="https://media.giphy.com/media/ZTans30ONaaIM/giphy.gif">
+            <p>
+            <img class="dd" src="https://media.giphy.com/media/nIUav1AOaK06s/giphy.gif">
+            <img class="dd" src="https://media.giphy.com/media/Sx6mNBsKpRoRy/giphy.gif">
+            <img class="dd" src="https://media.giphy.com/media/eDpmSnSvWS2EU/giphy.gif">
+            <img class="dd" src="https://media.giphy.com/media/ZTans30ONaaIM/giphy.gif">
             </p>
         </article>
         
