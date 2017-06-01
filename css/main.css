@@ -226,7 +226,7 @@ a {
 
 
 nav {
-    background-color: rgb(101, 94, 94);
+    background-color: rgba(255, 255, 255, 0.85);
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -235,6 +235,8 @@ nav {
     top: 0;
     width: 100%;
     z-index: 999;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
 }
 
 
@@ -349,10 +351,12 @@ footer{
     position: relative;
     padding: 0 16px;
     box-shadow: 0 0 1px black;
-    background-color: rgba(97,127,127,1);
+    background-color:rgba(33, 60, 69, 0.78);
     color: black;
     transition: all 1s;
     color:white;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
 }
 
 
@@ -373,7 +377,7 @@ nav a {
     left: 0px;
     top: 50px;
     overflow: hidden;
-    background-color: rgba(97,127,127,1);
+    background-color: rgba(77, 98, 105, 0.89);
     transition: all 0.1s;
     box-shadow: none;
     z-index: -1;
@@ -1025,13 +1029,13 @@ input[type="submit" i] {
     width: 4.2277%;
     max-width: 75px;
     min-width: 45px;
-    height: calc((275*100)/939);
     position: fixed;
     margin-left: -15.7182%;
     background-color: rgba(0, 0, 0, 0.80);
     border-radius: 5px;
     z-index: 10;
     top: 18em;
+    flex-flow: row wrap;
 }
 
 
