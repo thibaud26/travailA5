@@ -176,6 +176,7 @@ a {
 }
 
 
+
 .formulaire {
     display: flex;
     flex-flow: column wrap;
@@ -481,8 +482,9 @@ nav a {
 }
 
 
-span {
+span, .liencandidature {
     color: #ed1450;
+    
 }
 
                 /* Logos des partenaires */

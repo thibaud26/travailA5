@@ -30,7 +30,7 @@
         
          <article>
              <div class= logo_part1>
-                <img id="royans" src="../img/royans.png" alt="Sud Gresivaudan">
+                <img id="royans" src="../img/royans.png" alt="Sud Gresivaudan" target="_blank">
                 <img id="leader" src="../img/leader.png" alt="Leader">
                 <img id="vercors" src="../img/vercors.png" alt="Vercors">
                 <img id="massif" src="../img/massif.png" alt="Massif">

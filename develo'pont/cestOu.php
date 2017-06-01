@@ -37,7 +37,7 @@
                  <a class="LIENCESTOU" href="http://vercors-pontenroyans.com/" target="_blank">Pont en Royans</a> est une 
                  <a class="LIENCESTOU" href="https://fr.wikipedia.org/wiki/Commune_(France)" target='_blank'>commune</a> située dans le 
                  <a class="LIENCESTOU" href="https://fr.wikipedia.org/wiki/D%C3%A9partement_fran%C3%A7ais" target="_blank">departement</a> de <a class="LIENCESTOU" href="https://fr.wikipedia.org/wiki/Is%C3%A8re_(d%C3%A9partement)" target="_blank">l'Isère</a> (38) en <a class="LIENCESTOU" href="https://fr.wikipedia.org/wiki/R%C3%A9gion_fran%C3%A7aise" target="_blank">région</a> 
-                 <a class="LIENCESTOU" href="https://fr.wikipedia.org/wiki/Auvergne-Rh%C3%B4ne-Alpes">Auvergne-Rhône-Alpes</a>.
+                 <a class="LIENCESTOU" href="https://fr.wikipedia.org/wiki/Auvergne-Rh%C3%B4ne-Alpes" target="_blank">Auvergne-Rhône-Alpes</a>.
              </p>
              
              <p>La commune se situe dans le Royans (Massif du Vercors).Le Royans est l'une des 7 régions naturelles du Parc naturel régional du Vercors. Le point culminant de Pont-en-Royans est le Mont-Baret (786 m d'altitude). Le village se trouve au confluent de la Bourne (source : Lans-en-Vercors) et de la Vernaison (source : Saint-Agnan-en-Vercors).
