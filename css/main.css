@@ -67,19 +67,6 @@ h1 {
 }
 
 
-#reseauxsociaux {
-    width: 4.2277%;
-    max-width: 75px;
-    min-width: 45px;
-    height: calc((275*100)/939);
-    position: fixed;
-    margin-left: -15.7182%;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 5px;
-    z-index: 10;
-    top: 18em;
-} 
-
 iframe[name="google_conversion_frame"]{
        display: none;
 }
@@ -355,8 +342,7 @@ footer{
     color: black;
     transition: all 1s;
     color:white;
-    border-bottom-left-radius: 0.3em;
-    border-bottom-right-radius: 0.3em;
+   
 }
 
 
@@ -1008,7 +994,9 @@ input[type="submit" i] {
     bottom: -30px;
     opacity:0;
 }
-.galerie li a:hover strong{ 
+
+
+.galerie li a:hover strong  { 
     opacity:1;
     bottom: 0em;
     left:0em;
@@ -1025,24 +1013,23 @@ input[type="submit" i] {
 }               /* Fin de la page 'Promo 2017' */
 
 
-#reseauxsociaux {
-    width: 4.2277%;
-    max-width: 75px;
-    min-width: 45px;
-    position: fixed;
-    margin-left: -15.7182%;
+.reseauxsociaux { /* Reseaux Sociaux*/
+    
     background-color: rgba(0, 0, 0, 0.80);
     border-radius: 5px;
     z-index: 10;
     top: 18em;
     flex-flow: row wrap;
+    min-width: 75px;
+    position: fixed;
+    margin: 0 auto;
+    left: 15px;
 }
 
 
-.socialicons
-{
+.social {
 	border-radius:5px;
-	width:100%; /* 42 / 42 = 1*/
+	width:100%; 
 	height:auto;
 	display:block;
 }
@@ -1054,8 +1041,8 @@ input[type="submit" i] {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin:auto;
-	width:56%; /* 42 / 75 = 0.56*/
-	height:12%; /* 42 / 350 = 0.12*/;
+	width:56%; 
+	height:12%;
 }
 
 #fbicon
@@ -1064,8 +1051,8 @@ input[type="submit" i] {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin:auto;
-	width:56%; /* 42 / 75 = 0.56*/
-	height:12%; /* 42 / 350 = 0.12*/;
+	width:56%; 
+	height:12%; 
 }
 
 #googleicon
@@ -1074,8 +1061,8 @@ input[type="submit" i] {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin:auto;
-	width:56%; /* 42 / 75 = 0.56*/
-	height:12%; /* 42 / 350 = 0.12*/;
+	width:56%; 
+	height:12%; 
 }
 
 #inicon
@@ -1084,6 +1071,7 @@ input[type="submit" i] {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin:auto;
-	width:56%; /* 42 / 75 = 0.56*/
-	height:12%; /* 42 / 350 = 0.12*/;
+	width:56%;
+	height:12%; 
 }
+/* Fin Reseaux Sociaux*/
