@@ -244,9 +244,11 @@ nav {
 
 
 .logoDeveloPont {
-    height: 50px;
-    width: auto;
-    margin-left: 6px;
+    height: 2em;
+    width: 14em;
+    margin: 0.5em 0em 0em -1em;
+    position: relative;
+    left: 1.5em;
 }
 
 
