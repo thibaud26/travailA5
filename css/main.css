@@ -48,6 +48,10 @@ a:link {
     text-decoration: none;
 }
 
+article a {
+    color: #ed1450g;
+}
+
 
 
 h1 {
@@ -66,6 +70,7 @@ h1 {
     text-shadow: 5px 5px 5px black;
 }
 
+<<<<<<< HEAD
 
 iframe[name="google_conversion_frame"]{
        display: none;
@@ -88,6 +93,10 @@ padding-top:25px;
 }
 
 .socialicons
+=======
+/*
+.logo img
+>>>>>>> thibaud
 {
 	border-radius:5px;
 	width:100%; /* 42 / 42 = 1*/
@@ -97,6 +106,7 @@ padding-top:25px;
 
 #twittericon
 {
+<<<<<<< HEAD
 	display: block;
 	padding-bottom: 10px;
 	padding-top: 10px;
@@ -104,6 +114,19 @@ padding-top:25px;
 	width:56%; /* 42 / 75 = 0.56*/
 	height:12%; /* 42 / 350 = 0.12*/;
 }
+=======
+        filter: invert(0);
+        -webkit-filter: invert(0);
+        -moz-filter: invert(0);
+        -o-filter: invert(0);
+        -ms-filter: invert(0);
+        animation: fadein 0.7s;
+        -moz-animation: fadein 0.7s;
+        -webkit-animation: fadein 0.7s;
+        -o-animation: fadein 0.7s;
+        -ms-animation: fadin 0.7s;
+} */
+>>>>>>> thibaud
 
 #fbicon
 {
@@ -134,7 +157,7 @@ h2 {
     border-width: 3px;
     border-color: rgba(71, 70, 76, 0.38);
     text-align: center;
-    background-color: rgb(97, 127, 127)
+    background-color: rgba(33, 60, 69, 0.74);
 
 }
 
@@ -158,8 +181,13 @@ a {
 
 /* Contact footer */
 #contact{
+<<<<<<< HEAD
     margin: 0.8em 0em 0em 23em;
     display: flex;
+=======
+    float: right;
+    margin: -0.75em 1.4em 0 0;
+>>>>>>> thibaud
 }
 
 
@@ -231,7 +259,11 @@ iframe {
 
 
 nav {
+<<<<<<< HEAD
     background-color: rgba(255, 255, 255, 0.85);
+=======
+    background-color: rgb(103, 157, 46);
+>>>>>>> thibaud
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -280,6 +312,7 @@ section {
     from {opacity:0;}
     to {opacity:1;}
 }
+<<<<<<< HEAD
 @-moz-keyframes fadein { /* Compatibilite Firefox */
     from {opacity:0;}
     to {opacity:1;}
@@ -293,6 +326,21 @@ section {
     to {opacity: 1;}
 }
 @-ms-keyframes fadein { /* Compatibilite IE */
+=======
+@-moz-keyframes fadein { /* CompatibilitÃƒÂ© Firefox */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-webkit-keyframes fadein { /* CompatibilitÃƒÂ© Safari et Chrome */
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-o-keyframes fadein { /* CompatibilitÃƒÂ© Opera */
+    from {opacity:0;}
+    to {opacity: 1;}
+}
+@-ms-keyframes fadein { /* CompatibilitÃƒÂ© IE */
+>>>>>>> thibaud
     from {opacity: 0;}
     to {opacity: 1;}
 }
@@ -318,10 +366,9 @@ article {
 
 
 footer{
-    display: flex;
-    align-self: center;
     height: 60px;
-    width: 1196px;
+    width: 1198px;
+    align-self: center;
     position: fixed;
     bottom: 0;
     background-color: rgba(33, 60, 69, 0.93);
@@ -330,8 +377,12 @@ footer{
     
 }
 
+<<<<<<< HEAD
 
 /*-----Menu Deroulant--------*/
+=======
+/*-----Menu DÃƒÂ©roulant--------*/
+>>>>>>> thibaud
 .menuDeroulant {
     display: flex;
     flex-flow: row wrap;
@@ -346,9 +397,13 @@ footer{
     display: flex;
     list-style-type: none;
     position: relative;
-    padding: 0 16px;
+    padding: 0 10px;
     box-shadow: 0 0 1px black;
+<<<<<<< HEAD
     background-color:rgba(33, 60, 69, 0.78);
+=======
+    background-color: rgba(33, 60, 69, 0.8);
+>>>>>>> thibaud
     color: black;
     transition: all 1s;
     color:white;
@@ -373,7 +428,11 @@ nav a {
     left: 0px;
     top: 50px;
     overflow: hidden;
+<<<<<<< HEAD
     background-color: rgba(77, 98, 105, 0.89);
+=======
+    background-color: rgba(103, 157, 46, 0.9);
+>>>>>>> thibaud
     transition: all 0.1s;
     box-shadow: none;
     z-index: -1;
@@ -428,8 +487,9 @@ nav a {
 
 .simplon {
     width: 200px;
-    justify-content: center;
-    align-self: center;
+    position: absolute;
+    left: 41.5em;
+    top: 0.9em;
     animation: fadein 1.5s;
     -moz-animation: fadein 1.5s;
     -webkit-animation: fadein 1.5s;
@@ -448,9 +508,13 @@ nav a {
 .copyright {
     margin: 0.8em 0em 0em 1em;
     color: white;
+
     text-shadow: 0px 2px 6px black;
     display: flex;
 }
+
+    text-shadow: 0px 2px 6px black;}
+
 
 
 .imageDAB {
@@ -460,7 +524,6 @@ nav a {
     width: 60em;
 }
 
-    
 .menubarre {
     padding: 0 1em;
     align-self: center;
@@ -593,9 +656,9 @@ span, .liencandidature {
 #part:hover {
     color: white;
 }               /* Fin des liens sous-menus */
-
-
                 /* Page Develo'Pont > L'equipe */
+                /* Page Develo'Pont > L'équipe */
+
 h4 {
     text-decoration: underline;
     
@@ -642,17 +705,29 @@ h4 {
 
 
 #HR_admin {
-    margin-right: 2em; 
+    margin-right: 2em;
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
 #HR_formateur {
     margin-left: 7em;
+
     display: none;
+
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
 }
 
 
 #HR_dir {
+
     margin-top: 23.5em;
 }
 
@@ -683,6 +758,13 @@ h4 {
     width: 47%;
     margin-top: 4.3em;
 }               /* Fin de la page Develo'Pont > L'equipe */
+
+    margin-top: 8em;
+    border: 0; 
+    height: 0; 
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}               /* Fin de la page Develo'Pont > L'équipe */
 
 
 .PONTENROYANS { /* c'est le pont en royans dans la section "c'est ou" */
@@ -1125,12 +1207,111 @@ input[type="submit" i] {
 	width:56%;
 	height:12%; 
 }
-<<<<<<< HEAD
+
 /* Fin Reseaux Sociaux*/
-=======
+
+
 
 .dd {
     height: 12em;
     width: 12em;
 }
->>>>>>> f231e7491231d911d4dfe6563428545b9aed19c8
+
+#progress{
+    width: 300px;
+    margin: auto;
+}
+progress{
+    display: inline-block;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    width: 300px;
+    height: 20px;
+    padding: 3px 3px 2px 3px;
+    background: #333; 
+    background: -webkit-linear-gradient(#2d2d2d,#444);
+    background:    -moz-linear-gradient(#2d2d2d,#444);
+    background:      -o-linear-gradient(#2d2d2d,#444);
+    background:         linear-gradient(#2d2d2d,#444);
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 15px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2);   
+}
+progress::-moz-progress-bar{
+    border-radius:10px;
+    background: #09c;
+    background: 
+   -moz-repeating-linear-gradient(
+        45deg, 
+        rgba(255,255,255,.2) 0,
+        rgba(255,255,255,.2) 10px, 
+        rgba(255,255,255,0) 10px,
+        rgba(255,255,255,0) 20px
+      ),
+      -moz-linear-gradient(
+        rgba(255,255,255,.1) 50%,
+        rgba(255,255,255,0) 60%
+      ),
+      #09c;
+    background: 
+      repeating-linear-gradient(
+        45deg, 
+        rgba(255,255,255,.2) 0,
+        rgba(255,255,255,.2) 10px, 
+        rgba(255,255,255,0) 10px,
+        rgba(255,255,255,0) 20px
+      ),
+      linear-gradient(
+        rgba(255,255,255,.1) 50%,
+        rgba(255,255,255,0) 60%
+      ),
+      #09c;
+    background-size: 300px 20px, auto, auto;
+    background-position: -300px 0, top, top;
+    background-position: top right, top, top;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset, 
+                0 -1px 0 rgba(0,0,0,.8) inset,
+                0 0 2px black;
+  
+}
+progress::-webkit-progress-value{
+    border-radius:10px;
+    background: #09c;
+    background: 
+      -webkit-repeating-linear-gradient(
+        45deg, 
+        rgba(255,255,255,.2) 0,
+        rgba(255,255,255,.2) 10px, 
+        rgba(255,255,255,0) 10px,
+        rgba(255,255,255,0) 20px
+      ),
+      -webkit-linear-gradient(
+        rgba(255,255,255,.1) 50%,
+        rgba(255,255,255,0) 60%
+      ),
+      #09c;
+    background: 
+      repeating-linear-gradient(
+        45deg, 
+        rgba(255,255,255,.2) 0,
+        rgba(255,255,255,.2) 10px, 
+        rgba(255,255,255,0) 10px,
+        rgba(255,255,255,0) 20px
+      ),
+      linear-gradient(
+        rgba(255,255,255,.1) 50%,
+        rgba(255,255,255,0) 60%
+      ),
+      #09c;
+    background-size: 300px 20px, auto, auto;
+    background-position: -300px 0, top, top;
+    background-position: top right, top, top;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset, 
+                0 -1px 0 rgba(0,0,0,.8) inset,
+                0 0 2px black;
+  
+}
+
+progress:-webkit-progress-bar{
+    background: transparent;
+}
