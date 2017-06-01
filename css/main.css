@@ -171,9 +171,10 @@ a {
 
 /* Contact footer */
 #contact{
-    justify-content: flex-end;
-    align-self: center;
+    margin: 0.8em 0em 0em 23em;
+    display: flex;
 }
+
 
 
 .formulaire {
@@ -445,12 +446,10 @@ nav a {
 
 
 .copyright {
-    margin: 0.8em 21em 0 0;
-    color: #fffdfd;
+    margin: 0.8em 0em 0em 1em;
     color: white;
     text-shadow: 0px 2px 6px black;
-    justify-content: flex-start;
-    align-self: center;
+    display: flex;
 }
 
 
@@ -481,8 +480,9 @@ nav a {
 }
 
 
-span {
+span, .liencandidature {
     color: #ed1450;
+    
 }
 
                 /* Logos des partenaires */

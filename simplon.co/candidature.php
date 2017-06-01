@@ -33,7 +33,7 @@
 
                     <h3>Etape 1:</h3>
 
-                    <ul>CANDIDATURE EN LIGNE pour vous entrainer et passer des badges sur le site, disponible en français, <a href="https://www.codecademy.com/fr" target="_blank">www.codeacademy.com</a>, Votre profil sur Codecademy, devra être public.</ul>
+                    <ul>CANDIDATURE EN LIGNE pour vous entrainer et passer des badges sur le site, disponible en français, <a class="liencandidature" href="https://www.codecademy.com/fr" target="_blank">www.codeacademy.com</a>, Votre profil sur Codecademy, devra être public.</ul>
 
                     <h3>Etape 2:</h3>
 
