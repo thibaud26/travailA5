@@ -33,33 +33,47 @@
             
             <h2>Qui peut candidater ?</h2>
             
-            <p>Develo'pont est ouvert à tous ! Même les débutants.</p>
+            <p>Develo'pont est ouvert à tous ! Même les débutants. Certains profils, comme les demandeurs d'emploi, les non diplomé-e-s, les femmes, sont prioritaires. Pour plus d'infos consultez la page <a>candidature</a>. 
+            </p>
             
         </article>
         
         <article>
             
-            <h2>Suspendisse quam ipsum ?</h2>
+            <h2>Dois-je savoir coder ?</h2>
             
-            <p>Suspendisse quam ipsum, feugiat id lacinia nec, hendrerit ac lacus. Sed quis mollis nisl, et faucibus nulla. Aenean aliquet id ex in finibus. Nulla faucibus pulvinar ipsum, et aliquet mi malesuada lobortis. Aenean elit massa, elementum vitae convallis in, vehicula vel mi. Vestibulum et dolor sed ante aliquam dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam vehicula id risus eget convallis. Aliquam quis massa sodales mauris tempus tempor. Donec scelerisque pellentesque justo vitae vestibulum.</p>
-            
-        </article> 
-        
-        <article>
-            
-            <h2>Suspendisse quam ipsum ?</h2>
-            
-            <p>Suspendisse quam ipsum, feugiat id lacinia nec, hendrerit ac lacus. Sed quis mollis nisl, et faucibus nulla. Aenean aliquet id ex in finibus. Nulla faucibus pulvinar ipsum, et aliquet mi malesuada lobortis. Aenean elit massa, elementum vitae convallis in, vehicula vel mi. Vestibulum et dolor sed ante aliquam dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam vehicula id risus eget convallis. Aliquam quis massa sodales mauris tempus tempor. Donec scelerisque pellentesque justo vitae vestibulum.</p>
+            <p>Etre un pro du code n'est pas nécessaire, la plupart des apprenants n'avait jamais coder avant d'entrer à Develo'Pont! Tout ce qu'il faut c'est de la motivation et de la passion ! </p>
             
         </article> 
         
         <article>
             
-            <h2>Suspendisse quam ipsum ?</h2>
+            <h2>De quoi serais-je capable à la fin de la formation?</h2>
             
-            <p>Suspendisse quam ipsum, feugiat id lacinia nec, hendrerit ac lacus. Sed quis mollis nisl, et faucibus nulla. Aenean aliquet id ex in finibus. Nulla faucibus pulvinar ipsum, et aliquet mi malesuada lobortis. Aenean elit massa, elementum vitae convallis in, vehicula vel mi. Vestibulum et dolor sed ante aliquam dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam vehicula id risus eget convallis. Aliquam quis massa sodales mauris tempus tempor. Donec scelerisque pellentesque justo vitae vestibulum.</p>
+            <p>Tout dépend de votre implication ! Si vous jouez le jeu, vous serez capable de faire un site web et de vous faire embaucher dans une entreprise pour continuer à apprendre.</p>
             
         </article> 
+        
+        <article>
+            
+            <h2>Au terme de la formation, obtient-on un diplôme ?</h2>
+            
+            <p>?????</p>
+            
+        </article> 
+        
+        <article>
+        
+            <h2>Pont en Royans ? C'est pas à coté...</h2>
+            
+            <p>Plusieurs possibilités existe pour ceux qui n'habite pas dans les alentours :</p>
+            <ul>
+                <li>D'abord, une possibilité d'hebergement gratuit sur place, au refuge du Breuil.</li>
+                <li>Une navette est mis à disposition les lundi matin et le vendredi soir pour relier la gare de st-Marcellin.</li>
+                <li>Ensuite, Develo'pont peut étre une formation rémunérer. Pour en savoir plus, renseignez vous auprés de votre conseiller Pole Emlpoi.</li>
+            </ul>
+            
+        </article>
     
     </section>
     
