@@ -198,6 +198,24 @@ a {
     height: 150px;
 }
 
+/* -----Page Contact ----- */
+
+.articleContact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.sectionContact {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* Carte google dans contact */
+iframe {
+    float: left;
+}
+
 
 .navigation {
     display: inline;
@@ -233,9 +251,11 @@ nav {
 
 
 .logoDeveloPont {
-    height: 50px;
-    width: auto;
-    margin-left: 6px;
+    height: 2em;
+    width: 14em;
+    margin: 0.5em 0em 0em -1em;
+    position: relative;
+    left: 2em;
 }
 
 
@@ -307,17 +327,7 @@ footer{
     background-color: rgba(33, 60, 69, 0.93);
     text-align: center;
     z-index: 999;
-    /*border-color: darkslategray;
-    border-style: outset;
-    border-width: thick;
-    text-align: center;
-    font-size: 32px;
-    margin-top: 140px;
-    position: relative;
-    bottom: -136px;
-    /* left: 0px; */
-    /* right: 169px;
-    background-color: #9ec8b6;*/
+    
 }
 
 
@@ -506,14 +516,25 @@ span, .liencandidature {
 }
 
 
+#EPN {
+    margin: 3em 0em 0em 18em;
+}
+
+
 .logo_part1 {
     margin: 0 0 0 4em;
 }
 
 
 .logo_part2 {
-     margin: 4em 0 0 8em;
-}               /* Fin des logos partenaires */
+    margin: 4em 0 0 8em;
+}
+
+
+.logo_part3{
+    
+}
+                /* Fin des logos partenaires */
 
 
                 /* Logos des financements */
@@ -582,6 +603,7 @@ h4 {
 
 
 #nom_prenom {
+    margin-top: -0.5em;
     
 }
 
@@ -599,7 +621,7 @@ h4 {
 
 
 .formateurs {
-    margin: -23.25em 0 0 35em;
+    margin: -64.4em 0 0 35em;
     text-align: right;
     position: relative;
 }
@@ -625,12 +647,41 @@ h4 {
 
 
 #HR_formateur {
-    margin-left: 7em;   
+    margin-left: 7em;
+    display: none;
 }
 
 
 #HR_dir {
-    margin-top: 8em;
+    margin-top: 23.5em;
+}
+
+
+#Line{
+    width: 35%;
+}
+
+
+#Chloe{
+    width: 35%;
+}
+
+
+#Charlene{
+    width: 9em;
+    height: 12em;
+}
+
+
+#Arnaud{
+    width: 9em;
+    height: 10.1em;
+}
+
+
+#Jerome{
+    width: 47%;
+    margin-top: 4.3em;
 }               /* Fin de la page Develo'Pont > L'equipe */
 
 
@@ -1074,4 +1125,12 @@ input[type="submit" i] {
 	width:56%;
 	height:12%; 
 }
+<<<<<<< HEAD
 /* Fin Reseaux Sociaux*/
+=======
+
+.dd {
+    height: 12em;
+    width: 12em;
+}
+>>>>>>> f231e7491231d911d4dfe6563428545b9aed19c8
