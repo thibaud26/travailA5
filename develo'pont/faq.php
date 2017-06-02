@@ -33,7 +33,7 @@
             
             <h2>Qui peut candidater ?</h2>
             
-            <p>Develo'pont est ouvert à tous ! Même les débutants. Certains profils, comme les demandeurs d'emploi, les non diplomé-e-s, les femmes, sont prioritaires. Pour plus d'infos consultez la page <a href="http://simplon.co/je-candidate/">candidature</a>. 
+            <p>Develo'pont est ouvert à tous ! Même les débutants. Certains profils, comme les demandeurs d'emploi, les non diplomé-e-s, les femmes, sont prioritaires. Pour plus d'infos consultez la page <a href="http://simplon.co/je-candidate/"><span>candidature</span></a>. 
             </p>
             
         </article>

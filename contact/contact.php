@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+    
+    <html lang="fr">
 
 <head>
         <?php include ('../php/head.html'); ?>
@@ -19,7 +21,6 @@
         <?php include ('../php/header-logo.html'); ?>
     </header>
 
-    
     <section>
 
         <article>
@@ -117,21 +118,14 @@
         </aside> 
      
     
-        <Footer>
+        <footer>
             
             <?php include ('../php/copyright.html'); ?>
             
-        </Footer>
+        </footer>
 
     
-    </body> 
+</body> 
     
-
-
-
-
-
-
-
 
 </html>

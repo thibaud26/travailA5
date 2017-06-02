@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
+    
+    <html lang="fr">
 
 <head>
+    
     <?php include ('../php/head.html'); ?>
-        <?php include ('../php/background.php'); ?>
+    <?php include ('../php/background.php'); ?>
     
-        <title>C'est OU?</title>  
-    
+    <title>C'est OU?</title>  
     
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
@@ -15,12 +17,15 @@
 <body>
     
     <nav>
+        
          <?php include ('../php/entete.html'); ?>
         
     </nav>
     
-     <header>
-        <?php include ('../php/header-logo.html'); ?> 
+    <header>
+        
+        <?php include ('../php/header-logo.html'); ?>
+        
     </header>
     
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='main.css'>
@@ -28,6 +33,7 @@
     <section>
         
          <article class="pont">
+             
              <h3><u>Quel est ce village ou ce déroule cette formation de developpeur Web?</u></h3>
              
              <p><a class="PONTENROYANS" href="http://vercors-pontenroyans.com/" target="_blank">"P<span>O</span>NT EN ROYANS"</a>
@@ -55,7 +61,6 @@
               
                 <img class="imagepont1800" src="../img/ponten1800.jpg" alt="image pont en royans en 1800">
 
-
             <p>Au XIXe siècle le Pont est élargi. La route de Villard est créée en 1872, la route de sainte Eulalie actuelle est créée elle aussi avant la fin du XIXe siècle, et la circulation des charrois de troncs de bois provenant de la Route des Goulets entraine un besoin d'élargissement. De nombreuses maisons sont abattues (il y avait avant trois fois plus de maisons suspendues au-dessus du gouffre qu'au XXIe siècle).
             </p>
 
@@ -64,26 +69,20 @@
                 
                 <img class="imagemaisonsuspendu" src="../img/maisonsuspendu.jpg" alt="image maison suspendu de pont en royans">
 
-
             <p>Au XIXe siècle, ce bourg fut sous Napoléon III plus connu que la ville de Valence, pourtant proche. Sa notoriété dépassa largement les frontières de France, grâce aux routes creusées dans la roche karstique du Vercors (Un exploit pour l'époque qui contribua largement à la renommée du savoir-faire du génie français, lors des toutes premières expositions universelles à Paris).
             </p>
 
-
-            <P>Pont-en-Royans fut aussi l'une des trois premières villes (pour le nombre d'habitants) électrifiées de France. La conduite d'eau forcée passe encore sous la ville (un musée de l'eau permet de la découvrir).
-            </P>
-
+            <p>Pont-en-Royans fut aussi l'une des trois premières villes (pour le nombre d'habitants) électrifiées de France. La conduite d'eau forcée passe encore sous la ville (un musée de l'eau permet de la découvrir).
+            </p>
 
             <p>On fabriquait encore dans les années 1950 du matériel électrique pour l'habitat : interrupteurs, douilles... (À l'origine tous ces équipements étaient tournés en bois de buis* dans lesquels on plaçait le système en cuivre).
             </p>
 
-    
             <p>Le tournage sur bois de buis fut longtemps une des activités principales de la ville.
             </p>
 
-
             <p>On redécouvre de nos jours dans de très nombreux livres des XIXe et XXe siècles, les premières photos sur plaques en "verre photographique lumière" qui représentent les maisons suspendues de Pont-en-Royans et les routes du Vercors (routes des Grands Goulets, route des gorges de la Bourne, Pont de la Goule Noire..).
             </p>
-
 
             <p>Pendant la Seconde Guerre mondiale la place du Pont Picard fut l'une des plaques tournantes des mouvements résistants.
             </p>
@@ -91,7 +90,8 @@
         </article>
         
         <article class="sitegeologiques">
-            <h3>Sites géologiques remarquables</h3>
+            
+             <h3>Sites géologiques remarquables</h3>
             
              <p>La « reculée des Grands Goulets » est un site géologique remarquable de 1 645,95 hectares, parcouru par la Vernaison, qui se trouve sur les communes de Châtelus (au lieu-dit Grands Goulets), La Chapelle-en-Vercors, Échevis, Sainte-Eulalie-en-Royans, Saint-Julien-en-Vercors, Saint-Laurent-en-Royans, Saint-Martin-en-Vercors et Pont-en-Royans. En 2014, elle est classée à l'« Inventaire du patrimoine géologique »1.</p>
             
@@ -129,31 +129,22 @@
             la route des gorges de la Bourne entre Pont-en-Royans et Villard-de-Lans, route à encorbellement taillée dans la roche et classée 3 étoiles dans le guide Michelin. Des travaux y sont entrepris depuis 2008 afin de sécuriser ce tracé à l'origine de nombreux accidents8.
             </p>
             
-            
-
-        
         </article>
-        <?php include ('../php/reseauxsociaux.html'); ?> 
+        
+            <?php include ('../php/reseauxsociaux.html'); ?> 
+        
     </section>
      
     <aside>
             
     </aside> 
      
-    
     <Footer>
+        
          <?php include ('../php/copyright.html'); ?>
+        
     </Footer>
 
+</body> 
     
-    </body> 
-    
-
-
-
-
-
-
-
-
 </html>
