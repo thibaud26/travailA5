@@ -19,7 +19,7 @@
     
     <section>
         <article>
-            <ul class="galerie">
+            <ul class="PROMO">
                 <li>
                     <a>
                     <img src="../Photos/Joffrey.jpg" alt="Joffrey">

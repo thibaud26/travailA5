@@ -404,6 +404,22 @@ nav a {
 .menu:hover{
     border-bottom: 5px solid white;  
 }
+
+
+/* Taille des sous-menus "Develo'Pont", "Partenaires" et "Se connecter" */
+#sousmenu1 {
+    width: 6.4em ;
+}
+
+
+#sousmenu2 {
+    width: 7.2em ;
+}
+
+
+#sousmenu3 {
+    width: 7.1em ;
+}
 /*--------Fin du menu------*/
 
 .mail {
@@ -569,7 +585,7 @@ span, .liencandidature {
 /* Fin des logos des financements */
 
 
-/*Options des liens des sous-menus du menu "Partenaires" */
+/*Options des liens des sous-menus */
 #part { 
     color: black;
     font-weight: normal;
@@ -952,13 +968,13 @@ input[type="submit" i] {
 }
  
 /* Page Promo 2017 */
-.galerie {
+.PROMO {
     margin-left: -2.6em;
     margin-bottom: -12em;  
 }
 
 
-.galerie li {
+.PROMO li {
     display: inline-table;
     position: relative;
     width: 200px;
@@ -969,7 +985,7 @@ input[type="submit" i] {
 }
 
 
-.galerie li a{
+.PROMO li a{
     position: absolute;
     display: inline-block;
     overflow:hidden;
@@ -990,7 +1006,7 @@ input[type="submit" i] {
 }
 
 
-.galerie li a:hover{
+.PROMO li a:hover{
     position:absolute;
     width: 320px;
     height: 240px;
@@ -1002,7 +1018,7 @@ input[type="submit" i] {
 }
  
 
-.galerie li a img{
+.PROMO li a img{
     opacity: 1;
     position:absolute;
     width: 200px;
@@ -1021,14 +1037,14 @@ input[type="submit" i] {
 }
  
 
-.galerie li a:hover img{
+.PROMO li a:hover img{
     width: 320px;
     height: 240px;
     z-index: 100;
 }
 
 
-.galerie li a strong {
+.PROMO li a strong {
     position: absolute;
     text-align:center;
     bottom: -30px;
@@ -1036,7 +1052,7 @@ input[type="submit" i] {
 }
 
 
-.galerie li a:hover strong  { 
+.PROMO li a:hover strong  { 
     opacity:1;
     bottom: 0em;
     left:0em;
