@@ -268,7 +268,7 @@ nav a {
     flex-flow: row wrap;
     justify-content: space-between;
     max-width: 65em;
-    margin: 0 0 0 0;
+    margin: 0 0 0 -1px;
     color: white;
 }
 
@@ -600,7 +600,7 @@ h4 {
 
 
 /*----------------------------Page "C'est ou ?"---------------------------------*/
-.PONTENROYANS {
+.PONTENROYANS {/*---Titre PONT EN ROYANS---*/
     color: black;
     font-size: 200%;
     font-style: italic;
@@ -608,7 +608,7 @@ h4 {
 }
 
 
-.LIENCESTOU {
+.LIENCESTOU {/*---Lien Pont en Royans, Commune, Auvergne-Rhone-Alpes---*/
     color: black;
     font-size: 100%;
     font-style: italic;
@@ -822,15 +822,15 @@ article h3 {
 
 /*------------------------------Page Promo 2017---------------------------------*/
 .PROMO {
-    margin-left: -2.6em;
-    margin-bottom: -12em;
+    margin-left: -3.5em;
+    margin-bottom: -15em;  
 }
 
 .PROMO li {
     display: inline-table;
     position: relative;
-    width: 200px;
-    height: 150px;
+    width: 10em;
+    height: 11em;
     padding: 1.5em;
     margin-right: 0em;
     list-style: none;
@@ -839,12 +839,12 @@ article h3 {
 .PROMO li a {
     position: absolute;
     display: inline-block;
-    overflow: hidden;
-    width: 200px;
-    height: 150px;
-    margin-top: 0em;
-    margin-left: 0em;
-    border: 0.3em solid rgba(0, 0, 0, 0.7);
+    overflow:hidden;
+    width: 11em;
+    height: 11em;
+    margin-top:0em;
+    margin-left:0em;
+    border:0.3em solid rgba(0,0,0,0.7);
     border-radius: 0.5em;
     transition-property: width, height, margin, z-index, border;
     transition-duration: 0.4s;
@@ -857,11 +857,11 @@ article h3 {
 }
 
 .PROMO li a:hover {
-    position: absolute;
-    width: 320px;
-    height: 240px;
-    margin-top: -2.35em;
-    margin-left: -3em;
+    position:absolute;
+    width: 15em;
+    height: 15em;
+    margin-top: -2em;
+    margin-left: -2em;
     margin-right: 5em;
     border: 6px solid rgba(0, 0, 0, 0.7);
     z-index: 100;
@@ -869,9 +869,9 @@ article h3 {
 
 .PROMO li a img {
     opacity: 1;
-    position: absolute;
-    width: 200px;
-    height: 150px;
+    position:absolute;
+    width: 11em;
+    height: 11em;
     border-radius: 0.2em;
     transition-property: width, height, z-index;
     transition-duration: 0.4s;
@@ -886,8 +886,8 @@ article h3 {
 }
 
 .PROMO li a:hover img {
-    width: 320px;
-    height: 240px;
+    width: 15em;
+    height: 15em;
     z-index: 100;
 }
 
@@ -901,19 +901,20 @@ article h3 {
 .PROMO li a:hover strong {
     opacity: 1;
     bottom: 0em;
-    left: 0em;
-    transition: bottom 0.4s ease 0.4s;
-    -webkit-transition: bottom 0.3s ease 0.4s;
-    -moz-transition: bottom 0.3s ease 0.4s;
-    -o-transition: bottom 0.3s ease 0.4s;
-    width: 16.9em;
-    height: 0.7em;
-    padding-bottom: 1em;
-    background: rgba(0, 0, 0, 0.8);
-    margin-top: -30px;
-    z-index: 150;
-}
+    left:-0.9em;
+    transition:bottom 0.4s ease 0.4s;
+    -webkit-transition:bottom 0.3s ease 0.4s;
+    -moz-transition:bottom 0.3s ease 0.4s;
+    -o-transition:bottom 0.3s ease 0.4s;
+    width:16.9em;
+    height:0.7em;
+    padding-bottom:1em;
+    background:rgba(0,0,0,0.8);
+    margin-top:-30px;
+    z-index:150;
+}   
 /*--------------------------Fin de la page 'Promo 2017'-------------------------*/
+
 
 
 
@@ -923,6 +924,13 @@ article h3 {
 
 /*-----------------------------Barre Reseaux Sociaux----------------------------*/
 .reseauxsociaux {
+	width: 4.2277%;
+    max-width: 75px;
+    min-width: 45px;
+    height: calc((275*100)/939);
+    position: fixed;
+    margin-left: -15.7182%;
+
     background-color: rgba(0, 0, 0, 0.80);
     border-radius: 5px;
     z-index: 10;
@@ -984,12 +992,14 @@ article h3 {
 
 
 
+
 /*----------------------------Page "Attente.php"--------------------------------*/
 .dd {
     height: 12em;
     width: 12em;
 }
 /*---------------------------Fin Page "Attente.php"-----------------------------*/
+
 
 
 
