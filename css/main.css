@@ -353,7 +353,7 @@ footer {
     flex-flow: row wrap;
     justify-content: space-between;
     max-width: 65em;
-    margin: 0 0 0 0;
+    margin: 0 0 0 -1px;
     color: white;
 }
 
