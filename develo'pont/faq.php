@@ -29,7 +29,7 @@
         
         <article>
             
-            <h2>Qui peut candidater ?</h2>
+            <h2>Qui peut candidater à Devel<span>o</span>'Pont ?</h2>
             
             <p>Develo'pont est ouvert à tous ! Même les débutants. Certains profils, comme les demandeurs d'emploi, les non diplomé-e-s, les femmes, sont prioritaires. Pour plus d'infos consultez la page <a href="../simplon.co/candidature.php"><span>candidature</span></a>. 
             </p>
@@ -38,7 +38,7 @@
         
         <article>
             
-            <h2>Dois-je savoir coder ?</h2>
+            <h2>D<span>o</span>is-je savoir coder ?</h2>
             
             <p>Etre un pro du code n'est pas nécessaire, la plupart des apprenants n'avait jamais coder avant d'entrer à Develo'Pont! Tout ce qu'il faut c'est de la motivation et de la passion ! </p>
             
@@ -46,7 +46,7 @@
         
         <article>
             
-            <h2>De quoi serais-je capable à la fin de la formation?</h2>
+            <h2>De quoi serais-je capable à la fin de la f<span>o</span>rmation?</h2>
             
             <p>Tout dépend de votre implication ! Si vous jouez le jeu, vous serez capable de faire un site web et de vous faire embaucher dans une entreprise pour continuer à apprendre.</p>
             
@@ -54,7 +54,7 @@
         
         <article>
             
-            <h2>Au terme de la formation, obtient-on un diplôme ?</h2>
+            <h2>Au terme de la formation, <span>o</span>btient-on un diplôme ?</h2>
             
             <p>?????</p>
             
@@ -62,7 +62,7 @@
         
         <article>
         
-            <h2>Pont en Royans ? C'est pas à coté...</h2>
+            <h2>Pont en R<span>o</span>yans ? C'est pas à coté...</h2>
             
             <p>Plusieurs possibilités existe pour ceux qui n'habite pas dans les alentours :</p>
             <ul>
@@ -75,7 +75,7 @@
         
         <article>
         
-            <h2>Les règles d'or</h2>
+            <h2>Les règles d'<span>o</span>r</h2>
             
             <ul>
                 <li><span>Règle n°1 :</span> si vous avez une question ou que quelque chose ne marche pas dans votre code, cherchez d’abord par vous-même sur Internet… C’est une grande partie du métier de développeur·se que de chercher, de tester, de bien se renseigner et de trouver des solutions avant de poser des questions.</li>

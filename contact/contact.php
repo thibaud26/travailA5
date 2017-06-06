@@ -25,7 +25,7 @@
 
         <article>
              
-             <h2>CONTACT</h2>
+            <h2>C<span>O</span>NTACT</h2>
              
                 <div class="articleContact">
              

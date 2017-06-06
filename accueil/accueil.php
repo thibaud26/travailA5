@@ -50,7 +50,7 @@
       
         <article>
         
-            <h2> Develo'P<span>o</span>nt a pont en royans</h2>
+            <h2> Develo'P<span>o</span>nt a Pont en Royans</h2>
         
                 <p>Pour la première fois en Isère, mais aussi la première fois dans un petit village authentique adossé au Vercors, Simplon.co propose une formation en développement web, en PHP, gratuite et intensive, de 7 mois à partir du mois d’avril 2017.</p>
             

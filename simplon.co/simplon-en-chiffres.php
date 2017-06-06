@@ -26,7 +26,7 @@
          <article> 
              
   
-             <h2>Les chiffres sur Simplon.co</h2>
+             <h2>Les chiffres sur Simpl<span>o</span>n.co</h2>
             
              
              <div id="progress">
