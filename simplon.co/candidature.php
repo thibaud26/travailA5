@@ -42,11 +42,11 @@
                     
                     <h3>Etape 3: REMPLIR LE FORMULAIRE</h3>
                         
-                        <ul>Ouverture du formulaire pour Develo'Pont du <span>20 janvier 2017</span> au <span>21 mars 2017</span> minuit !</ul>
-                        <ul>Exprimez-vous le plus naturellement possible ! Comme on dit : « Venez comme vous êtes » ;-).
+                        <ul>Ouverture du formulaire pour Develo'Pont du <span>20 janvier 2017</span> au <span>21 mars 2017</span> minuit ! Disponible <a class="liencandidature" href="https://docs.google.com/forms/d/e/1FAIpQLSenLtbsaeAnpq0Bsz-pqR9B6g4MaR2SNCqotWkqioidjpKXNA/viewform" target="_blank">ici</a> !
                         <br>
-                        Formulaires d'inscription disponible <a class="liencandidature" href="http://simplon.co/je-candidate/" target="_blank">ici</a> !
-                        </ul>
+                        Pour postuler dans les autres enseignes de Simplon, c'est par <a class="liencandidature" href="http://simplon.co/je-candidate/" target="_blank">la</a> !
+                        <br>
+                        Exprimez-vous le plus naturellement possible ! Comme on dit : « Venez comme vous êtes » ;-).</ul>
 
                         <ul>Si votre candidature est retenue, vous serez convoqué(e) par e-mail à un entretien de sélection.</ul>
     
