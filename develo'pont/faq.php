@@ -27,13 +27,11 @@
     
     <section>
         
-        <h2>Foire aux questions</h2>
-        
         <article>
             
             <h2>Qui peut candidater ?</h2>
             
-            <p>Develo'pont est ouvert à tous ! Même les débutants. Certains profils, comme les demandeurs d'emploi, les non diplomé-e-s, les femmes, sont prioritaires. Pour plus d'infos consultez la page <a href="http://simplon.co/je-candidate/"><span>candidature</span></a>. 
+            <p>Develo'pont est ouvert à tous ! Même les débutants. Certains profils, comme les demandeurs d'emploi, les non diplomé-e-s, les femmes, sont prioritaires. Pour plus d'infos consultez la page <a href="../simplon.co/candidature.php"><span>candidature</span></a>. 
             </p>
             
         </article>
@@ -80,13 +78,13 @@
             <h2>Les règles d'or</h2>
             
             <ul>
-                <li><span>règle n°1 :</span> si vous avez une question ou que quelque chose ne marche pas dans votre code, cherchez d’abord par vous-même sur Internet… C’est une grande partie du métier de développeur·se que de chercher, de tester, de bien se renseigner et de trouver des solutions avant de poser des questions.</li>
+                <li><span>Règle n°1 :</span> si vous avez une question ou que quelque chose ne marche pas dans votre code, cherchez d’abord par vous-même sur Internet… C’est une grande partie du métier de développeur·se que de chercher, de tester, de bien se renseigner et de trouver des solutions avant de poser des questions.</li>
                 
-                <li><span>règle °2 :</span> si vous avez (vraiment !) cherché pendant une demi-heure et que vous ne trouvez vraiment pas, demandez aux autres simplonien·ne·s, qui se doivent d’être solidaires et de vous aider, ou allez poser la question sur un forum.</li>
+                <li><span>Règle °2 :</span> si vous avez (vraiment !) cherché pendant une demi-heure et que vous ne trouvez vraiment pas, demandez aux autres simplonien·ne·s, qui se doivent d’être solidaires et de vous aider, ou allez poser la question sur un forum.</li>
                 
-                <li><span>règle n°3 :</span> si même à plusieurs vous ne trouvez pas la solution au problème, vous pouvez alors demander son avis au/à la formateur/trice. Mais attention, pas avant ! Vous vous rendrez compte qu’à plusieurs la solution vient souvent plus facilement !</li>
+                <li><span>Règle n°3 :</span> si même à plusieurs vous ne trouvez pas la solution au problème, vous pouvez alors demander son avis au/à la formateur/trice. Mais attention, pas avant ! Vous vous rendrez compte qu’à plusieurs la solution vient souvent plus facilement !</li>
                 
-                <li><span>règle n°4 :</span> si vous avez résolu un problème et/ou appris quelque chose d’intéressant, vous devez le partager avec les autres (à l’oral, en écrivant un tutoriel, en réalisant une vidéo commentée…). Vous verrez que vous retiendrez ce savoir beaucoup plus facilement !</li>
+                <li><span>Règle n°4 :</span> si vous avez résolu un problème et/ou appris quelque chose d’intéressant, vous devez le partager avec les autres (à l’oral, en écrivant un tutoriel, en réalisant une vidéo commentée…). Vous verrez que vous retiendrez ce savoir beaucoup plus facilement !</li>
             </ul>
             
         </article>
