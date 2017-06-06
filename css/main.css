@@ -1,3 +1,4 @@
+/*----------------------------Contraintes Generales-----------------------------*/
 html {
     background: #e6e9e9;
     background-attachment: fixed;
@@ -31,10 +32,6 @@ header {
     padding-right: 4%;
 }
 
-a:link {
-    text-decoration: none;
-}
-
 h1 {
     color: black;
     font-weight: 600;
@@ -51,71 +48,6 @@ h1 {
     text-shadow: 5px 5px 5px black;
 }
 
-iframe[name="google_conversion_frame"] {
-    display: none;
-}
-
-#macaron_recrutement {
-    display: none;
-}
-
-.et_header_style_centered #main-header .container {
-    padding-top: 25px;
-}
-
-#top-header,
-#top-header a {
-    display: none;
-}
-
-.et_pb_section_0 {
-    padding-top: 0px !important;
-}
-
-.socialicons {
-    border-radius: 5px;
-    width: 100%;
-    /* 42 / 42 = 1*/
-    height: auto;
-    display: block;
-}
-
-#twittericon {
-    display: block;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin: auto;
-    width: 56%;
-    /* 42 / 75 = 0.56*/
-    height: 12%;
-    /* 42 / 350 = 0.12*/
-    ;
-}
-
-#fbicon {
-    display: block;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin: auto;
-    width: 56%;
-    /* 42 / 75 = 0.56*/
-    height: 12%;
-    /* 42 / 350 = 0.12*/
-    ;
-}
-
-#googleicon {
-    display: block;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin: auto;
-    width: 56%;
-    /* 42 / 75 = 0.56*/
-    height: 12%;
-    /* 42 / 350 = 0.12*/
-    ;
-}
-
 h2 {
     border-style: outset;
     border-width: 3px;
@@ -124,28 +56,45 @@ h2 {
     background-color: rgb(97, 127, 127)
 }
 
+section {
+    padding-left: 4%;
+    padding-right: 4%;
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -webkit-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
+    -ms-animation: fadin 1.5s;
+}
+
+article {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
+    text-align: justify;
+    box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.4);
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+    border-left: 5px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 a {
     color: rgba(255, 255, 255, 1);
     font-weight: bold;
 }
 
-
-/* Contact barre de navigation */
-
-.contact {
-    height: 100px;
-    width: 250px;
-    display: inline-block
+a:link {
+    text-decoration: none;
 }
+/*--------------------------Fin Contraintes Generales---------------------------*/
 
 
-/* Contact footer */
 
-#contact {
-    margin: 0.8em 0em 0em 23em;
-    display: flex;
-}
 
+
+
+
+/*------------------------------Page Contact------------------------------------*/
 .formulaire {
     display: flex;
     flex-flow: column wrap;
@@ -176,9 +125,6 @@ a {
     height: 150px;
 }
 
-
-/* -----------------Page Contact --------------- */
-
 .articleContact {
     display: flex;
     flex-flow: row wrap;
@@ -190,64 +136,22 @@ a {
     flex-flow: column wrap;
 }
 
-
-/* Carte google dans contact */
-
-iframe {
+iframe {/*---Carte google dans "Contact"---*/
     float: left;
 }
 
-.navigation {
-    display: inline;
-    font-size: 24px;
-    list-style-type: none;
-    border-right: 3px solid black;
-    padding-right: 30px;
-    border-left: 3px solid black;
-    padding-left: 30px;
-    background-color: grey;
-    margin: -5px;
+iframe[name="google_conversion_frame"] {
+    display: none;
 }
-
-nav {
-    background-color: rgba(255, 255, 255, 0.85);
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    max-width: 1300px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    border-bottom-left-radius: 0.3em;
-    border-bottom-right-radius: 0.3em;
-}
-
-.lienImage {
-    height: 50px;
-}
-
-.logoDeveloPont {
-    height: 2em;
-    width: 14em;
-    margin: 0.5em 0em 0em -1em;
-    position: relative;
-    left: 2em;
-}
-
-section {
-    padding-left: 4%;
-    padding-right: 4%;
-    animation: fadein 1.5s;
-    -moz-animation: fadein 1.5s;
-    -webkit-animation: fadein 1.5s;
-    -o-animation: fadein 1.5s;
-    -ms-animation: fadin 1.5s;
-}
+/*------------------------------Fin Page Contact--------------------------------*/
 
 
-/* ANIMATIONS FONDU & CLIGNOTEMENTS */
 
+
+
+
+
+/*----------------------ANIMATIONS FONDU & CLIGNOTEMENTS------------------------*/
 @keyframes {
     from {
         opacity: 0;
@@ -317,36 +221,47 @@ section {
         opacity: 1;
     }
 }
+/*-----------------------------FIN DES ANIMATIONS-------------------------------*/
 
 
-/* FIN DES ANIMATIONS */
 
-article {
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-bottom: 4%;
-    margin-bottom: 4%;
-    text-align: justify;
-    box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.4);
-    border-top: 5px solid rgba(0, 0, 0, 0.1);
-    border-left: 5px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.8);
+
+
+
+
+/*---------------------------Nav + Barre de Recherche---------------------------*/
+.lienlogo {/*---Lien du logo Develo'Pont en haut a gauche---*/
+    height: 50px;
 }
 
-footer {
+.logoDeveloPont {
+    height: 2em;
+    width: 14em;
+    margin: 0.5em 0em 0em -1em;
+    position: relative;
+    left: 2em;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.85);
     display: flex;
-    align-self: center;
-    height: 60px;
-    width: 1196px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    max-width: 1300px;
     position: fixed;
-    bottom: 0;
-    background-color: rgba(33, 60, 69, 0.93);
-    text-align: center;
+    top: 0;
+    width: 100%;
     z-index: 999;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
 }
 
-
-/*-----Menu Deroulant--------*/
+nav a {
+    align-self: center;
+    letter-spacing: 1.5px;
+    font-size: 17px;
+    font-family: "Lato";
+}
 
 .menuDeroulant {
     display: flex;
@@ -370,11 +285,19 @@ footer {
     border-bottom: 5px solid transparent;
 }
 
-nav a {
-    align-self: center;
-    letter-spacing: 1.5px;
-    font-size: 17px;
-    font-family: "Lato";
+.menu:hover {
+    border-bottom: 5px solid white;
+}
+
+.menu:hover ul {
+    position: absolute;
+    max-height: 300px;
+    z-index: 0;
+    top: 50px;
+    animation: fadein 0.2s;
+    border: 1px solid black;
+    border-top: none;
+    color: white;
 }
 
 .sousmenu {
@@ -383,7 +306,7 @@ nav a {
     position: absolute;
     max-height: 0;
     width: 9em;
-    left: 0px;
+    left: -0.05em;
     top: 50px;
     overflow: hidden;
     background-color: rgba(77, 98, 105, 0.89);
@@ -410,84 +333,103 @@ nav a {
     color: white;
 }
 
-.menu:hover ul {
-    position: absolute;
-    max-height: 300px;
-    z-index: 0;
-    top: 50px;
-    animation: fadein 0.2s;
-    border: 1px solid black;
-    border-top: none;
+#part {/*---Options liens des sous-menus---*/
+    color: black;
+    font-weight: normal;
+}
+
+#part:hover {
     color: white;
-}
+}/*---Fin des options des sous-menus---*/
 
-.menu:hover {
-    border-bottom: 5px solid white;
-}
-
-
-/*--------Fin du menu------*/
-
-.mail {
-    width: 80px;
-    vertical-align: middle;
-}
-
-.simplon {
-    width: 200px;
-    justify-content: center;
+.menubarre {/*---Barre de Recherche---*/
+    padding: 0 1em;
     align-self: center;
-    animation: fadein 1.5s;
-    -moz-animation: fadein 1.5s;
-    -webkit-animation: fadein 1.5s;
-    -o-animation: fadein 1.5s;
-    -ms-animation: fadin 1.5s;
+}
+input[type="submit" i] {
+    background-image: url("../img/favicon.png");
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
 }
 
-.span-simplon {
-    color: #ed1450;
-    text-shadow: 0px 2px 3px black;
-    font-size: 25px;
+.barreRecherche {
+    display: inline-flex;
+    height: 1em;
+    vertical-align: middle;
+}/*---Fin Barre de Recherche---*/
+/*--------------------------Fin Nav + Barre de Recherche------------------------*/
+
+
+
+
+
+
+
+/*---------------------------------Footer---------------------------------------*/
+footer {
+    display: flex;
+    align-self: center;
+    height: 60px;
+    width: 1196px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(33, 60, 69, 0.93);
+    text-align: center;
+    z-index: 999;
 }
 
-.copyright {
+#contact {/*---------Contact footer----------*/
+    margin: 0.8em 0em 0em 23em;
+    display: flex;
+}
+
+.copyright {/*-------Barre du footer--------*/
     margin: 0.8em 0em 0em 1em;
     color: white;
     text-shadow: 0px 2px 6px black;
     display: flex;
 }
+/*---------------------------------Fin Footer-----------------------------------*/
 
-.imageDAB {
+
+
+
+
+
+
+/*---------------------------------Divers---------------------------------------*/
+.span-simplon {/*---Chaine de caracteres "SIMPLON.CO"---*/
+    color: #ed1450;
+    text-shadow: 0px 2px 3px black;
+    font-size: 25px;
+}
+
+.imageDAB {/*---Image Promo sur la page "C'est Quoi ?"---*/
     max-width: 100%;
     min-width: 300px;
     position: relative;
     width: 60em;
 }
 
-.menubarre {
-    padding: 0 1em;
-    align-self: center;
-}
-
-.menubarre img {
-    width: 20px;
-    margin: 0 -0.2em 0 0;
-    vertical-align: middle;
-}
-
-#candidature {
+#candidature {/*---Chaine de caracteres "Deposez votre candidature"---*/
     animation: Test 1s infinite;
     color: black;
 }
 
 span,
-.liencandidature {
+.liencandidature {/*---Couleur du lien "Deposez votre candidature"---*/
     color: #ed1450;
 }
+/*---------------------------------Fin Divers-----------------------------------*/
 
 
-/* Logos des partenaires */
 
+
+
+
+
+/*--------------------------Logos des partenaires-------------------------------*/
 #leader {
     width: 205px;
     height: 205px;
@@ -526,13 +468,16 @@ span,
 }
 
 .logo_part3 {}
+/*-----------------------Fin des logos partenaires------------------------------*/
 
 
-/* Fin des logos partenaires */
 
 
-/* Logos des financements */
 
+
+
+
+/*-------------------------Logos des financements-------------------------------*/
 #bpifrance {
     width: 250px;
     margin: 0 0 0 0;
@@ -568,28 +513,15 @@ span,
 .logo_financement2 {
     margin: 3em 0 0 4.5em;
 }
+/*-----------------------Fin des logos des financements-------------------------*/
 
 
-/* Fin des logos des financements */
 
 
-/*Options des liens des sous-menus du menu "Partenaires" */
-
-#part {
-    color: black;
-    font-weight: normal;
-}
-
-#part:hover {
-    color: white;
-}
 
 
-/* Fin des liens sous-menus */
 
-
-/* Page Develo'Pont > L'equipe */
-
+/*--------------------------Page Develo'Pont > L'equipe-------------------------*/
 h4 {
     text-decoration: underline;
 }
@@ -659,13 +591,15 @@ h4 {
     width: 47%;
     margin-top: 4.3em;
 }
+/*---------------------Fin de la page Develo'Pont > L'equipe--------------------*/
 
 
-/* Fin de la page Develo'Pont > L'equipe */
 
 
-/* c'est le pont en royans dans la section "c'est ou" */
 
+
+
+/*----------------------------Page "C'est ou ?"---------------------------------*/
 .PONTENROYANS {
     color: black;
     font-size: 200%;
@@ -673,8 +607,6 @@ h4 {
     font-weight: bold;
 }
 
-
-/* tous les liens dans la section c'est ou */
 
 .LIENCESTOU {
     color: black;
@@ -880,23 +812,15 @@ article h3 {
     font-weight: 900;
     display: inline-table;
 }
-
-input[type="submit" i] {
-    background-image: url("../img/favicon.png");
-    height: 20px;
-    width: 20px;
-    border-radius: 10px;
-}
-
-.barreRecherche {
-    display: inline-flex;
-    height: 1em;
-    vertical-align: middle;
-}
+/*---------------------------Fin Page "C'est ou ?"------------------------------*/
 
 
-/* Page Promo 2017 */
 
+
+
+
+
+/*------------------------------Page Promo 2017---------------------------------*/
 .PROMO {
     margin-left: -2.6em;
     margin-bottom: -12em;
@@ -989,13 +913,15 @@ input[type="submit" i] {
     margin-top: -30px;
     z-index: 150;
 }
+/*--------------------------Fin de la page 'Promo 2017'-------------------------*/
 
 
-/* Fin de la page 'Promo 2017' */
 
 
-/* Reseaux Sociaux*/
 
+
+
+/*-----------------------------Barre Reseaux Sociaux----------------------------*/
 .reseauxsociaux {
     background-color: rgba(0, 0, 0, 0.80);
     border-radius: 5px;
@@ -1050,17 +976,28 @@ input[type="submit" i] {
     width: 56%;
     height: 12%;
 }
+/*-------------------------Fin Barre Reseaux Sociaux----------------------------*/
 
 
-/* Fin Reseaux Sociaux*/
 
+
+
+
+
+/*----------------------------Page "Attente.php"--------------------------------*/
 .dd {
     height: 12em;
     width: 12em;
 }
+/*---------------------------Fin Page "Attente.php"-----------------------------*/
 
-/* galerie photo*/
 
+
+
+
+
+
+/*------------------------------Galerie Photo-----------------------------------*/
 .galeriePhoto input {
     display: none;
     opacity: 0;
@@ -1249,5 +1186,4 @@ input[type="submit" i] {
         -webkit-transform: rotatey(1turn)
     }
 }
-
-/* galerie photo*/
+/*----------------------------Fin Galerie Photo---------------------------------*/

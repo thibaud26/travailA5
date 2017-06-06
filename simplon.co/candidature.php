@@ -23,11 +23,9 @@
     
     <section>
         
-            <h2>Candidature pour Develo'P<span>o</span>nt</h2>
-        
         <article>
             
-             
+             <h2>Candidature pour Develo'P<span>o</span>nt</h2>
         
                     <ul>Les inscriptions pour cette formation sont ouvertes à un public éloigné de l’emploi, mais toutes les candidatures motivées seront les bienvenues. La candidature se déroulera en deux étapes :</ul>
 
