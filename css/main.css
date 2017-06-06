@@ -354,7 +354,7 @@ footer {
     flex-flow: row wrap;
     justify-content: space-between;
     max-width: 65em;
-    margin: 0 0 0 0;
+    margin: 0 0 0 -1px;
     color: white;
 }
 
@@ -898,12 +898,12 @@ input[type="submit" i] {
 
 /* Page Promo 2017 */
 
-.galerie {
+.PROMO {
     margin-left: -2.6em;
     margin-bottom: -12em;
 }
 
-.galerie li {
+.PROMO li {
     display: inline-table;
     position: relative;
     width: 200px;
@@ -913,7 +913,7 @@ input[type="submit" i] {
     list-style: none;
 }
 
-.galerie li a {
+.PROMO li a {
     position: absolute;
     display: inline-block;
     overflow: hidden;
@@ -933,7 +933,7 @@ input[type="submit" i] {
     -o-transition-duration: 0.4s;
 }
 
-.galerie li a:hover {
+.PROMO li a:hover {
     position: absolute;
     width: 320px;
     height: 240px;
@@ -944,7 +944,7 @@ input[type="submit" i] {
     z-index: 100;
 }
 
-.galerie li a img {
+.PROMO li a img {
     opacity: 1;
     position: absolute;
     width: 200px;
@@ -962,20 +962,20 @@ input[type="submit" i] {
     z-index: 20;
 }
 
-.galerie li a:hover img {
+.PROMO li a:hover img {
     width: 320px;
     height: 240px;
     z-index: 100;
 }
 
-.galerie li a strong {
+.PROMO li a strong {
     position: absolute;
     text-align: center;
     bottom: -30px;
     opacity: 0;
 }
 
-.galerie li a:hover strong {
+.PROMO li a:hover strong {
     opacity: 1;
     bottom: 0em;
     left: 0em;
