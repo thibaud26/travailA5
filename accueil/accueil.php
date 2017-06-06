@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html>
-
-    <html lang="fr">
+<html lang="fr">
 
 <head>
         <?php include ('../php/head.html'); ?>
@@ -26,8 +24,6 @@
         <?php include ('../php/header-logo.html'); ?> 
         
     </header>
-    
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='main.css'>
 
     <section>
            
