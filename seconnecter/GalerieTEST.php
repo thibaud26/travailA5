@@ -44,7 +44,6 @@
                 <img class="slides" src="../Photos/13.jpg" alt>
                 <img class="slides" src="../Photos/14.jpg" alt>
                 <img class="slides" src="../Photos/15.jpg" alt>
-                <img class="slides" src="../Photos/16.jpg" alt>
                 <img class="slides" src="../Photos/18.jpg" alt>
              </div>
              <div>
