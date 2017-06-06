@@ -25,7 +25,7 @@
         
         <article>
             
-             <h2>Candidature pour Develo'P<span>o</span>nt</h2>
+             <h2>Candidature pour Simpl<span>o</span>n.co</h2>
         
                     <ul>Les inscriptions pour cette formation sont ouvertes à un public éloigné de l’emploi, mais toutes les candidatures motivées seront les bienvenues. La candidature se déroulera en plusieurs étapes :</ul>
 
@@ -41,10 +41,11 @@
                         </ul>
                     
                     <h3>Etape 3: REMPLIR LE FORMULAIRE</h3>
-            
-                        <ul>Exprimez-vous le plus naturellement possible ! Comme on dit : « venez comme vous êtes » ;-).
+                        
+                        <ul>Ouverture du formulaire pour Develo'Pont du <span>20 janvier 2017</span> au <span>21 mars 2017</span> minuit !</ul>
+                        <ul>Exprimez-vous le plus naturellement possible ! Comme on dit : « Venez comme vous êtes » ;-).
                         <br>
-                        Formulaire d'inscription disponible <a class="liencandidature" href="https://docs.google.com/forms/d/e/1FAIpQLSenLtbsaeAnpq0Bsz-pqR9B6g4MaR2SNCqotWkqioidjpKXNA/viewform">ici</a> !
+                        Formulaires d'inscription disponible <a class="liencandidature" href="http://simplon.co/je-candidate/" target="_blank">ici</a> !
                         </ul>
 
                         <ul>Si votre candidature est retenue, vous serez convoqué(e) par e-mail à un entretien de sélection.</ul>
