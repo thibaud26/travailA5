@@ -911,7 +911,8 @@ input[type="submit" i] {
     background-image: url("../img/favicon.png");
     height: 20px;
     width: 20px;
-    border-radius: 10px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
 }
 
 
@@ -923,16 +924,16 @@ input[type="submit" i] {
  
                        /* Page Promo 2017 */
 .galerie {
-    margin-left: -2.6em;
-    margin-bottom: -12em;  
+    margin-left: -3.5em;
+    margin-bottom: -15em;  
 }
 
 
 .galerie li {
     display: inline-table;
     position: relative;
-    width: 200px;
-    height: 150px;
+    width: 10em;
+    height: 11em;
     padding: 1.5em;
     margin-right:0em;
     list-style: none;
@@ -943,8 +944,8 @@ input[type="submit" i] {
     position: absolute;
     display: inline-block;
     overflow:hidden;
-    width: 200px;
-    height: 150px;
+    width: 11em;
+    height: 11em;
     margin-top:0em;
     margin-left:0em;
     border:0.3em solid rgba(0,0,0,0.7);
@@ -962,10 +963,10 @@ input[type="submit" i] {
 
 .galerie li a:hover{
     position:absolute;
-    width: 320px;
-    height: 240px;
-    margin-top: -2.35em;
-    margin-left: -3em;
+    width: 15em;
+    height: 15em;
+    margin-top: -2em;
+    margin-left: -2em;
     margin-right: 5em;
     border:6px solid rgba(0,0,0,0.7);
     z-index: 100;
@@ -975,8 +976,8 @@ input[type="submit" i] {
 .galerie li a img{
     opacity: 1;
     position:absolute;
-    width: 200px;
-    height: 150px;
+    width: 11em;
+    height: 11em;
     border-radius: 0.2em;
     transition-property:width,height,z-index;
     transition-duration:0.4s;
@@ -992,8 +993,8 @@ input[type="submit" i] {
  
 
 .galerie li a:hover img{
-    width: 320px;
-    height: 240px;
+    width: 15em;
+    height: 15em;
     z-index: 100;
 }
 
@@ -1007,7 +1008,7 @@ input[type="submit" i] {
 .galerie li a:hover strong{ 
     opacity:1;
     bottom: 0em;
-    left:0em;
+    left:-0.9em;
     transition:bottom 0.4s ease 0.4s;
     -webkit-transition:bottom 0.3s ease 0.4s;
     -moz-transition:bottom 0.3s ease 0.4s;

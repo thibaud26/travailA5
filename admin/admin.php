@@ -45,12 +45,13 @@
     ?>
         <article>
             <p>Veuillez entrer le mot de passe pour obtenir les codes d'accès au serveur central de la NASA :</p>
-            <form action="admin.php" method="post">
-                <p>
-                <input type="password" name="mot_de_passe" />
-                <input type="submit" value="" />
-                </p>
+            <form class="barreRecherche" action="admin.php" method="post">
+                <input id="search" type="password" name="mot_de_passe" />
+                <input id="search-btn" type="submit" value="" />
             </form>
+            <div class="w3-border">
+            <div class="w3-grey" style="height:24px;width:20%"></div>
+            </div> 
         </article>
         <?php
     }
