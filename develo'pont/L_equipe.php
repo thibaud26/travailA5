@@ -4,7 +4,9 @@
 <head>
         <?php include ('../php/head.html'); ?>
         <?php include ('../php/background.php'); ?>
-        <title>Develo'Pont</title>
+    
+        <title>Develo'Pont - L'équipe</title>
+    
 </head>
     
 <body>

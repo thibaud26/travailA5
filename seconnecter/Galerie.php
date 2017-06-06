@@ -7,7 +7,7 @@
     <?php include ('../php/background.php'); ?>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     
-    <title></title>
+    <title>Develo'Pont - Galerie</title>
     
 </head>
     

@@ -6,7 +6,7 @@
     <?php include ('../php/head.html'); ?>
     <?php include ('../php/background.php'); ?>
     
-    <title>Develo'Pont</title>
+    <title>Develo'Pont - Partenaires</title>
     
 </head>
     

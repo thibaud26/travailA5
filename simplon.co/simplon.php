@@ -6,7 +6,7 @@
         <?php include ('../php/head.html'); ?>
         <?php include ('../php/background.php'); ?>
 
-        <title>Develo'Pont</title>
+        <title>Develo'Pont - Simplon</title>
 </head>
 <body>
          
@@ -47,9 +47,9 @@
     
     
     
-    <Footer>
+    <footer>
         <?php include ('../php/copyright.html'); ?>
-    </Footer>
+    </footer>
 
 
 
