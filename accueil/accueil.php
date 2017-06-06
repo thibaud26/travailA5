@@ -64,14 +64,12 @@
             <a id="candidature" href="../simplon.co/candidature.php">Dép<span>o</span>sez votre candidature!</a>
             
         </article>
-        
-           
-        
+         
     </section>
-    
-        <?php include ('../php/reseauxsociaux.html'); ?> 
 
     <aside>
+        
+        <?php include ('../php/reseauxsociaux.html'); ?>
    
     </aside>
     

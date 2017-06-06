@@ -131,11 +131,11 @@
             
         </article>
         
-            <?php include ('../php/reseauxsociaux.html'); ?> 
-        
     </section>
      
     <aside>
+        
+         <?php include ('../php/reseauxsociaux.html'); ?> 
             
     </aside> 
      

@@ -71,7 +71,12 @@
         </article>
     
     </section> 
-      <?php include ('../php/reseauxsociaux.html'); ?> 
+    
+    <aside>
+        
+        <?php include ('../php/reseauxsociaux.html'); ?> 
+    
+    </aside>
     
     <Footer>
         <?php include ('../php/copyright.html'); ?>

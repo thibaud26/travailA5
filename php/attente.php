@@ -35,9 +35,11 @@
         </article>
         
     </section>
-     <?php include ('../php/reseauxsociaux.html'); ?> 
-    
+      
     <aside>
+        
+        <?php include ('../php/reseauxsociaux.html'); ?>
+        
     </aside>
     
 </body> 
