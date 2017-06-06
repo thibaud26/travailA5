@@ -527,7 +527,7 @@ h4 {
     text-decoration: underline;
 }
 
-#nom_prenom {
+.nom_prenom {
     margin-top: -0.5em;
 }
 
@@ -552,12 +552,12 @@ h4 {
     bottom: 1em;
 }
 
-#mail_equipe {
+.mail_equipe {
     text-shadow: 1px 1px rgba(255, 255, 255, 1);
     color: rgba(33, 60, 69, 0.78);
 }
 
-#HR_admin {
+.HR_admin {
     margin-right: 2em;
 }
 
