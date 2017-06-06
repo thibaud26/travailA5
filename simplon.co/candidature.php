@@ -27,15 +27,27 @@
             
              <h2>Candidature pour Develo'P<span>o</span>nt</h2>
         
-                    <ul>Les inscriptions pour cette formation sont ouvertes à un public éloigné de l’emploi, mais toutes les candidatures motivées seront les bienvenues. La candidature se déroulera en deux étapes :</ul>
+                    <ul>Les inscriptions pour cette formation sont ouvertes à un public éloigné de l’emploi, mais toutes les candidatures motivées seront les bienvenues. La candidature se déroulera en plusieurs étapes :</ul>
 
-                    <h3>Etape 1:</h3>
+                    <h3>Etape 1: TEST DE MOTIVATION</h3>
 
-                    <ul>CANDIDATURE EN LIGNE pour vous entrainer et passer des badges sur le site, disponible en français, <a class="liencandidature" href="https://www.codecademy.com/fr" target="_blank">www.codeacademy.com</a>, Votre profil sur Codecademy, devra être public.</ul>
+                        <ul>Entrainez-vous et passez des badges sur le site, disponible en français, <a class="liencandidature" href="https://www.codecademy.com/fr" target="_blank">www.codecademy.com</a>. Vous devez passer au minimum : – « <span>HTML &amp; CSS</span> » (10 badges) – « <span>Javascript</span> » (10 badges) – « <span>PHP</span> » (10 à 15 badges) – « <span>Ruby</span> » (10 badges). Votre profil sur Codecademy, devra être public.</ul>
 
-                    <h3>Etape 2:</h3>
+                    <h3>Etape 2: ALLER PLUS LOIN (Facultatif)</h3>
+            
+                        <ul>N’hésitez pas à passer un maximum de parcours et de badges sur <a class="liencandidature" href="https://www.codecademy.com/fr" target="_blank">Codecademy</a>, cela vous permet de découvrir concrètement ce que signifie coder, et surtout, cela vous permet de voir si ça vous plaît ! De notre côté, nous regardons attentivement cet aspect dans les candidatures parce que cela nous permet de voir qui est vraiment motivé(e) pour apprendre la programmation. Vous pouvez également passer des étapes et des badges sur d’autres plateformes d’auto-apprentissage comme <a class="liencandidature" href="https://openclassrooms.com/" target="_blank">OpenClassrooms</a>, <a class="liencandidature" href="https://www.codeschool.com/" target="_blank">Codeschool</a>, etc., ou encore réaliser des petits projets (sites, videos, etc.) puis nous communiquer les liens via le formulaire de candidature.
+                        <br><br>
+                        Vous pouvez également avancer sur les modules de <a class="liencandidature" href="http://simplon.co/classcode/" target="_blank">Class’Code</a>, le parcours de formation hybride qui vise à s’initier à la pensée informatique, et plus précisément sur le module 1 qui s’attache aux dessous de la programmation.
+                        </ul>
+                    
+                    <h3>Etape 3: REMPLIR LE FORMULAIRE</h3>
+            
+                        <ul>Exprimez-vous le plus naturellement possible ! Comme on dit : « venez comme vous êtes » ;-).
+                        <br>
+                        Formulaire d'inscription disponible <a class="liencandidature" href="https://docs.google.com/forms/d/e/1FAIpQLSenLtbsaeAnpq0Bsz-pqR9B6g4MaR2SNCqotWkqioidjpKXNA/viewform">ici</a> !
+                        </ul>
 
-                    <ul>ENTRETIENS DE SELECTION Si votre candidature est retenue, vous serez convoqué(e) à un entretien de sélection.</ul>
+                        <ul>Si votre candidature est retenue, vous serez convoqué(e) par e-mail à un entretien de sélection.</ul>
     
         
         </article>
