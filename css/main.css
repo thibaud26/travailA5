@@ -1060,7 +1060,7 @@ article h3 {
 	font-size: 2rem;
 	left: 10.5em;
 	opacity: 0;
-	color: #d4154b;
+	color: rgb(212, 21, 75);
 }
 #imgdex figure:last-of-type {
 	transform: rotateX(5deg);
