@@ -76,7 +76,7 @@
                        <figcaption>Dab Groupe</figcaption>
                     </figure>
                     
-            <input type="range" min="1" onfocus="this.oldvalue = this.value;" oninput="updateImage(this);this.oldvalue = this.value;" id="ranger">
+            <input type="range" min="1" onfocus="this.oldvalue = this.value;" oninput="updateImage(this);this.oldvalue = this.value;" id="ranger" value=1>
                 </div>
         </article>
         <script>
@@ -85,12 +85,12 @@
                 figs = imgdex.querySelectorAll('figure'),
                 imgcount = figs.length;
                 ranger.max = imgcount;
-                ranger.value = imgcount;
+                ranger.value = 1;
+                ranger.oldvalue = 0;
             
-            for(var i=0;i<(imgcount -1);i++) {
-	var rotation = parseFloat(-92 + "." + (imgcount - i));
-	figs[i].style.transform = 'rotateX(' + rotation + 'deg)';
-}
+            for(var i=0;i<(imgcount);i++) {
+	figs[i].style.transform = 'rotateX('+i+'deg)';
+                            }
 document.querySelector('#imgdex figure:last-child figcaption').style.opacity = 1;
 
 function updateImage(slider) {
