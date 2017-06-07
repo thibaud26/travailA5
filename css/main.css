@@ -53,7 +53,9 @@ h2 {
     border-width: 3px;
     border-color: rgba(71, 70, 76, 0.38);
     text-align: center;
-    background-color: rgb(97, 127, 127)
+    background-color: rgb(97, 127, 127);
+    box-shadow: 1px 1px 10px 3px black;
+    border-radius: 5px;
 }
 
 section {
