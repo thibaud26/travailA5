@@ -1201,10 +1201,182 @@ article h3 {
 }
 /*--------------------------Fin Page Galerie Photo------------------------------*/
 
+/*-------------------------Responsive--------------------------------------------*/
+
+@media screen and (max-width: 425px) {
+    
+    nav {
+        display: flex;
+        flex-flow: column nowrap; 
+    }
+
+    .menuDeroulant {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    
+    .logoDeveloPont {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    
+    nav {
+        flex-flow: column nowrap;
+        position: relative;
+    }
+    
+    body {
+        padding-top: 0;
+    }
+    
+       section {
+        padding: 0;
+    }
+    
+    /*-----Menu Deroulant--------*/
+
+    .menuDeroulant {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        max-width: 100%;
+        margin: 0;
+        color: white;
+    }
+
+    .menu {
+        display: flex;
+        list-style-type: none;
+        position: relative;
+        padding: 0 16px;
+        box-shadow: 0 0 1px black;
+        background-color: rgba(33, 60, 69, 0.78);
+        color: black;
+        transition: all 1s;
+        color: white;
+        border-bottom: 5px solid transparent;
+    }
+
+    .sousmenu {
+        flex-direction: column;
+        position: absolute;
+        max-height: 0;
+        width: 9em;
+        left: 160px;
+        top: 50px;
+        overflow: hidden;
+        background-color: rgba(77, 98, 105, 0.89);
+        transition: all 0.1s;
+        box-shadow: none;
+        padding: 0 10px;
+        text-align: left;
+        border: none;
+        color: white;
+    }
+
+    .sousmenu:before {
+        position: absolute;
+        height: 10px;
+        width: 9em;
+        left: 0px;
+        background-color: #9ec8b6;
+        padding: 0 10px;
+    }
+
+    .sousmenu li {
+        list-style: none;
+        color: white;
+    }
+
+    .menu:hover ul {
+        position: absolute;
+        max-height: 300px;
+        z-index: 3;
+        top: 50px;
+        left: 160px;
+        animation: fadein 0.2s;
+        border: 1px solid black;
+        border-top: none;
+        color: white;
+    }
+
+    .menu:hover {
+        border-bottom: 5px solid white;
+    }
 
 
+    /*--------Fin du menu------*/
+     
+    .logo img {
+        display: none;
+    }
+    
+    section {
+        top: 500px;
+    }
+    
+    /* Contact footer */
 
+    #contact {
+    margin: 0;
+    justify-content: flex-end;
+    display: flex;
+    }
+    
+    footer {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    max-width: 1196px;
+    position: relative;
+    bottom: 0;
+    background-color: rgba(33, 60, 69, 0.93);
+    z-index: 0;
+    font-size: 0.5em;
+    }
+    
+    footer p {
+        align-self: center;
+    }
+    
+}
 
+@media screen and (max-width: 1120px) {
+    
+    .reseauxsociaux {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1300px) {
+    
+    nav {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    .menuDeroulant {
+        display: flex;
+        order: 1;
+        justify-content: center;
+        padding-left: 0;
+    }
+    
+    .menu:hover ul {
+        top: 30px;
+    }
+    
+    .menubarre {
+        display: none;
+    }
+}
+
+/*-------------------------------Fin Responsive----------------------------*/
 
 
 /*↑↑SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNE↑↑*/
