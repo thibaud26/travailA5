@@ -335,6 +335,16 @@ nav a {
     color: white;
 }
 
+#sousmenu1 {
+    width: 86.5%;
+}
+#sousmenu2 {
+    width: 105%;
+}
+#sousmenu3 {
+    width: 152%;
+}
+
 .S_MENU {/*---Options liens des sous-menus---*/
     color: black;
     font-weight: normal;
