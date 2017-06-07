@@ -918,14 +918,14 @@ article h3 {
     z-index: 100;
 }
 
-.PROMO li a strong {
+.PROMO li a .prenom_ {
     position: absolute;
     text-align: center;
     bottom: -30px;
     opacity: 0;
 }
 
-.PROMO li a:hover strong {
+.PROMO li a:hover .prenom_ {
     opacity: 1;
     bottom: 0em;
     left:-0.9em;
@@ -1304,12 +1304,14 @@ article h3 {
         display: none;
     }
 }
-
-/*-------------------------------Fin Responsive----------------------------*/
-
+/*-------------------------------Fin Responsive---------------------------------*/
 
 
-/* Simplon.co --> Simplon en chiffres */
+
+
+
+
+/*-----------------------Simplon.co --> Simplon en chiffres---------------------*/
 .chiffres, .h3chiffres {
     display: flex;
     flex-direction: column;
@@ -1347,7 +1349,7 @@ article h3 {
 }
 
 
-strong {
+.valeur {
     color: #ed1450;
     font-size: 250%;
 }
@@ -1356,7 +1358,18 @@ strong {
 #progress7 {
     margin-right: -21em;
 }
-/* fin de Simplon.co --> Simplon en chiffres */
+/*-----------------fin de Simplon.co --> Simplon en chiffres--------------------*/
+
+
+
+
+
+
+
+
+
+
+
 
 /*↑↑SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNE↑↑*/
 /*---------------------------Galerie TEST---------------------------------------*/
