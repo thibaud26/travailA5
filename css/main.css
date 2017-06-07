@@ -349,27 +349,24 @@ nav a {
     align-self: center;
 }
 
-input[type="submit" i] {
-    background-image: url("../img/favicon.png");
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    position: relative;
-}
-
 .barreRecherche {
     display: inline-flex;
     vertical-align: middle;
 }
 
 .search {
-    border-bottom-left-radius: 7px;
-    border-top-left-radius: 7px;
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
     background-color: #A2A2A2;
     border: 2px solid #4C5F67;
     height: 1.2em;
 }
 
 .search-btn {
+    background-image: url("../img/favicon.png");
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    position: relative;
     background-color: #A2A2A2;
     border: 2px solid #4C5F67;
     height: 1.7em;
