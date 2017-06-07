@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
         <?php include ('../php/head.html'); ?>
         <?php include ('../php/background.php'); ?>
     
-        <title> Develo'P<span>o</span>nt </title>  
+        <title> Develo'Pont - Qui Finance</title>  
     
 </head>
 <body>

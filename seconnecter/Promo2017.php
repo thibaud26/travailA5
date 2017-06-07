@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-    <title>Develo'Pont</title>
+    <title>Develo'Pont - Promo 2017</title>
     <?php include ('../php/head.html'); ?>
     <?php include ('../php/background.php'); ?> 
 </head>

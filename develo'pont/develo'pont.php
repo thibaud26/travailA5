@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html>
-    
-    <html lang="fr">
+<html lang="fr">
 
 <head>
 
