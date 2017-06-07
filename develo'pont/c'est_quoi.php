@@ -34,7 +34,7 @@
             <p>
                 <a href="https://fr-fr.facebook.com/developont/" target="_blank"><span class="prod">DEVELO'PONT</span></a> est un projet initié par l'Espace Public Numérique du Royans (EPN) et <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPLON.CO</span></a> .
 
-                C'est une formation <b>GRATUITE</b>, <b>INTENSIVE</b>, <b>QUALIFIANTE</b> de 7 mois en développement web et mobile.
+                C'est une formation <b>GRATUITE</b>, <b>INTENSIVE</b> et <b>QUALIFIANTE</b> de 7 mois en développement web et mobile.
 
                 Notre mission est également de proposer des profils de poste adaptés aux entreprises et collectivités locales dans leur développement numérique.
               
