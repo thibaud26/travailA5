@@ -1009,7 +1009,7 @@ article h3 {
 
 
 /*----------------------------Page Galerie Photo--------------------------------*/
-/*.galeriePhoto input {
+.galeriePhoto input {
     display: none;
     opacity: 0;
 }
@@ -1196,7 +1196,7 @@ article h3 {
     to {
         -webkit-transform: rotatey(1turn)
     }
-}*/
+}
 /*--------------------------Fin Page Galerie Photo------------------------------*/
 
 
@@ -1207,6 +1207,7 @@ article h3 {
 
 
 /*---------------------------Galerie TEST---------------------------------------*/
+/*-----
 .galeriePhoto {
     position: relative;
     top: 4em;
@@ -1271,4 +1272,5 @@ article h3 {
     -o-animation: fadein 0.3s;
     -ms-animation: fadein 0.3s;
 }
+-----*/
 /*------------------------Fin Galerie TEST--------------------------------------*/
