@@ -1217,6 +1217,58 @@ article h3 {
     .logoDeveloPont {
         left: 0;
     }
+    
+    /*----Page c'est ou? ---- */
+    
+    .imagepont1800, .imagemaisonsuspendu, .clochet, .museedeleau, .grotte, .gorgebourne {
+        height: 100px;
+        width: auto;
+    }
+    
+    .PONTENROYANS {
+        font-size: 170%;
+    }
+    
+    /*------L'équipe--------*/
+    
+    .l_equipe, .admin, .formateurs, #HR_dir, .directeur {
+        margin: 0;
+    }
+    
+    /*-------Partenaires, qui finance---------*/
+    
+    .logo_financement1, .logo_financement2, .logo_part1, .logo_part2, .logo_part3 {
+        margin: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    
+    #bpifrance, #france_active, #sncf, #UE, #fse, #fse2, #EPN, #royans, #leader, #vercors, #massif, #emploi, #legrand, #formation  {
+        margin: auto;
+        width: 300px;
+        align-self: center;
+    }
+    
+    /*---------------Contact-----------*/
+    
+    textarea {
+        width: 300px;
+    }
+    
+    iframe {
+        width: 300px;
+    }
+    
+    /*----------------PROMO 2017 ---------*/
+    
+    .PROMO {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin: 0;
+    }
+    
 }
 
 @media screen and (max-width: 830px) {
@@ -1230,7 +1282,7 @@ article h3 {
         padding-top: 0;
     }
     
-       section {
+    section {
         padding: 0;
     }
     
