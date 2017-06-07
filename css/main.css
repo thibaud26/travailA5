@@ -1359,6 +1359,10 @@ article h3 {
         background-color: #9ec8b6;
         padding: 0 10px;
     }
+    
+    #sousmenu1 ,#sousmenu2 {
+        width: auto;
+    }
 
     .sousmenu li {
         list-style: none;
