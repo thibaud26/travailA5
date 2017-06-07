@@ -28,12 +28,6 @@
   
 
              <h2>Les chiffres sur Simpl<span>o</span>n.co</h2>
-            
-             
-             <div id="progress">
-                
-                <p>Retrieving data...<strong>50%</strong></p>
-                <progress value="50" min="1" max="100">10%</progress>
                   
 
                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -137,12 +131,8 @@
              
                     <div id="progress15">
                         <p>Ex-Simplonien.ne.s en contrat<br><strong value="0" min="1" max="8">8</strong></p>
-                    </div>
-
              </div>
-             
-             
-             
+                       
              
         </article>
     </section>

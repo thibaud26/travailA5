@@ -1323,59 +1323,7 @@ article h3 {
         color: white;
     }
 
-
-/* Simplon.co --> Simplon en chiffres */
-.chiffres, .h3chiffres {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 130%;   
-}
-
-
-.chiffresCles, .entreeFormation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    line-height: 80px;
-    font-weight: 900;
-}
-
-
-.h3chiffres {
-    font-size: 200%;
-    text-decoration: underline;
     
-}
-
-
-.chiffresPair {
-    align-self: flex-end;
-    
-}
-
-
-.chiffresImpair {
-    align-self: flex-start;
-}
-
-
-strong {
-    color: #ed1450;
-    font-size: 250%;
-}
-
-
-#progress7 {
-    
-    margin-right: -21em;
-}
-
-
-/* fin de Simplon.co --> Simplon en chiffres */
-
     .menu {
         display: flex;
         list-style-type: none;
@@ -1512,6 +1460,59 @@ strong {
 
 /*-------------------------------Fin Responsive----------------------------*/
 
+
+
+/* Simplon.co --> Simplon en chiffres */
+.chiffres, .h3chiffres {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 130%;   
+}
+
+
+.chiffresCles, .entreeFormation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 80px;
+    font-weight: 900;
+}
+
+
+.h3chiffres {
+    font-size: 200%;
+    text-decoration: underline;
+    
+}
+
+
+.chiffresPair {
+    align-self: flex-end;
+    
+}
+
+
+.chiffresImpair {
+    align-self: flex-start;
+}
+
+
+strong {
+    color: #ed1450;
+    font-size: 250%;
+}
+
+
+#progress7 {
+    
+    margin-right: -21em;
+}
+
+
+/* fin de Simplon.co --> Simplon en chiffres */
 
 /*↑↑SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNE↑↑*/
 /*---------------------------Galerie TEST---------------------------------------*/
