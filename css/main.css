@@ -1360,13 +1360,14 @@ article h3 {
         padding: 0 10px;
     }
     
-    #sousmenu1 ,#sousmenu2 {
+    #sousmenu1 ,#sousmenu2, #sousmenu3 {
         width: auto;
     }
 
     .sousmenu li {
         list-style: none;
         color: white;
+        font-weight: bolder;
     }
 
     .menu:hover ul {
