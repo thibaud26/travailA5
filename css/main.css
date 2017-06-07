@@ -53,7 +53,9 @@ h2 {
     border-width: 3px;
     border-color: rgba(71, 70, 76, 0.38);
     text-align: center;
-    background-color: rgb(97, 127, 127)
+    background-color: rgb(97, 127, 127);
+    box-shadow: 1px 1px 10px 1px black;
+    border-radius: 5px;
 }
 
 section {
@@ -333,6 +335,16 @@ nav a {
     color: white;
 }
 
+#sousmenu1 {
+    width: 86.5%;
+}
+#sousmenu2 {
+    width: 105%;
+}
+#sousmenu3 {
+    width: 152%;
+}
+
 .S_MENU {/*---Options liens des sous-menus---*/
     color: black;
     font-weight: normal;
@@ -346,21 +358,33 @@ nav a {
     padding: 0 1em;
     align-self: center;
 }
-input[type="submit" i] {
-    background-image: url("../img/favicon.png");
-    height: 20px;
-    width: 20px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    position: relative;
-    bottom: 1px;
-}
 
 .barreRecherche {
     display: inline-flex;
-    height: 1em;
     vertical-align: middle;
-}/*---Fin Barre de Recherche---*/
+    padding-bottom: 5px;
+}
+
+.search {
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+    background-color: #A2A2A2;
+    border: 2px solid #4C5F67;
+    height: 14px;
+    width: 150px;
+}
+
+.search-btn {
+    background-image: url("../img/favicon.png");
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    position: relative;
+    background-color: #A2A2A2;
+    border: 2px solid #4C5F67;
+    height: 20px;
+    width: 19px;
+}
+/*---Fin Barre de Recherche---*/
 /*--------------------------Fin Nav + Barre de Recherche------------------------*/
 
 

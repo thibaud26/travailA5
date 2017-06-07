@@ -28,7 +28,7 @@
     <section>
         
         <article>
-            
+            <h2>Galerie Ph<span>o</span>to</h2>
              <div class='galeriePhoto'>
                 <img class="slides" src="../Photos/1.jpg" alt>
                 <img class="slides" src="../Photos/2.jpg" alt>
