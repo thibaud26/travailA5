@@ -20,7 +20,7 @@
     
     <header>
         
-         <img class="logo" src="../img/logo.png" alt="logo developont">
+         <?php include ('../php/header-logo.html'); ?> 
         
     </header>
     
