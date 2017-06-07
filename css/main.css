@@ -346,21 +346,33 @@ nav a {
     padding: 0 1em;
     align-self: center;
 }
+
 input[type="submit" i] {
     background-image: url("../img/favicon.png");
-    height: 20px;
-    width: 20px;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
     position: relative;
-    bottom: 1px;
 }
 
 .barreRecherche {
     display: inline-flex;
-    height: 1em;
     vertical-align: middle;
-}/*---Fin Barre de Recherche---*/
+}
+
+.search {
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    background-color: #A2A2A2;
+    border: 2px solid #4C5F67;
+    height: 1.2em;
+}
+
+.search-btn {
+    background-color: #A2A2A2;
+    border: 2px solid #4C5F67;
+    height: 1.7em;
+}
+/*---Fin Barre de Recherche---*/
 /*--------------------------Fin Nav + Barre de Recherche------------------------*/
 
 
