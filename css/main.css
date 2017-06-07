@@ -10,6 +10,7 @@ html {
     font-size: 14px;
 }
 
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 140%;
@@ -53,7 +54,9 @@ h2 {
     border-width: 3px;
     border-color: rgba(71, 70, 76, 0.38);
     text-align: center;
-    background-color: rgb(97, 127, 127)
+    background-color: rgb(97, 127, 127);
+    box-shadow: 1px 1px 10px 1px black;
+    border-radius: 5px;
 }
 
 section {
@@ -333,6 +336,16 @@ nav a {
     color: white;
 }
 
+#sousmenu1 {
+    width: 86.5%;
+}
+#sousmenu2 {
+    width: 105%;
+}
+#sousmenu3 {
+    width: 152%;
+}
+
 .S_MENU {/*---Options liens des sous-menus---*/
     color: black;
     font-weight: normal;
@@ -346,21 +359,34 @@ nav a {
     padding: 0 1em;
     align-self: center;
 }
-input[type="submit" i] {
-    background-image: url("../img/favicon.png");
-    height: 20px;
-    width: 20px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    position: relative;
-    bottom: 1px;
-}
 
 .barreRecherche {
     display: inline-flex;
-    height: 1em;
     vertical-align: middle;
-}/*---Fin Barre de Recherche---*/
+    padding-bottom: 5px;
+}
+
+.search {
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+    background-color: #A2A2A2;
+    border: 2px solid #4C5F67;
+    height: 14px;
+    width: 150px;
+    padding-left: 5%;
+}
+
+.search-btn {
+    background-image: url("../img/favicon.png");
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    position: relative;
+    background-color: #A2A2A2;
+    border: 2px solid #4C5F67;
+    height: 20px;
+    width: 20px;
+}
+/*---Fin Barre de Recherche---*/
 /*--------------------------Fin Nav + Barre de Recherche------------------------*/
 
 
@@ -1044,5 +1070,360 @@ article h3 {
 .couleur_galerie {
     background-color: rgba(35, 30, 30, 0.68);
 }
-/*------------------------Fin Galerie--------------------------------------*/
+/*--------------------------Fin Page Galerie Photo------------------------------*/
 
+/*-------------------------Responsive--------------------------------------------*/
+
+@media screen and (max-width: 425px) {
+    
+    nav {
+        display: flex;
+        flex-flow: column nowrap; 
+    }
+
+    .menuDeroulant {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    
+    .logoDeveloPont {
+        left: 0;
+    }
+    
+    /*------------------------------Page c'est ou? ---------------------------------- */
+    
+    .imagepont1800, .imagemaisonsuspendu, .clochet, .museedeleau, .grotte, .gorgebourne {
+        height: 100px;
+        width: auto;
+    }
+    
+    .PONTENROYANS {
+        font-size: 170%;
+    }
+    
+    /*------L'équipe--------*/
+    
+    .l_equipe, .admin, .formateurs, #HR_dir, .directeur {
+        margin: 0;
+    }
+    
+    /*-------Partenaires, qui finance---------*/
+    
+    .logo_financement1, .logo_financement2, .logo_part1, .logo_part2, .logo_part3 {
+        margin: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    
+    #bpifrance, #france_active, #sncf, #UE, #fse, #fse2, #EPN, #royans, #leader, #vercors, #massif, #emploi, #legrand, #formation  {
+        margin: auto;
+        width: 300px;
+        align-self: center;
+    }
+    
+    /*---------------Contact-----------*/
+    
+    textarea {
+        width: 300px;
+    }
+    
+    iframe {
+        width: 300px;
+    }
+    
+    /*----------------PROMO 2017 ---------*/
+    
+    .PROMO {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width: 830px) {
+    
+    nav {
+        flex-flow: column nowrap;
+        position: relative;
+    }
+    
+    body {
+        padding-top: 0;
+    }
+    
+    section {
+        padding: 0;
+    }
+    
+    /*-----Menu Deroulant--------*/
+
+    .menuDeroulant {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        max-width: 100%;
+        margin: 0;
+        color: white;
+    }
+
+    
+    .menu {
+        display: flex;
+        list-style-type: none;
+        position: relative;
+        padding: 0 16px;
+        box-shadow: 0 0 1px black;
+        background-color: rgba(33, 60, 69, 0.78);
+        color: black;
+        transition: all 1s;
+        color: white;
+        border-bottom: 5px solid transparent;
+    }
+
+    .sousmenu {
+        flex-direction: column;
+        position: absolute;
+        max-height: 0;
+        width: 9em;
+        left: 160px;
+        top: 50px;
+        overflow: hidden;
+        background-color: rgba(77, 98, 105, 0.89);
+        transition: all 0.1s;
+        box-shadow: none;
+        padding: 0 10px;
+        text-align: left;
+        border: none;
+        color: white;
+    }
+
+    .sousmenu:before {
+        position: absolute;
+        height: 10px;
+        width: 9em;
+        left: 0px;
+        background-color: #9ec8b6;
+        padding: 0 10px;
+    }
+    
+    #sousmenu1 ,#sousmenu2, #sousmenu3 {
+        width: auto;
+    }
+
+    .sousmenu li {
+        list-style: none;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .menu:hover ul {
+        position: absolute;
+        max-height: 300px;
+        z-index: 3;
+        top: 50px;
+        left: 160px;
+        animation: fadein 0.2s;
+        border: 1px solid black;
+        border-top: none;
+        color: white;
+    }
+
+    .menu:hover {
+        border-bottom: 5px solid white;
+    }
+
+
+    /*--------Fin du menu------*/
+     
+    .logo img {
+        display: none;
+    }
+    
+    section {
+        top: 500px;
+    }
+    
+    /* Contact footer */
+
+    #contact {
+    margin: 0;
+    justify-content: flex-end;
+    display: flex;
+    }
+    
+    footer {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    max-width: 1196px;
+    position: relative;
+    bottom: 0;
+    background-color: rgba(33, 60, 69, 0.93);
+    z-index: 0;
+    font-size: 0.5em;
+    }
+    
+    footer p {
+        align-self: center;
+    }
+    
+}
+
+@media screen and (max-width: 1120px) {
+    
+    .reseauxsociaux {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1300px) {
+    
+    nav {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    .menuDeroulant {
+        display: flex;
+        order: 1;
+        justify-content: center;
+        padding-left: 0;
+    }
+    
+    .menu:hover ul {
+        top: 30px;
+    }
+    
+    .menubarre {
+        display: none;
+    }
+}
+
+/*-------------------------------Fin Responsive----------------------------*/
+
+
+
+/* Simplon.co --> Simplon en chiffres */
+.chiffres, .h3chiffres {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 130%;   
+}
+
+
+.chiffresCles, .entreeFormation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 80px;
+    font-weight: 900;
+}
+
+
+.h3chiffres {
+    font-size: 200%;
+    text-decoration: underline;
+    
+}
+
+
+.chiffresPair {
+    align-self: flex-end;
+    
+}
+
+
+.chiffresImpair {
+    align-self: flex-start;
+}
+
+
+strong {
+    color: #ed1450;
+    font-size: 250%;
+}
+
+
+#progress7 {
+    margin-right: -21em;
+}
+/* fin de Simplon.co --> Simplon en chiffres */
+
+/*↑↑SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNE↑↑*/
+/*---------------------------Galerie TEST---------------------------------------*/
+/*-----
+.galeriePhoto {
+    position: relative;
+    top: 4em;
+    border: 5px solid rgba(33, 60, 69, 0.78);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.6 )
+}
+    
+.slides {
+    width: 100%;
+    animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s;
+    -o-animation: fadein 0.5s;
+    -ms-animation: fadein 0.5s;
+}
+
+.left_button {
+    
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 4em;
+    position: relative;
+    top: -27.5em;
+    width: 3em;
+    height: 9em;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    left: 0.35em;
+}
+
+.right_button {
+    
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 4em;
+    position: relative;
+    top: -27.5em;
+    width: 3em;
+    height: 9em;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    left: 75.5em;
+}
+
+.left_button:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    animation-name: left_right;
+    animation: fadein 0.3s;
+    -moz-animation: fadein 0.3s;
+    -webkit-animation: fadein 0.3s;
+    -o-animation: fadein 0.3s;
+    -ms-animation: fadein 0.3s;
+}
+
+.right_button:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    animation-name: left_right;
+    animation: fadein 0.3s;
+    -moz-animation: fadein 0.3s;
+    -webkit-animation: fadein 0.3s;
+    -o-animation: fadein 0.3s;
+    -ms-animation: fadein 0.3s;
+}
+-----*/
+/*------------------------Fin Galerie TEST--------------------------------------*/
