@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
 
@@ -30,6 +30,9 @@
     </section>
     
     <aside>
+        
+        <?php include ('../php/reseauxsociaux.html'); ?> 
+        
     </aside> 
      
     

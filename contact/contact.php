@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html>
-    
-    <html lang="fr">
+<html lang="fr">
 
 <head>
         <?php include ('../php/head.html'); ?>
         <?php include ('../php/background.php'); ?>
 
-        <title>Develo'Pont</title>
+        <title>Develo'Pont - contact</title>
     
 </head>
     
@@ -25,7 +23,7 @@
 
         <article>
              
-             <h2>CONTACT</h2>
+            <h2>C<span>O</span>NTACT</h2>
              
                 <div class="articleContact">
              
@@ -110,10 +108,10 @@
         </article>
 
         </section>
-    
-            <?php include ('../php/reseauxsociaux.html'); ?> 
         
         <aside>
+            
+            <?php include ('../php/reseauxsociaux.html'); ?> 
             
         </aside> 
      

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
             <?php include ('../php/head.html'); ?>
             <?php include ('../php/background.php'); ?>
             
-         <title>Simplon.co en chiffres</title>
+         <title>Develop'Pont - Simplon en chiffres</title>
 </head>
     
 <body>
@@ -26,10 +26,16 @@
          <article class="chiffres"> 
              
   
-             <h2>Quelques chiffres sur Simplon.co</h2>
+
+             <h2>Les chiffres sur Simpl<span>o</span>n.co</h2>
+            
              
-             
-             
+             <div id="progress">
+                
+                <p>Retrieving data...<strong>50%</strong></p>
+                <progress value="50" min="1" max="100">10%</progress>
+                  
+
                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
                  <script src="../php/chiffres-simplon.js"></script>
 
@@ -133,7 +139,7 @@
                         <p>Ex-Simplonien.ne.s en contrat<br><strong value="0" min="1" max="8">8</strong></p>
                     </div>
 
-             
+             </div>
              
              
              
@@ -142,6 +148,9 @@
     </section>
     
     <aside> 
+        
+        <?php include ('../php/reseauxsociaux.html'); ?> 
+        
     </aside> 
      
     
