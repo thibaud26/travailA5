@@ -90,12 +90,6 @@
                 ranger.max = imgcount;
                 ranger.value = 1;
                 ranger.oldvalue = 0;
-            
-
-            for(var i=0;i<(imgcount);i++) {
-	        figs[i].style.transform = 'rotateX('+i+'deg)';
-                            }
-            document.querySelector('#imgdex figure:last-child figcaption').style.opacity = 1;
 
             for(var i=0;i<(imgcount -1);i++) {
 	        var rotation = parseFloat(-92 + "." + (imgcount - i));
