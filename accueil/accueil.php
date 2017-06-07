@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html>
-
-    <html lang="fr">
+<html lang="fr">
 
 <head>
         <?php include ('../php/head.html'); ?>
         <?php include ('../php/background.php'); ?>
     
-        <title>Develo'Pont</title>  
+        <title>Develo'Pont - accueil</title>  
     
         <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
@@ -26,10 +24,10 @@
         <?php include ('../php/header-logo.html'); ?> 
         
     </header>
-    
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='main.css'>
 
     <section>
+        
+        <h2>Accueil</h2>
            
         <article>
             
@@ -50,7 +48,7 @@
       
         <article>
         
-            <h2> Develo'P<span>o</span>nt a pont en royans</h2>
+            <h2> Develo'P<span>o</span>nt a Pont en Royans</h2>
         
                 <p>Pour la première fois en Isère, mais aussi la première fois dans un petit village authentique adossé au Vercors, Simplon.co propose une formation en développement web, en PHP, gratuite et intensive, de 7 mois à partir du mois d’avril 2017.</p>
             
@@ -64,14 +62,12 @@
             <a id="candidature" href="../simplon.co/candidature.php">Dép<span>o</span>sez votre candidature!</a>
             
         </article>
-        
-           
-        
+         
     </section>
-    
-        <?php include ('../php/reseauxsociaux.html'); ?> 
 
     <aside>
+        
+        <?php include ('../php/reseauxsociaux.html'); ?>
    
     </aside>
     

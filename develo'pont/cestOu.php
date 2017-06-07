@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html>
-    
-    <html lang="fr">
+<html lang="fr">
 
 <head>
     
     <?php include ('../php/head.html'); ?>
     <?php include ('../php/background.php'); ?>
     
-    <title>C'est OU?</title>  
+    <title>Develo'Pont - C'est où?</title>  
     
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
@@ -27,8 +25,6 @@
         <?php include ('../php/header-logo.html'); ?>
         
     </header>
-    
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='main.css'>
     
     <section>
         
@@ -131,11 +127,11 @@
             
         </article>
         
-            <?php include ('../php/reseauxsociaux.html'); ?> 
-        
     </section>
      
     <aside>
+        
+         <?php include ('../php/reseauxsociaux.html'); ?> 
             
     </aside> 
      
