@@ -333,12 +333,12 @@ nav a {
     color: white;
 }
 
-.part {/*---Options liens des sous-menus---*/
+.S_MENU {/*---Options liens des sous-menus---*/
     color: black;
     font-weight: normal;
 }
 
-.part:hover {
+.S_MENU:hover {
     color: white;
 }/*---Fin des options des sous-menus---*/
 
