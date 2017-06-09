@@ -29,8 +29,8 @@ Jolie page en JQUERY avec les chiffres de la formation Simplon-co depuis sa cré
 
 * Candidater
 
-Page explicative sur la façon de candidater et liens menant vers les sites d'exercice a faire obligatoirement pour 
-prétendre vouloir obtenir une place à la formation. 
+Page explicative sur la façon de candidater et liens menant vers les différents sites concernés (à faire obligatoirement pour 
+prétendre vouloir obtenir une place à la formation). 
 
 ### **Develo'Pont**
 
