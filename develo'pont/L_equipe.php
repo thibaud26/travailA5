@@ -60,8 +60,8 @@
                             <a class="mail_equipe" href="mailto:j.pierson@developont.fr">jerome@developont.fr</a>
                         </p>
                 </div>
-             <hr id="HR_dir">
                 <div class="directeur">
+                    <hr id="HR_dir">
                     <h4>Directeur Simplon Auvergne Rhône-Alpes</h4>
                     <img id="Pierre" src="../Photos/Pierre.jpg" alt="Pierre-Yves">
                         <p class="nom_prenom">Pierre-Yves CHARPENET</p>

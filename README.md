@@ -6,73 +6,73 @@
 * Site debuté le 25/05
 #### This work is licensed under a creative commons attribution 4.0 International license.
 
-## 1. accueil
-## 2. simplon.co
-## 3. develo'pont
-## 4. partenaire
-## 5. contact
-## 6. se-connecter
+## 1. Accueil
+## 2. Simplon.co
+## 3. Develo'Pont
+## 4. Partenaire
+## 5. Contact
+## 6. Medias
 
-### **accueil**
+### **Accueil**
 
-Page dediée a la presentation du site dans les grandes lignes ( qu'est-ce que simplon et develo'pont)
+Page dediée a la présentation du site dans les grandes lignes ( qu'est-ce que Simplon et Develo'Pont).
 
 ### **Simplon.co**
 
 * Simplon.co
 
-Explication de la formation Simplon.co, qu'est-ce que c'est, depuis quand, d'ou sa vient etc...    
+Explication de la formation Simplon.co, qu'est-ce que c'est, depuis quand, d'ou sa vient etc... 
 
 * Simplon en chiffres
 
-Jolie page en JQUERY avec les chiffres de la formation simplon-co depuis sa creation    
+Jolie page en JQUERY avec les chiffres de la formation Simplon-co depuis sa création. 
 
 * Candidater
 
-Pages explicative sur la facon de candidater et liens menant vers les sites d'exercice a faire obligatoirement pour 
-pretendre a a obtenir une place a la formation.    
+Page explicative sur la façon de candidater et liens menant vers les sites d'exercice a faire obligatoirement pour 
+prétendre vouloir obtenir une place à la formation. 
 
 ### **Develo'Pont**
 
-* C'est quoi
+* C'est quoi ?
 
-Presentation global de Develo'pont
+Présentation globale de Develo'pont.
 
-* C'est ou
+* C'est ou ?
 
-Petit cours d'histoire de Pont en Royans
+Petit cours d'histoire de Pont en Royans.
 
 * L'equipe
 
-Presentation de l'équipe administrative
+Présentation de l'équipe administrative.
 
 * FaQ
 
-Foire aux questions
+Réponses aux questions les plus fréquemments posées.
 
 ### **Partenaires**
 
-* Qui finance
+* Qui finance ?
 
-Logo des financeurs et liens vers leurs Site web
+Logo des financeurs et liens vers leurs Site web.
 
 * Nos partenaires
 
-Logo des partenaires et liens vers leurs Site web
+Logo des partenaires et liens vers leurs Site web.
 
 
 ### **Contact**
 
 * Contact
 
-Formulaire de contact et plans GOOGLE
+Formulaire de contact et plan Google Maps.
 
 ## **Medias**
 
-* promotion 2017
+* Promotion 2017
 
-Tronbinoscope de la promotion 2017 de Develo'pont a Pont en Royans
+Tronbinoscope de la promotion 2017 de Develo'Pont à Pont en Royans.
 
 * Galerie photo
 
-galerie interactive de photos concernant Develo'pont
+Galerie interactive de photos concernant Develo'Pont.
