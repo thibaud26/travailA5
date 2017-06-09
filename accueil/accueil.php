@@ -5,7 +5,7 @@
         <?php include ('../php/head.html'); ?>
         <?php include ('../php/background.php'); ?>
     
-        <title>Develo'Pont - accueil</title>  
+        <title>Develo'Pont - Accueil</title>  
     
         <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 
@@ -55,7 +55,7 @@
                 <p>Mené dans une démarche d’innovation sociale, ce projet constitue un double défi :</p>
             
             <ul>
-                <li> Economique : participer à l’endiguement du chômage en répondant aux besoins de recrutement des entreprises du numérique engagées dans cette démarche citoyenne,</li>
+                <li> Economique : participer à l’endiguement du chômage en répondant aux besoins de recrutement des entreprises du numérique engagées dans cette démarche citoyenne.</li>
                 <li> Social : en agissant sur l’emploi et la qualification de publics marginalisés sélectionnés uniquement sur la base de critères sociaux et de leur motivation, et non selon les diplômes.</li>
             </ul>
             

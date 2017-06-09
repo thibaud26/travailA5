@@ -76,7 +76,9 @@
                        <figcaption>Dab Groupe</figcaption>
                     </figure>
                     
+
                     <input type="range" min="1" onfocus="this.oldvalue = this.value;" oninput="updateImage(this);this.oldvalue = this.value;" id="ranger">
+
                 </div>
         </article>
        
@@ -87,13 +89,15 @@
                 imgcount = figs.length;
                 ranger.max = imgcount;
                 ranger.value = imgcount;
-            
+                
+
             for(var i=0;i<(imgcount -1);i++) {
 	        var rotation = parseFloat(-92 + "." + (imgcount - i));
 	        figs[i].style.transform = 'rotateX(' + rotation + 'deg)';
             }
             
             document.querySelector('#imgdex figure:last-child figcaption').style.opacity = 1;
+
 
             function updateImage(slider) {
 	           var currentimg = document.querySelector('#imgdex figure:nth-child('+slider.value+')');

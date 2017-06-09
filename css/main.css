@@ -568,7 +568,10 @@ h4 {
 }
 
 .l_equipe {
-    margin: -5em 0 0 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: -8em 1em 0 1em;
 }
 
 .admin {
@@ -1213,8 +1216,7 @@ article h3 {
         line-height: normal;
     }
     
-    /*----------------PROMO 2017 ---------*/
-    
+    /*----------------PROMO 2017 --------------*/
     .PROMO {
         display: flex;
         flex-flow: column nowrap;
@@ -1222,8 +1224,11 @@ article h3 {
         margin: 0;
     }
     
-    /*---------galerie----*/
     
+    
+    
+    
+    /*---------Galerie--------*/
     #imgdex figure {
         top: 0em;
         left: 0em;
@@ -1256,8 +1261,7 @@ article h3 {
         padding: 0;
     }
     
-    /*-----Menu Deroulant--------*/
-
+    /*-------Menu Deroulant--------*/
     .menuDeroulant {
         display: flex;
         flex-flow: column nowrap;
@@ -1332,10 +1336,11 @@ article h3 {
     .menu:hover {
         border-bottom: 5px solid white;
     }
-
-
     /*--------Fin du menu------*/
      
+    
+    
+    
     .logo img {
         display: none;
     }
@@ -1344,8 +1349,10 @@ article h3 {
         top: 500px;
     }
     
-    /* Contact footer */
-
+    
+    
+    
+    /*-------Contact footer--------*/
     #contact {
     margin: 0;
     justify-content: flex-end;
