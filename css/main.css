@@ -1072,6 +1072,58 @@ article h3 {
 }
 /*--------------------------Fin Page Galerie Photo------------------------------*/
 
+
+
+/*-----------------------Simplon.co --> Simplon en chiffres---------------------*/
+.chiffres, .h3chiffres {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 130%;   
+}
+
+
+.chiffresCles, .entreeFormation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 80px;
+    font-weight: 900;
+}
+
+
+.h3chiffres {
+    font-size: 200%;
+    text-decoration: underline;
+    
+}
+
+
+.chiffresPair {
+    align-self: flex-end;
+    
+}
+
+
+.chiffresImpair {
+    align-self: flex-start;
+}
+
+
+.valeur {
+    color: #ed1450;
+    font-size: 250%;
+}
+
+
+#progress7 {
+    margin-right: -21em;
+}
+/*-----------------fin de Simplon.co --> Simplon en chiffres--------------------*/
+
+
 /*-------------------------Responsive--------------------------------------------*/
 
 @media screen and (max-width: 425px) {
@@ -1123,6 +1175,16 @@ article h3 {
         align-self: center;
     }
     
+    /*-----------en chiffres----*/
+    
+    #progress7 {
+        margin: 0;
+    }
+    
+    .valeur {
+        font-size: 170%;
+    }
+    
     /*---------------Contact-----------*/
     
     textarea {
@@ -1133,6 +1195,14 @@ article h3 {
         width: 300px;
     }
     
+    .h3chiffres {
+        font-size: 180%;
+    }
+    
+    .chiffresPair p, .chiffresImpair p, .chiffresCles, .entreeFormation {
+        line-height: normal;
+    }
+    
     /*----------------PROMO 2017 ---------*/
     
     .PROMO {
@@ -1140,6 +1210,23 @@ article h3 {
         flex-flow: column nowrap;
         justify-content: center;
         margin: 0;
+    }
+    
+    /*---------galerie----*/
+    
+    #imgdex figure {
+        top: 0em;
+        left: 0em;
+        width: auto;
+    }
+    
+    #ranger {
+        top: 1em;
+        width: 81%;
+    }
+    
+    #imgdex figure figcaption {
+        left: 0;
     }
     
 }
@@ -1305,63 +1392,6 @@ article h3 {
     }
 }
 /*-------------------------------Fin Responsive---------------------------------*/
-
-
-
-
-
-
-/*-----------------------Simplon.co --> Simplon en chiffres---------------------*/
-.chiffres, .h3chiffres {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-style: italic;
-    font-weight: 900;
-    font-size: 130%;   
-}
-
-
-.chiffresCles, .entreeFormation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    line-height: 80px;
-    font-weight: 900;
-}
-
-
-.h3chiffres {
-    font-size: 200%;
-    text-decoration: underline;
-    
-}
-
-
-.chiffresPair {
-    align-self: flex-end;
-    
-}
-
-
-.chiffresImpair {
-    align-self: flex-start;
-}
-
-
-.valeur {
-    color: #ed1450;
-    font-size: 250%;
-}
-
-
-#progress7 {
-    margin-right: -21em;
-}
-/*-----------------fin de Simplon.co --> Simplon en chiffres--------------------*/
-
-
-
 
 
 
