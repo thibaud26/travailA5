@@ -139,6 +139,16 @@ a:link {
     flex-flow: column wrap;
 }
 
+.msgContact {
+    color: #ed1450;
+    font-weight: 900;
+}
+
+.sectionContactMap {
+    display: flex;
+    flex-flow: column wrap;  
+}
+
 iframe {/*---Carte google dans "Contact"---*/
     float: left;
 }

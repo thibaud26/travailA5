@@ -26,52 +26,53 @@
             <h2>C<span>O</span>NTACT</h2>
              
                 <div class="articleContact">
-             
-                    <?php
-                    // La variable $verif va nous permettre d'analyser si la sémantique de l'e-mail est bonne
-                    $verif="!^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]{2,}\.[a-zA-Z]{2,4}$!";
-
-                    // On assigne et protège nos variables
-                    $votremail=$_POST["votremail"];
-                    $from=htmlspecialchars("From: ".$votremail."\r\n");
-                    $message=stripslashes(htmlspecialchars($_POST["message"]));
-
-                    // On met ici notre e-mail
-                    $destinataire="stef.pachot@gmail.com";
-
-                    /* On place le sujet du message qui, ici, sera toujours le même
-                    puisque dans la partie Html, on l'a mis en caché grâce au type="hidden"<gras><couleur nom="rouge">  </couleur></gras> avec comme valeur "Vous avez un nouveau message"  */
-                    $objet=$_POST['objet'];
-
-                    // C'est bon : on est ok, vérifions si l'e-mail est valide, grâce à notre sympathique REGEX
-
-                    if(trim($message)=="" & trim($votremail)=="")
-                        {
-                            print "";
-                        }
-
-                    elseif( !preg_match ($verif,$votremail))
-                        {
-                            print "Votre e-mail n'est pas valide";
-                        }
-                    // On vérifie s'il y a un message
-                    elseif (trim($message)=="")
-                        {
-                            echo "Y'en a marre des messages vides !";
-                        }
-
-                    // Si tout est ok, on envoie l'e-mail
-                    else
-                        {
-                            mail($destinataire,$objet,$message,$from);
-                            echo "Message envoyé au webmaster";
-                        }
-
-                    ?>
-                     
+                    
                         <div class="sectionContact">
             
                             <h3>Nous contacter</h3>
+             
+                        <?php
+                        // La variable $verif va nous permettre d'analyser si la sémantique de l'e-mail est bonne
+                        $verif="!^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]{2,}\.[a-zA-Z]{2,4}$!";
+
+                        // On assigne et protège nos variables
+                        $votremail=$_POST["votremail"];
+                        $from=htmlspecialchars("From: ".$votremail."\r\n");
+                        $message=stripslashes(htmlspecialchars($_POST["message"]));
+
+                        // On met ici notre e-mail
+                        $destinataire="stef.pachot@gmail.com";
+
+                        /* On place le sujet du message qui, ici, sera toujours le même
+                        puisque dans la partie Html, on l'a mis en caché grâce au type="hidden"<gras><couleur nom="rouge">  </couleur></gras> avec comme valeur "Vous avez un nouveau message"  */
+                        $objet=$_POST['objet'];
+
+                        // C'est bon : on est ok, vérifions si l'e-mail est valide, grâce à notre sympathique REGEX
+
+                        if(trim($message)=="" & trim($votremail)=="")
+                            {
+                                print "";
+                            }
+
+                        elseif( !preg_match ($verif,$votremail))
+                            {
+                                print "<p class='msgContact'>Votre e-mail n'est pas valide</p>";
+                            }
+                        // On vérifie s'il y a un message
+                        elseif (trim($message)=="")
+                            {
+                                echo "<p class='msgContact'>Y'en a marre des messages vides !</p>";
+                            }
+
+                        // Si tout est ok, on envoie l'e-mail
+                        else
+                            {
+                                mail($destinataire,$objet,$message,$from);
+                                echo "<p class='msgContact'>Message envoyé au webmaster</p>";
+                            }
+
+                        ?>
+
                  
                                 <form method="post" action="contact.php">
  
@@ -96,7 +97,7 @@
                  <!-- On ferme la balise form, notre formulaire est fini -->
                         </div>
                         
-                        <div class="sectionContact"> 
+                        <div class="sectionContactMap"> 
                 
                             <h3>Nous trouver</h3>
             
