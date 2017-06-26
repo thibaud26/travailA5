@@ -23,136 +23,119 @@
                 <ul>Voici la première promotion de Devel<span>o</span>'Pont. Elle a commencée en mai 2017 et se terminera en Novembre de la même année. Elle est composée d'une vingtaine de personnes:<br><br>
                 (Petite astuce: si vous passez votre curseur sur chaques photos, vous pouvez voir le prénom de la personne, c'est cool hein !)  
                 </ul>
-                <ul class="PROMO">
-                    <li>
-                        <a>
-                        <img src="../Photos/Joffrey1.jpg" alt="Joffrey">
-                        <strong class="prenom_">Joffrey</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Thibaud1.jpg" alt="Thibaud">
-                        <strong class="prenom_">Thibaud</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Fanny1.jpg" alt="Fanny">
-                        <strong class="prenom_">Fanny</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Alan1.jpg" alt="Alan">
-                        <strong class="prenom_">Alan</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Stephane1.jpg" alt="Stéphane">
-                        <strong class="prenom_">Stéphane</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/BenoitLi1.jpg" alt="BenoitLi">
-                        <strong class="prenom_">Benoit Li</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/BenoitLa1.jpg" alt="BenoitLa">
-                        <strong class="prenom_">Benoit La</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Fred1.jpg" alt="Fred">
-                        <strong class="prenom_">Fred</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Jordan1.jpg" alt="Jordan">
-                        <strong class="prenom_">Jordan</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Kevin1.jpg" alt="Kevin">
-                        <strong class="prenom_">Kevin</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Lise-Claire1.jpg" alt="Lise-Claire">
-                        <strong class="prenom_">Lise</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Mehdi1.jpg" alt="Mehdi">
-                        <strong class="prenom_">Medhi</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Mourad1.jpg" alt="Mourad">
-                        <strong class="prenom_">Mourad</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Piotr1.jpg" alt="Piotr">
-                        <strong class="prenom_">Piotr</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Nolwenn1.jpg" alt="Nolwenn">
-                        <strong class="prenom_">Nolwenn</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Mylene1.jpg" alt="Mylène">
-                        <strong class="prenom_">Mylène</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Nima1.jpg" alt="Nima">
-                        <strong class="prenom_">Nima</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Quentin1.jpg" alt="Quentin">
-                        <strong class="prenom_">Quentin</strong>
-                        </a> 
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Rita1.jpg" alt="Rita">
-                        <strong class="prenom_">Rita</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                        <img src="../Photos/Sylvain1.jpg" alt="Sylvain">
-                        <strong class="prenom_">Sylvain</strong>
-                        </a>
-                    </li>
-                    <li>
-                    </li>
-            </ul>
-        </article>
+                <?php include ('../php/fonction.php'); ?>
+    
+        
+        <?php include ('../php/reseauxsociaux.html');
+        $biteacul = array( "joffrey" => array ( "prenom" => "Joffrey",
+  /*"joffrey=clé*/                     "nom" => "Alcaraz",
+  /* array = value */                  'liens' => 'http://www.developont.fr/~joffrey/',
+                                       "photo" => "<img src='../Photos/Joffrey1.jpg'>"
+                                     ),
+                  "thibaud" => array ("prenom" => "Thibaud",
+                                      "nom" => "Bousquainaud",
+                                      "liens" => 'http://www.developont.fr/~thibaud/',
+                                      "photo" => "<img src='../Photos/Thibaud1.jpg'>"
+                                     ),
+                  "fanny" => array ("prenom" => "Fanny",
+                                    "nom" => "Paulet",
+                                    "liens" => 'http://www.developont.fr/~fanny/',
+                                    "photo" => "<img src='../Photos/Fanny1.jpg'>"
+                                     ),
+                  "alan" => array ("prenom" => "Alan",
+                                    "nom" => "Lazzarotto",
+                                    "liens" => 'http://www.developont.fr/~alan/',
+                                    "photo" => "<img src='../Photos/Alan1.jpg'>"
+                                     ),
+                  "stephane" => array ("prenom" => "Stephane",
+                                      "nom" => "Pachot",
+                                      "liens" => 'http://www.developont.fr/~stephane/',
+                                      "photo" => "<img src='../Photos/Stephane1.jpg'>"
+                                     ), 
+                  "Benoit" => array ("prenom" => "Benoit",
+                                      "nom" => "Liebard",
+                                      "liens" => 'http://www.developont.fr/~bli/',
+                                      "photo" => "<img src='../Photos/BenoitLi1.jpg'>"
+                                     ), 
+                   "benoit" => array ("prenom" => "Benoit",
+                                      "nom" => "Lagrange",
+                                      "liens" => 'http://www.developont.fr/~bla/',
+                                      "photo" => "<img src='../Photos/BenoitLa1.jpg'>"
+                                     ),
+                   "fred" => array ("prenom" => "Fred",
+                                      "nom" => "Willhelm",
+                                      "liens" => 'http://www.developont.fr/~fred/',
+                                      "photo" => "<img src='../Photos/Fred1.jpg'>"
+                                     ),
+                   "jordan" => array ("prenom" => "Jordan",
+                                      "nom" => "Andrevon",
+                                      "liens" => 'http://www.developont.fr/~jordan/',
+                                      "photo" => "<img src='../Photos/Jordan1.jpg'>"
+                                     ),
+                   "kevin" => array ("prenom" => "Kevin",
+                                      "nom" => "Landry",
+                                      "liens" => 'http://www.developont.fr/~kevin/',
+                                      "photo" => "<img src='../Photos/Kevin1.jpg'>"
+                                     ),
+                   "lise" => array ("prenom" => "Lise",
+                                      "nom" => "Bernaille",
+                                      "liens" => 'http://www.developont.fr/~lise/',
+                                      "photo" => "<img src='../Photos/Lise-Claire1.jpg'>"
+                                     ),
+                   "mehdi" => array ("prenom" => "Mehdi",
+                                      "nom" => "Sapet",
+                                      "liens" => 'http://www.developont.fr/~mehdi/',
+                                      "photo" => "<img src='../Photos/Mehdi1.jpg'>"
+                                     ),
+                   "mourad" => array ("prenom" => "Mourad",
+                                      "nom" => "Betraoui",
+                                      "liens" => 'http://www.developont.fr/~mourad/',
+                                      "photo" => "<img src='../Photos/Mourad1.jpg'>"
+                                     ),
+                   "piotr" => array ("prenom" => "Piotr",
+                                      "nom" => "Kiszczak",
+                                      "liens" => 'http://www.developont.fr/~piotr/',
+                                      "photo" => "<img src='../Photos/Piotr1.jpg'>"
+                                     ),
+                    "nolwenn" => array ("prenom" => "Nolwenn",
+                                      "nom" => "Repellin",
+                                      "liens" => 'http://www.developont.fr/~nolwenn/',
+                                      "photo" => "<img src='../Photos/Nolwenn1.jpg'>"
+                                     ),
+                   "mylene" => array ("prenom" => "Mylene",
+                                      "nom" => "Dragon",
+                                      "liens" => 'http://www.developont.fr/~mylene/',
+                                      "photo" => "<img src='../Photos/Mylene1.jpg'>"
+                                     ),
+                   "nima" => array ("prenom" => "Nima",
+                                      "nom" => "Pichou",
+                                      "liens" => 'http://www.developont.fr/~nima/',
+                                      "photo" => "<img src='../Photos/Nima1.jpg'>"
+                                     ),
+                   "quentin" => array ("prenom" => "Quentin",
+                                      "nom" => "Henneaux",
+                                      "liens" => 'http://www.developont.fr/~quentin/',
+                                      "photo" => "<img src='../Photos/Quentin1.jpg'>"
+                                     ),
+                   "rita" => array ("prenom" => "Rita",
+                                      "nom" => "Hagymasi-Ratkai",
+                                      "liens" => 'http://www.developont.fr/~rita/',
+                                      "photo" => "<img src='../Photos/Rita1.jpg'>"
+                                     ),
+                   "sylvain" => array ("prenom" => "Sylvain",
+                                      "nom" => "Yang",
+                                      "liens" => 'http://www.developont.fr/~/',
+                                      "photo" => "<img src='../Photos/Sylvain1.jpg'>"
+                                     ),
+                  
+);
+      echo display_tableau ($biteacul); 
+        
+        ?> 
+                </article>
     </section>
      
     <aside>
-        
-        <?php include ('../php/reseauxsociaux.html'); ?> 
         
     </aside> 
      

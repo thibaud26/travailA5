@@ -928,8 +928,7 @@ article h3 {
 
 /*------------------------------Page Promo 2017---------------------------------*/
 .PROMO {
-    margin-left: -3.5em;
-    margin-bottom: -15em;  
+  
 }
 
 .PROMO li {
@@ -940,6 +939,7 @@ article h3 {
     padding: 1.5em;
     margin-right: 0em;
     list-style: none;
+    padding-left: 1.125245em;
 }
 
 .PROMO li a {
@@ -1000,7 +1000,7 @@ article h3 {
 .PROMO li a .prenom_ {
     position: absolute;
     text-align: center;
-    bottom: -30px;
+    bottom: -100px;
     opacity: 0;
 }
 
@@ -1013,18 +1013,42 @@ article h3 {
     -moz-transition:bottom 0.3s ease 0.4s;
     -o-transition:bottom 0.3s ease 0.4s;
     width:16.9em;
-    height:0.7em;
+    height: 2.5em;
     padding-bottom:1em;
     background:rgba(0,0,0,0.8);
-    margin-top:-30px;
+    margin-top:-90px;
     z-index:150;
 }   
 /*--------------------------Fin de la page 'Promo 2017'-------------------------*/
 
+/* ----------------------debut fonction.php pour integrer les infos perso de chaque personnes de la promo 2017 --------------*/ 
+
+.tableauinfos h1 {
+   border: medium none;
+    box-shadow: none;
+    color: green;
+    
+}
+
+.tableauinfos h2 {
+      background-color: transparent;
+    border: medium none;
+    box-shadow: none;
+    color: blue;
+}
 
 
+.tableauinfos {
+   border: 1px solid black;
+    margin: 10px;
+    background-color: aliceblue;
+}
 
 
+.bodyFonction {
+    display: flex;
+    flex-flow: row wrap;
+}
 
 
 
@@ -1477,6 +1501,40 @@ article h3 {
 /*-------------------------------Fin Responsive---------------------------------*/
 
 
+/* debut Admin News */
+
+
+.phpNews {
+       margin: 10px;
+        padding-bottom: 15px;
+}
+
+.h2news {
+    color: #ed1450;
+    font-size: 180%;
+    font-style: italic;
+    font-weight: 900;
+    
+}
+
+.sectionNews {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.signature {
+    font-style: italic;
+}
+
+.pNews {
+     border: 1px solid rgb(97, 127, 127);
+    font-size: 110%;
+    font-style: normal;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* fin admin news */
 
 /*-----------------------------Programme Page "C'est quoi"----------------------*/
 
@@ -1531,9 +1589,6 @@ article h3 {
 }
 
 /*------------------------Fin Programme Page "C'est quoi"-----------------------*/
-
-
-
 
 
 /*â†‘â†‘SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNEâ†‘â†‘*/
