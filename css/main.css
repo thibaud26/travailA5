@@ -868,8 +868,7 @@ article h3 {
 
 /*------------------------------Page Promo 2017---------------------------------*/
 .PROMO {
-    margin-left: -3.5em;
-    margin-bottom: -15em;  
+  
 }
 
 .PROMO li {
@@ -880,6 +879,7 @@ article h3 {
     padding: 1.5em;
     margin-right: 0em;
     list-style: none;
+    padding-left: 1.125245em;
 }
 
 .PROMO li a {
@@ -953,7 +953,7 @@ article h3 {
     -moz-transition:bottom 0.3s ease 0.4s;
     -o-transition:bottom 0.3s ease 0.4s;
     width:16.9em;
-    height: 4em;
+    height: 2.5em;
     padding-bottom:1em;
     background:rgba(0,0,0,0.8);
     margin-top:-90px;
