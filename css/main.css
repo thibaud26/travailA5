@@ -475,41 +475,103 @@ span,
 
 
 /*--------------------------Logos des partenaires-------------------------------*/
+#royans {
+    width: 230px ;
+}
+
+#massif {
+    width: 250px;
+    position: relative;
+    bottom: 1em;
+}
+
 #leader {
-    width: 205px;
-    height: 205px;
+    width: 150px;
+    position: relative;
+    left: 1.5em;
+    bottom: 1.5em;
 }
 
 #emploi {
-    width: 250px;
-    height: 160px;
+    width: 225px;
 }
 
 #legrand {
-    width: 300px;
-    height: 120px;
+    width: 250px;
 }
 
 #formation {
-    width: 250px;
-    height: 160px;
+    width: 200px;
 }
 
 #vercors {
     width: 250px;
     height: 100px;
+    position: relative;
+    left: 2em;
 }
 
 #EPN {
-    margin: 3em 0em 0em 18em;
+    width: 250px;
+    position: relative;
+    bottom: 1em;
+}
+
+#marcellin {
+    position: relative;
+    right: 0.8em;
+}
+
+#rhone {
+    
+}
+
+#opcalia {
+    
+}
+
+#fond_pari {
+    
+}
+
+#isere {
+    
+}
+
+#GEN {
+    
+}
+
+#pont {
+    
+}
+
+#EDF {
+    
 }
 
 .logo_part1 {
-    margin: 0 0 0 4em;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo_part2 {
-    margin: 4em 0 0 8em;
+    margin: 2em 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_part3 {
+    margin: 2em 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_part4 {
+    margin: 3em 0 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 /*-----------------------Fin des logos partenaires------------------------------*/
 
@@ -585,9 +647,8 @@ h4 {
 }
 
 .formateurs {
-    margin: -64.4em 0 0 35em;
+    margin: -63.8em 0 0 35em;
     text-align: right;
-    position: relative;
 }
 
 .directeur {
@@ -629,8 +690,7 @@ h4 {
 }
 
 #Arnaud {
-    width: 9em;
-    height: 10.1em;
+    width: 160px;
 }
 
 #Jerome {
@@ -1197,7 +1257,7 @@ article h3 {
         font-size: 170%;
     }
     
-    /*------L'équipe--------*/
+    /*------L'Ã©quipe--------*/
     
     .l_equipe, .admin, .formateurs, #HR_dir, .directeur {
         margin: 0;
@@ -1474,7 +1534,7 @@ article h3 {
 }
 
 
-/*↑↑SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNE↑↑*/
+/*â†‘â†‘SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNEâ†‘â†‘*/
 /*---------------------------Galerie TEST---------------------------------------*/
 /*-----
 .galeriePhoto {
