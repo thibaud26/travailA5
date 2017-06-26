@@ -647,9 +647,8 @@ h4 {
 }
 
 .formateurs {
-    margin: -64.4em 0 0 35em;
+    margin: -63.8em 0 0 35em;
     text-align: right;
-    position: relative;
 }
 
 .directeur {
@@ -691,8 +690,7 @@ h4 {
 }
 
 #Arnaud {
-    width: 9em;
-    height: 10.1em;
+    width: 160px;
 }
 
 #Jerome {
