@@ -475,24 +475,30 @@ span,
 
 
 /*--------------------------Logos des partenaires-------------------------------*/
+#royans {
+    width: 230px ;
+}
+
+#massif {
+    width: 250px;
+}
+
 #leader {
-    width: 205px;
-    height: 205px;
+    width: 150px;
+    position: relative;
+    top: 1em;
 }
 
 #emploi {
-    width: 250px;
-    height: 160px;
+    width: 225px;
 }
 
 #legrand {
-    width: 300px;
-    height: 120px;
+    width: 250px;
 }
 
 #formation {
-    width: 250px;
-    height: 160px;
+    width: 200px;
 }
 
 #vercors {
@@ -501,15 +507,62 @@ span,
 }
 
 #EPN {
-    margin: 3em 0em 0em 18em;
+    width: 250px;
+}
+
+#marcellin {
+    position: relative;
+    right: 0.8em;
+}
+
+#rhone {
+    
+}
+
+#opcalia {
+    
+}
+
+#fond_pari {
+    
+}
+
+#isere {
+    
+}
+
+#GEN {
+    
+}
+
+#pont {
+    
+}
+
+#EDF {
+    
 }
 
 .logo_part1 {
-    margin: 0 0 0 4em;
+    margin: 0 0 0 0;
+    word-spacing: 1200%;
 }
 
 .logo_part2 {
-    margin: 4em 0 0 8em;
+    margin: 2em 0 0 0;
+    word-spacing: 900%;
+}
+
+.logo_part3 {
+    
+    margin: 2em 0 0 0;
+    word-spacing: 400%;
+}
+
+.logo_part4 {
+    
+    margin: 2em 0 0 0;
+    word-spacing: 400%;
 }
 /*-----------------------Fin des logos partenaires------------------------------*/
 

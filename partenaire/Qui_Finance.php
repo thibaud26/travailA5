@@ -24,7 +24,7 @@
     
     <section>
         <article>
-            <h2>N<span>o</span>s financeurs</h2>
+            <h2>Nos financeurs Simpl<span>o</span>n</h2>
                 <ul>C'est en partie grâce a eux que nous en somme là aujourd'hui. Un grand <span>MERCI</span> a eux !</ul>
                 <div class= logo_financement1>
                     <a href="http://www.bpifrance.fr/" target="_blank"><img id="bpifrance" src="../img/bpifrance.png" alt="BPI France"></a>
