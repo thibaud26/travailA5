@@ -25,7 +25,7 @@
     <section>
         <article>
             <h2>Nos financeurs Simpl<span>o</span>n</h2>
-                <ul>C'est en partie grâce a eux que nous en somme là aujourd'hui. Un grand <span>MERCI</span> a eux !</ul>
+                <ul>C'est en partie grâce a eux que nous en somme là aujourd'hui. <span>MERCI</span> a eux !</ul>
                 <div class= logo_financement1>
                     <a href="http://www.bpifrance.fr/" target="_blank"><img id="bpifrance" src="../img/bpifrance.png" alt="BPI France"></a>
                     <a href="http://www.franceactive.org/"  target="_blank"><img id="france_active" src="../img/france_active.png" alt="France Active"></a>
