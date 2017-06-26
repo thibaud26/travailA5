@@ -56,9 +56,17 @@
             
             <h2>Au terme de la formation, <span>o</span>btient-on un diplôme ?</h2>
             
-            <p>?????</p>
+            <p>A terme, vous obtenez une attestation de formation justifiant de vos capacités a travailler aussi bien en complète autonomie qu'en équipe. Les meilleurs pourront passer une équivalence d'un diplôme de niveau III (bac +2) en developpement web.</p>
             
         </article> 
+        
+        <article>
+        
+            <h2>C<span>o</span>mbien de temps dure la formation ?</h2>
+            
+            <p>La formation dure 7 mois à temps plein sur le centre de formation (avec ou sans 6 mois de stage supplémentaire) : vous êtes à temps plein (35h) dans votre centre et vous avez la possibilité à la fin de la formation de faire 6 mois de stage pour compléter votre apprentissage.</p>
+            
+        </article>
         
         <article>
         
