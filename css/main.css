@@ -481,12 +481,15 @@ span,
 
 #massif {
     width: 250px;
+    position: relative;
+    bottom: 1em;
 }
 
 #leader {
     width: 150px;
     position: relative;
-    top: 1em;
+    left: 1.5em;
+    bottom: 1.5em;
 }
 
 #emploi {
@@ -504,10 +507,14 @@ span,
 #vercors {
     width: 250px;
     height: 100px;
+    position: relative;
+    left: 2em;
 }
 
 #EPN {
     width: 250px;
+    position: relative;
+    bottom: 1em;
 }
 
 #marcellin {
@@ -545,24 +552,26 @@ span,
 
 .logo_part1 {
     margin: 0 0 0 0;
-    word-spacing: 1200%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo_part2 {
     margin: 2em 0 0 0;
-    word-spacing: 900%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo_part3 {
-    
     margin: 2em 0 0 0;
-    word-spacing: 400%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo_part4 {
-    
-    margin: 2em 0 0 0;
-    word-spacing: 400%;
+    margin: 3em 0 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 /*-----------------------Fin des logos partenaires------------------------------*/
 
@@ -1226,7 +1235,7 @@ article h3 {
         font-size: 170%;
     }
     
-    /*------L'équipe--------*/
+    /*------L'Ã©quipe--------*/
     
     .l_equipe, .admin, .formateurs, #HR_dir, .directeur {
         margin: 0;
@@ -1477,7 +1486,7 @@ article h3 {
 
 
 
-/*↑↑SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNE↑↑*/
+/*â†‘â†‘SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNEâ†‘â†‘*/
 /*---------------------------Galerie TEST---------------------------------------*/
 /*-----
 .galeriePhoto {
