@@ -30,6 +30,9 @@
                         <div class="sectionContact">
             
                             <h3>Nous contacter</h3>
+                            
+                            <p>Mail: <a href="mailto:developont@gmail.com"><span>developont@gmail.com</span></a>.<br>
+                            Tel: 04 76 64 19 96</p>
              
                         <?php
                         // La variable $verif va nous permettre d'analyser si la sémantique de l'e-mail est bonne
@@ -102,7 +105,7 @@
                             <h3>Nous trouver</h3>
             
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.213054152995!2d5.341972315816723!3d45.061188979098176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478abb7fe41772ef%3A0x25f34dd863b4056e!2sGrande+Rue%2C+38680+Pont-en-Royans!5e0!3m2!1sfr!2sfr!4v1496353224246" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        
+                            
                         </div>     
                 </div>
             
