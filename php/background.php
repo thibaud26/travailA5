@@ -21,7 +21,7 @@ fseek ($fp, 0);/* on place le pointeur du fichier à l'offset 0 grâce à l'inst
 fputs ($fp, $number);/*grâce à l'instruction fputs(), on écrit dans notre fichier la nouvelle valeur correspondant a $number*/
 fclose ($fp);/*ferme le fichier compteur.txt*/
 
-
+/*
 if ($number < 15) {
     echo "  <style type='text/css'>
             
@@ -72,7 +72,7 @@ if ($number < 15) {
                     -o-animation: fadein 0.7s;
                     -ms-animation: fadin 0.7s;
             } </style> ";
-}
+} */
 ?>
 
 
