@@ -46,7 +46,7 @@
                   "alan" => array ("prenom" => "Alan",
                                     "nom" => "Lazzarotto",
                                     "liens" => 'http://www.developont.fr/~alan/',
-                                    "photo" => "<img src='../Photos/Alan2.jpg'>"
+                                    "photo" => "<img src='../Photos/Alan1.jpg'>"
                                      ),
                   "stephane" => array ("prenom" => "Stephane",
                                       "nom" => "Pachot",
@@ -91,7 +91,7 @@
                    "mourad" => array ("prenom" => "Mourad",
                                       "nom" => "Betraoui",
                                       "liens" => 'http://www.developont.fr/~mourad/',
-                                      "photo" => "<img src='../Photos/Mourad.jpg'>"
+                                      "photo" => "<img src='../Photos/Mourad1.jpg'>"
                                      ),
                    "piotr" => array ("prenom" => "Piotr",
                                       "nom" => "Kiszczak",
