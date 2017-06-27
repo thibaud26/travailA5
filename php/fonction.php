@@ -3,20 +3,20 @@
 
 <head>
 
-    
+
     <?php include ('../php/head.html'); ?>
     <?php include ('../php/background.php'); ?>
-    
+
     <title>Develo'Pont - Partenaires</title>
-    
+
 </head>
-    
+
     <body class="bodyFonction">
     -->
 <?php
 // Creation d'infomration personnel pour chaques personnes de la promo 2017
-/* array = value */  
-/*"joffrey=clé*/ 
+/* array = value */
+/*"joffrey=clé*/
 
 /* $biteacul = array( "joffrey" => array ( "prenom" => "Joffrey",
                                        "nom" => "Alcaraz",
@@ -42,12 +42,12 @@
                                       "nom" => "Pachot",
                                       "liens" => 'http://www.developont.fr/~stephane/',
                                       "photo" => "<img src='../Photos/Stephane1.jpg'>"
-                                     ), 
+                                     ),
                   "Benoit" => array ("prenom" => "Benoit",
                                       "nom" => "Liebard",
                                       "liens" => 'http://www.developont.fr/~bli/',
                                       "photo" => "<img src='../Photos/BenoitLi1.jpg'>"
-                                     ), 
+                                     ),
                    "benoit" => array ("prenom" => "Benoit",
                                       "nom" => "Lagrange",
                                       "liens" => 'http://www.developont.fr/~bla/',
@@ -117,37 +117,37 @@
                                       "nom" => "Yang",
                                       "liens" => 'http://www.developont.fr/~/',
                                       "photo" => "<img src='../Photos/Sylvain1.jpg'>"
-                                     ), 
-                  
+                                     ),
+
 ); */
 function display_tableau ($array) {
-    
+
    echo "<ul class='PROMO'>";
-    
+
     foreach ($array as $key => $value ){
-        
-        
-        echo "<li><a target='_blank' href=" . $value ['liens'] . ">" . $value ["photo"] . ">";  
-        
-        echo "<strong class='prenom_'>" . $value ["prenom"] . "<br>"; 
-        
+
+
+        echo "<li><a target='_blank' href=" . $value ['liens'] . ">" . $value ["photo"];  
+
+        echo "<strong class='prenom_'>" . $value ["prenom"] . "<br>";
+
         echo $value ["nom"] . "<br>";
-        
+
         echo "</a></strong></li>";
-        
-        
+
+
         /* foreach ($value as $identite => $info) {
             echo "<li><strong class='prenom_'>" . $identite . "</strong>";
-            
+
             echo "<strong class='prenom_'>" . $info . "</strong></li>";
-            
+
         }*/
-         
+
    }
-    
+
     echo "</ul>";
-       
-}  
+
+}
 /* echo display_tableau ($biteacul); */
 
 
@@ -160,6 +160,3 @@ function display_tableau ($array) {
 
 
 ?>
-     
-    
-    
