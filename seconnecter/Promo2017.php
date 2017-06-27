@@ -46,7 +46,7 @@
                   "alan" => array ("prenom" => "Alan",
                                     "nom" => "Lazzarotto",
                                     "liens" => 'http://www.developont.fr/~alan/',
-                                    "photo" => "<img src='../Photos/Alan1.jpg'>"
+                                    "photo" => "<img src='../Photos/Alan2.jpg'>"
                                      ),
                   "stephane" => array ("prenom" => "Stephane",
                                       "nom" => "Pachot",
