@@ -76,40 +76,40 @@
 
                     <article id="FullStack JS" class="Module-Tableau-container Module-Tableau-border city " style="display: block;">
     	                <ul>
-			                <li><span>DES COMPETENCES ET DES TECHNOLOGIES</span><br>Cette formation est dédiée au développement « front-end » (ce qu’on voit à l’écran, avec HTML, CSS, Javascript et ses différents frameworks comme Meteor, React, etc). Vous verrez tout de même un peu de développement « back-end » (les coulisses, les fonctionnalités), l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</li>
-			                <li><span>DES METHODES</span><br>Méthodologies agiles, pair programming, etc...</li>
-			                <li><span>DES OUTILS</span><br>Git, Github, Slack, Sublime text, etc...</li>
-			                <li><span>DES OUVERTURES SUR D'AUTRES DOMAINES</span><br>Sécurite, environnement, intelligence artificielle, consommation collaborative, entrepreneuriat, communication, marketing,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
-			                <li><span>A PARTIR DE NOVEMBRE 2015</span><br>Possibilite de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)</li>
+                            <li><span class="title_color">DES COMPETENCES ET DES TECHNOLOGIES</span><br>Cette formation est dédiée au développement <strong>« front-end »</strong> (ce qu’on voit à l’écran, avec <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong> et ses différents frameworks comme <strong>Meteor</strong>, <strong>React</strong>, etc). Vous verrez tout de même un peu de développement <strong>« back-end »</strong> (les coulisses, les fonctionnalités), l’administration systèmes (sous <strong>Linux</strong>), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</li>
+			                <li><span class="title_color">DES METHODES</span><br>Méthodologies agiles, pair programming, etc...</li>
+			                <li><span class="title_color">DES OUTILS</span><br>Git, Github, Slack, Sublime text, etc...</li>
+                            <li><span class="title_color">DES OUVERTURES SUR D'AUTRES DOMAINES</span><br><strong>Sécurité</strong>, <strong>environnement</strong>, <strong>intelligence</strong> artificielle, <strong>consommation</strong> collaborative, <strong>entrepreneuriat</strong>, <strong>communication</strong>, <strong>marketing</strong>,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
+                            <li><span class="title_color">A PARTIR DE NOVEMBRE 2015</span><br>Possibilite de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, <strong>niveau III</strong>)</li>
 		                </ul>
                     </article>
 
                     <article id="PHP" class="Module-Tableau-container Module-Tableau-border city" style="display: none;">
 	                    <ul>
-		                    <li><span>DES COMPETENCES ET DES TECHNOLOGIES</span><br>Vous ferez un mélange de développement « front-end » (ce qu’on voit à l’écran, avec HTML, CSS, Javascript), le développement « back-end » (les coulisses, les fonctionnalités) avec le langage  PHP, l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</li>
-		                    <li><span>DES METHODES</span><br>Méthodologies agiles, pair programming, etc...</li>
-		                    <li><span>DES OUTILS</span><br>Git, Github, Slack, Sublime text, etc...</li>
-		                    <li><span>DES OUVERTURES SUR D'AUTRES DOMAINES</span><br>Sécurité, environnement, intelligence artificielle, consommation collaborative, entrepreneuriat, communication, marketing,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
-		                    <li><span>A PARTIR DE NOVEMBRE 2015</span><br>Possibilité de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)</li>
+                            <li><span class="title_color">DES COMPETENCES ET DES TECHNOLOGIES</span><br>Vous ferez un mélange de développement <strong>« front-end »</strong> (ce qu’on voit à l’écran, avec HTML, CSS, Javascript), le développement <strong>« back-end »</strong> (les coulisses, les fonctionnalités) avec le langage  <strong>PHP</strong>, l’administration systèmes (sous <strong>Linux</strong>), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</li>
+		                    <li><span class="title_color">DES METHODES</span><br>Méthodologies agiles, pair programming, etc...</li>
+		                    <li><span class="title_color">DES OUTILS</span><br>Git, Github, Slack, Sublime text, etc...</li>
+		                    <li><span class="title_color">DES OUVERTURES SUR D'AUTRES DOMAINES</span><br><strong>Sécurité</strong>, <strong>environnement</strong>, <strong>intelligence</strong> artificielle, <strong>consommation</strong> collaborative, <strong>entrepreneuriat</strong>, <strong>communication</strong>, <strong>marketing</strong>,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
+		                    <li><span class="title_color">A PARTIR DE NOVEMBRE 2015</span><br>Possibilite de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, <strong>niveau III</strong>)</li>
 	                    </ul>
                     </article>
 
                     <article id="Rubis" class="Module-Tableau-container Module-Tableau-border city" style="display: none;">
 	                    <ul>
-		                    <li><span>DES COMPETENCES ET DES TECHNOLOGIES</span><br>Vous ferez un mélange de développement « front-end » (ce qu’on voit à l’écran, avec HTML, CSS, Javascript), le développement « back-end » (les coulisses, les fonctionnalités) avec le langage Ruby, l’administration systèmes (sous Linux), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</li>
-		                    <li><span>DES METHODES</span><br>Méthodologies agiles, pair programming, etc...</li>
-		                    <li><span>DES OUTILS</span><br>Git, Github, Slack, Sublime text, etc...</li>
-		                    <li><span>DES OUVERTURES SUR D'AUTRES DOMAINES</span><br>Sécurité, environnement, intelligence artificielle, consommation collaborative, entrepreneuriat, communication, marketing,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
-		                    <li><span>A PARTIR DE NOVEMBRE 2015</span><br>Possibilité de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)</li>
+                            <li><span class="title_color">DES COMPETENCES ET DES TECHNOLOGIES</span><br>Vous ferez un mélange de développement <strong>« front-end »</strong> (ce qu’on voit à l’écran, avec HTML, CSS, Javascript), le développement <strong>« back-end »</strong> (les coulisses, les fonctionnalités) avec le langage <strong>Ruby</strong>, l’administration systèmes (sous <strong>Linux</strong>), la programmation d’objets connectés, la gestion de projet et la conception d’interfaces.</li>
+		                    <li><span class="title_color">DES METHODES</span><br>Méthodologies agiles, pair programming, etc...</li>
+		                    <li><span class="title_color">DES OUTILS</span><br>Git, Github, Slack, Sublime text, etc...</li>
+		                    <li><span class="title_color">DES OUVERTURES SUR D'AUTRES DOMAINES</span><br><strong>Sécurité</strong>, <strong>environnement</strong>, <strong>intelligence</strong> artificielle, <strong>consommation</strong> collaborative, <strong>entrepreneuriat</strong>, <strong>communication</strong>, <strong>marketing</strong>,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
+		                    <li><span class="title_color">A PARTIR DE NOVEMBRE 2015</span><br>Possibilite de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, <strong>niveau III</strong>)</li>
 	                    </ul>
                     </article>
 
                     <article id="Python" class="Module-Tableau-container Module-Tableau-border city" style="display: none;">
 	                    <ul>
-		                    <li><span>DES METHODES</span><br>Méthodologies agiles, pair programming, etc.</li>
-		                    <li><span>DES OUTILS</span><br>Git, Github, Slack, Sublime text, etc.</li>
-		                    <li><span>DES OUVERTURES SUR D'AUTRES DOMAINES</span><br>Sécurité, environnement, intelligence artificielle, consommation collaborative, entrepreneuriat, communication, marketing,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
-		                    <li><span>A PARTIR DE NOVEMBRE 2015</span><br>Possibilité de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, niveau III)</li>
+		                    <li><span class="title_color">DES METHODES</span><br>Méthodologies agiles, pair programming, etc.</li>
+		                    <li><span class="title_color">DES OUTILS</span><br>Git, Github, Slack, Sublime text, etc.</li>
+		                    <li><span class="title_color">DES OUVERTURES SUR D'AUTRES DOMAINES</span><br><strong>Sécurité</strong>, <strong>environnement</strong>, <strong>intelligence</strong> artificielle, <strong>consommation</strong> collaborative, <strong>entrepreneuriat</strong>, <strong>communication</strong>, <strong>marketing</strong>,… Autant de sujets qui pourront donner lieu à des interventions, sur votre demande notamment.</li>
+		                    <li><span class="title_color">A PARTIR DE NOVEMBRE 2015</span><br>Possibilite de faire certifier sa formation au travers d’un titre professionnel inscrit au RNCP (Développeur logiciel, <strong>niveau III</strong>)</li>
 	                    </ul>
                     </article>
 
