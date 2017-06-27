@@ -91,7 +91,7 @@
                    "mourad" => array ("prenom" => "Mourad",
                                       "nom" => "Betraoui",
                                       "liens" => 'http://www.developont.fr/~mourad/',
-                                      "photo" => "<img src='../Photos/Mourad.jpg'>"
+                                      "photo" => "<img src='../Photos/Mourad1.jpg'>"
                                      ),
                    "piotr" => array ("prenom" => "Piotr",
                                       "nom" => "Kiszczak",
