@@ -32,14 +32,14 @@
             <h2>Qu'est-ce que Develo'P<span>o</span>nt ?</h2>
 
             <p>
-                <a href="https://fr-fr.facebook.com/developont/" target="_blank"><span class="prod">DEVELO'PONT</span></a> est un projet initié par l'Espace Public Numérique du Royans (EPN) et <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPLON.CO</span></a> .
+                <a href="https://fr-fr.facebook.com/developont/" target="_blank"><span class="prod">DEVELO'PONT</span></a> est un projet initié par <strong>l'Espace Public Numérique du Royans</strong> (EPN) et <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPLON.CO</span></a> .
 
                 C'est une formation <b>GRATUITE</b>, <b>INTENSIVE</b> et <b>QUALIFIANTE</b> de 7 mois en développement web et mobile.
                 Notre mission est également de proposer des profils de poste adaptés aux entreprises et collectivités locales dans leur développement numérique.
             </p>
 
-            <br>
 
+            <br>
             <p>
                 <strong>Article du site:
                 <a href="http://www.memorialdelisere.fr/actualite-95355-dYvelopont-cest-parti-pour-7-mois-formation-.html" target="_blank"> <span class="prod">Memorialdelisere.fr</span></a></strong>
