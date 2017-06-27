@@ -1028,7 +1028,7 @@ article h3 {
 }
 /*--------------------------Fin de la page 'Promo 2017'-------------------------*/
 
-/* ----------------------debut fonction.php pour integrer les infos perso de chaque personnes de la promo 2017 --------------*/
+/*debut fonction.php pour integrer les infos perso de chaque personnes de la promo 2017 */
 
 .tableauinfos h1 {
    border: medium none;
@@ -1628,6 +1628,10 @@ article h3 {
     box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.6 )
 }
 
+.galeriePhoto:hover {
+    
+}
+
 .slides {
     width: 100%;
     animation: fadein 0.5s;
@@ -1684,4 +1688,4 @@ article h3 {
     -o-animation: fadein 0.3s;
     -ms-animation: fadein 0.3s;
 }
-/*------------------------Fin Galerie TEST--------------------------------------*/
+/*-----------------------Fin Galerie TEST--------------------------------------*/
