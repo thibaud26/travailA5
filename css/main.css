@@ -290,7 +290,6 @@ nav a {
     list-style-type: none;
     position: relative;
     padding: 0 16px;
-    box-shadow: 0 0 1px black;
     background-color: rgba(33, 60, 69, 0.78);
     color: black;
     transition: all 1s;
@@ -299,7 +298,7 @@ nav a {
 }
 
 .menu:hover {
-    border-bottom: 5px solid white;
+    border-bottom: 4px solid white;
 }
 
 .menu:hover ul {
