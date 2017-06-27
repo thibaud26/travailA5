@@ -34,12 +34,12 @@
                                             "liens" => 'http://www.developont.fr/~alan/',
                                             "photo" => "<img src='../Photos/Alan.jpg'>"
                                             ),
-                          "benoit" => array ("prenom" => "Benoit",
+                          "benoit" => array ("prenom" => "Benoît",
                                             "nom" => "Lagrange",
                                             "liens" => 'http://www.developont.fr/~bla/',
                                             "photo" => "<img src='../Photos/BenoitLa.jpg'>"
                                             ),
-                          "Benoit" => array ("prenom" => "Benoit",
+                          "Benoit" => array ("prenom" => "Benoît",
                                             "nom" => "Liebard",
                                             "liens" => 'http://www.developont.fr/~bli/',
                                             "photo" => "<img src='../Photos/BenoitLi.jpg'>"
