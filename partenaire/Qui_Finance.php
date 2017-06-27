@@ -4,24 +4,24 @@
 <head>
         <?php include ('../php/head.html'); ?>
         <?php include ('../php/background.php'); ?>
-    
-        <title> Develo'Pont - Qui Finance</title>  
-    
+
+        <title> Develo'Pont - Qui Finance</title>
+
 </head>
 <body>
-    
+
      <nav>
-        
-        <?php include ('../php/entete.html'); ?>
-        
+         <?php $nav_en_cours = 'partenaires'; ?>
+         <?php include ('../php/entete.php'); ?>
+
     </nav>
-    
+
     <header>
-        
-        <?php include ('../php/header-logo.html'); ?> 
-        
+
+        <?php include ('../php/header-logo.html'); ?>
+
     </header>
-    
+
     <section>
         <article>
             <h2>Nos financeurs Simpl<span>o</span>n</h2>
@@ -37,23 +37,23 @@
                     <a href="http://www.fse.gouv.fr/" target="_blank"><img id="fse2" src="../img/rosefse.png" alt="FSE2"></a>
                 </div>
         </article>
-        
+
     </section>
-     
+
     <aside>
-        
-        <?php include ('../php/reseauxsociaux.html'); ?> 
-        
-    </aside> 
-     
-    
+
+        <?php include ('../php/reseauxsociaux.html'); ?>
+
+    </aside>
+
+
     <Footer>
         <?php include ('../php/copyright.html'); ?>
     </Footer>
 
-    
-    </body> 
-    
+
+    </body>
+
 
 
 
