@@ -34,6 +34,7 @@
             <ul id="sousmenu2" class="sousmenu">
                 <li><a class="S_MENU" href="../partenaire/Qui_Finance.php">Qui finance ?</a></li>
                 <li><a class="S_MENU" href="../partenaire/partenaires.php">Nos partenaires</a></li>
+                <li><a class="S_MENU" href="../partenaire/Espace_publique_num%C3%A9rique.php">L'EPN</a></li>
             </ul>
     </li>
 
@@ -46,7 +47,7 @@
 
             <ul id="sousmenu3" class="sousmenu">
                 <li><a class="S_MENU" href="../seconnecter/Promo2017.php">Promotion 2017</a></li>
-                <li><a class="S_MENU" href="../seconnecter/Galerie.php">Galerie photo</a></li>
+                <li><a class="S_MENU" href="../seconnecter/GalerieTEST.php">Galerie photo</a></li>
             </ul>
     </li>
 

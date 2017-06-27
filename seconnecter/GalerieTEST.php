@@ -7,15 +7,15 @@
     <?php include ('../php/background.php'); ?>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     
-    <title></title>
+    <title>Galerie</title>
     
 </head>
     
 <body>
     
     <nav>
-        
-        <?php include ('../php/entete.html'); ?>
+        <?php $nav_en_cours = 'medias'; ?>
+        <?php include ('../php/entete.php'); ?>
         
     </nav>
     
@@ -28,7 +28,7 @@
     <section>
         
         <article>
-            <h2>Galerie Ph<span>o</span>to</h2>
+            
              <div class='galeriePhoto'>
                 <img class="slides" src="../Photos/1.jpg" alt>
                 <img class="slides" src="../Photos/2.jpg" alt>

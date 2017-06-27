@@ -1137,7 +1137,7 @@ article h3 {
 }
 /*---------------------------Fin Page "Attente.php"-----------------------------*/
 
-/* galerie photo*/
+/*-------- galerie photo
 #ranger {
     position: relative;
     top: 2em;
@@ -1180,7 +1180,7 @@ article h3 {
 .couleur_galerie {
     background-color: rgba(35, 30, 30, 0.68);
 }
-/*--------------------------Fin Page Galerie Photo------------------------------*/
+------------------------Fin Page Galerie Photo------------------------------*/
 
 
 
@@ -1325,7 +1325,7 @@ article h3 {
 
 
 
-    /*---------Galerie--------*/
+    /*---------Galerie--------
     #imgdex figure {
         top: 0em;
         left: 0em;
@@ -1357,7 +1357,7 @@ article h3 {
     section {
         padding: 0;
     }
-
+    -------------*/
     /*-------Menu Deroulant--------*/
     .menuDeroulant {
         display: flex;
@@ -1603,10 +1603,23 @@ article h3 {
 
 /*------------------------Fin Programme Page "C'est quoi"-----------------------*/
 
+/*------------------------------Page EPN----------------------------------------*/
+
+.img_date {
+    position: absolute;
+    height: 50%;
+}
+
+.text_epn_histoire {
+    padding-left: 12%;
+}
+
+/*------------------------------Page EPN----------------------------------------*/
+
+
 
 /*â†‘â†‘SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNEâ†‘â†‘*/
 /*---------------------------Galerie TEST---------------------------------------*/
-/*-----
 .galeriePhoto {
     position: relative;
     top: 4em;
@@ -1671,5 +1684,4 @@ article h3 {
     -o-animation: fadein 0.3s;
     -ms-animation: fadein 0.3s;
 }
------*/
 /*------------------------Fin Galerie TEST--------------------------------------*/
