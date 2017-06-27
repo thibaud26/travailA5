@@ -31,62 +31,62 @@
         $biteacul = array( "joffrey" => array ( "prenom" => "Joffrey",
   /*"joffrey=clé*/                     "nom" => "Alcaraz",
   /* array = value */                  'liens' => 'http://www.developont.fr/~joffrey/',
-                                       "photo" => "<img src='../Photos/Joffrey1.jpg'>"
+                                       "photo" => "<img src='../Photos/Joffrey.jpg'>"
                                      ),
                   "thibaud" => array ("prenom" => "Thibaud",
                                       "nom" => "Bousquainaud",
                                       "liens" => 'http://www.developont.fr/~thibaud/',
-                                      "photo" => "<img src='../Photos/Thibaud1.jpg'>"
+                                      "photo" => "<img src='../Photos/Thibaud.jpg'>"
                                      ),
                   "fanny" => array ("prenom" => "Fanny",
                                     "nom" => "Paulet",
                                     "liens" => 'http://www.developont.fr/~fanny/',
-                                    "photo" => "<img src='../Photos/Fanny1.jpg'>"
+                                    "photo" => "<img src='../Photos/Fanny.jpg'>"
                                      ),
                   "alan" => array ("prenom" => "Alan",
                                     "nom" => "Lazzarotto",
                                     "liens" => 'http://www.developont.fr/~alan/',
-                                    "photo" => "<img src='../Photos/Alan1.jpg'>"
+                                    "photo" => "<img src='../Photos/Alan.jpg'>"
                                      ),
                   "stephane" => array ("prenom" => "Stephane",
                                       "nom" => "Pachot",
                                       "liens" => 'http://www.developont.fr/~stephane/',
-                                      "photo" => "<img src='../Photos/Stephane1.jpg'>"
+                                      "photo" => "<img src='../Photos/Stephane.jpg'>"
                                      ),
                   "Benoit" => array ("prenom" => "Benoit",
                                       "nom" => "Liebard",
                                       "liens" => 'http://www.developont.fr/~bli/',
-                                      "photo" => "<img src='../Photos/BenoitLi1.jpg'>"
+                                      "photo" => "<img src='../Photos/BenoitLi.jpg'>"
                                      ),
                    "benoit" => array ("prenom" => "Benoit",
                                       "nom" => "Lagrange",
                                       "liens" => 'http://www.developont.fr/~bla/',
-                                      "photo" => "<img src='../Photos/BenoitLa1.jpg'>"
+                                      "photo" => "<img src='../Photos/BenoitLa.jpg'>"
                                      ),
                    "fred" => array ("prenom" => "Fred",
                                       "nom" => "Willhelm",
                                       "liens" => 'http://www.developont.fr/~fred/',
-                                      "photo" => "<img src='../Photos/Fred1.jpg'>"
+                                      "photo" => "<img src='../Photos/Fred.jpg'>"
                                      ),
                    "jordan" => array ("prenom" => "Jordan",
                                       "nom" => "Andrevon",
                                       "liens" => 'http://www.developont.fr/~jordan/',
-                                      "photo" => "<img src='../Photos/Jordan1.jpg'>"
+                                      "photo" => "<img src='../Photos/Jordan.jpg'>"
                                      ),
                    "kevin" => array ("prenom" => "Kevin",
                                       "nom" => "Landry",
                                       "liens" => 'http://www.developont.fr/~kevin/',
-                                      "photo" => "<img src='../Photos/Kevin1.jpg'>"
+                                      "photo" => "<img src='../Photos/Kevin.jpg'>"
                                      ),
                    "lise" => array ("prenom" => "Lise",
                                       "nom" => "Bernaille",
                                       "liens" => 'http://www.developont.fr/~lise/',
-                                      "photo" => "<img src='../Photos/Lise-Claire1.jpg'>"
+                                      "photo" => "<img src='../Photos/Lise-Claire.jpg'>"
                                      ),
                    "mehdi" => array ("prenom" => "Mehdi",
                                       "nom" => "Sapet",
                                       "liens" => 'http://www.developont.fr/~mehdi/',
-                                      "photo" => "<img src='../Photos/Mehdi1.jpg'>"
+                                      "photo" => "<img src='../Photos/Mehdi.jpg'>"
                                      ),
                    "mourad" => array ("prenom" => "Mourad",
                                       "nom" => "Betraoui",
@@ -96,32 +96,32 @@
                    "piotr" => array ("prenom" => "Piotr",
                                       "nom" => "Kiszczak",
                                       "liens" => 'http://www.developont.fr/~piotr/',
-                                      "photo" => "<img src='../Photos/Piotr1.jpg'>"
+                                      "photo" => "<img src='../Photos/Piotr.jpg'>"
                                      ),
                     "nolwenn" => array ("prenom" => "Nolwenn",
                                       "nom" => "Repellin",
                                       "liens" => 'http://www.developont.fr/~nolwenn/',
-                                      "photo" => "<img src='../Photos/Nolwenn1.jpg'>"
+                                      "photo" => "<img src='../Photos/Nolwenn.jpg'>"
                                      ),
                    "mylene" => array ("prenom" => "Mylene",
                                       "nom" => "Dragon",
                                       "liens" => 'http://www.developont.fr/~mylene/',
-                                      "photo" => "<img src='../Photos/Mylene1.jpg'>"
+                                      "photo" => "<img src='../Photos/Mylene.jpg'>"
                                      ),
                    "nima" => array ("prenom" => "Nima",
                                       "nom" => "Pichou",
                                       "liens" => 'http://www.developont.fr/~nima/',
-                                      "photo" => "<img src='../Photos/Nima1.jpg'>"
+                                      "photo" => "<img src='../Photos/Nima.jpg'>"
                                      ),
                    "quentin" => array ("prenom" => "Quentin",
                                       "nom" => "Henneaux",
                                       "liens" => 'http://www.developont.fr/~quentin/',
-                                      "photo" => "<img src='../Photos/Quentin1.jpg'>"
+                                      "photo" => "<img src='../Photos/Quentin.jpg'>"
                                      ),
                    "rita" => array ("prenom" => "Rita",
                                       "nom" => "Hagymasi-Ratkai",
                                       "liens" => 'http://www.developont.fr/~rita/',
-                                      "photo" => "<img src='../Photos/Rita1.jpg'>"
+                                      "photo" => "<img src='../Photos/Rita.jpg'>"
                                      ),
 
 
