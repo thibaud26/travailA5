@@ -939,18 +939,21 @@ article h3 {
 
 /*------------------------------Page Promo 2017---------------------------------*/
 .PROMO {
-
+    position: relative;
+    left: 1em;
 }
 
 .PROMO li {
     display: inline-table;
     position: relative;
-    width: 10em;
+    left: -3.2em;
+    width: 11em;
     height: 11em;
-    padding: 1.5em;
     margin-right: 0em;
     list-style: none;
-    padding-left: 1.125245em;
+    padding-left: 2em;
+    padding-right: 0.45em;
+    padding-top: 3em;
 }
 
 .PROMO li a {
