@@ -29,22 +29,27 @@
         
         <article>
             
+            <p><center>Ci dessous, quelques photos de la promotion 2017 en formation à <span>Develo'Pont</span> a Pont en Royans :-)</center></p>
+            
              <div class='galeriePhoto'>
-                <img class="slides" src="../Photos/1.jpg" alt>
-                <img class="slides" src="../Photos/2.jpg" alt>
-                <img class="slides" src="../Photos/3.jpg" alt>
-                <img class="slides" src="../Photos/5.jpg" alt>
-                <img class="slides" src="../Photos/6.jpg" alt>
-                <img class="slides" src="../Photos/7.jpg" alt>
-                <img class="slides" src="../Photos/8.jpg" alt>
-                <img class="slides" src="../Photos/9.jpg" alt>
-                <img class="slides" src="../Photos/10.jpg" alt>
-                <img class="slides" src="../Photos/11.jpg" alt>
-                <img class="slides" src="../Photos/12.jpg" alt>
-                <img class="slides" src="../Photos/13.jpg" alt>
-                <img class="slides" src="../Photos/14.jpg" alt>
-                <img class="slides" src="../Photos/15.jpg" alt>
-                <img class="slides" src="../Photos/18.jpg" alt>
+                <img class="slides" src="../Photos/1.jpg">
+                <img class="slides" src="../Photos/2.jpg">
+                <img class="slides" src="../Photos/3.jpg">
+                <img class="slides" src="../Photos/20.jpg">
+                <img class="slides" src="../Photos/16.jpg">
+                <img class="slides" src="../Photos/6.jpg">
+                <img class="slides" src="../Photos/21.jpg">
+                <img class="slides" src="../Photos/22.jpg">
+                <img class="slides" src="../Photos/9.jpg">
+                <img class="slides" src="../Photos/10.jpg">
+                <img class="slides" src="../Photos/24.jpg">
+                <img class="slides" src="../Photos/12.jpg">
+                <img class="slides" src="../Photos/13.jpg">
+                <img class="slides" src="../Photos/14.jpg">
+                <img class="slides" src="../Photos/17.jpg">
+                <img class="slides" src="../Photos/15.jpg">
+                <img class="slides" src="../Photos/18.jpg">
+                <img class="slides" src="../Photos/25.jpg">
              </div>
              <div>
                 <button class="left_button" onclick="plusDivs(-1)">&#10094;</button>
@@ -70,6 +75,8 @@
                      x[slideIndex-1].style.display = "block";  
                  }
              </script>
+            
+            <br><br>
             
         </article>
     
