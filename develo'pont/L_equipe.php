@@ -49,13 +49,13 @@
                 </div>
                 <div class="formateurs">
                     <h4>Formateurs référents</h4>
-                    <img id="Arnaud" src="../Photos/Arnaud.jpg" alt="Arnaud">
+                    <img id="Arnaud" src="../Photos/Arnaud2.jpg" alt="Arnaud">
                         <p class="nom_prenom">Arnaud GARCIA FERNANDEZ</p>
                         <p>04 76 36 75 49 <br>
                             <a class="mail_equipe" href="mailto:a.garciafernandez@developont.fr">arnaud@developont.fr</a>
                         </p>
              <hr id="HR_formateur">
-                    <img id="Jerome" src="../Photos/Jerome.jpg" alt="Jérôme">
+                    <img id="Jerome" src="../Photos/Jerome2.jpg" alt="Jérôme">
                         <p class="nom_prenom">Jérôme PIERSON</p>
                         <p>04 76 36 75 49 <br>
                             <a class="mail_equipe" href="mailto:j.pierson@developont.fr">jerome@developont.fr</a>
