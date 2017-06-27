@@ -28,11 +28,29 @@
     <section>
         
         <h2>Accueil</h2>
+        
+        
+        <article>
+        
+            <h2> Develo'P<span>o</span>nt à Pont en Royans</h2>
+        
+                <p>Pour la première fois en Isère, mais aussi la première fois dans un petit village authentique adossé au Vercors, Simplon.co propose une formation en développement web, en PHP, gratuite et intensive, de 7 mois à partir du mois d’avril 2017.</p>
+            
+                <p>Mené dans une démarche d’innovation sociale, ce projet constitue un double défi :</p>
+            
+            <ul>
+                <li> Economique : participer à l’endiguement du chômage en répondant aux besoins de recrutement des entreprises du numérique engagées dans cette démarche citoyenne.</li>
+                <li> Social : en agissant sur l’emploi et la qualification de publics marginalisés sélectionnés uniquement sur la base de critères sociaux et de leur motivation, et non selon les diplômes.</li>
+            </ul>
+            
+            <a id="candidature" href="../simplon.co/candidature.php">Dép<span>o</span>sez votre candidature!</a>
+            
+        </article>
 
            
         <article>
             
-            <h2>La formation developpeur web a <a href="http://simplon.co/" target="_blank"><span class="span-simplon">SIMPL<span>O</span>N.CO</span></a> c'est quoi?</h2>
+            <h2>La formation developpeur web a <a href="http://simplon.co/" target="_blank"><span class="span-simplon">DEVEL<span>O</span>'PONT</span></a> c'est quoi?</h2>
             
             <ul>
                 <li>Apprendre à créer des sites Internet, des applications web, et en faire son métier.</li>
@@ -122,26 +140,6 @@
 <!--------------------------------Fin Programme-------------------------------------> 
             
         </article>
-        
-      
-        <article>
-        
-            <h2> Develo'P<span>o</span>nt à Pont en Royans</h2>
-        
-                <p>Pour la première fois en Isère, mais aussi la première fois dans un petit village authentique adossé au Vercors, Simplon.co propose une formation en développement web, en PHP, gratuite et intensive, de 7 mois à partir du mois d’avril 2017.</p>
-            
-                <p>Mené dans une démarche d’innovation sociale, ce projet constitue un double défi :</p>
-            
-            <ul>
-                <li> Economique : participer à l’endiguement du chômage en répondant aux besoins de recrutement des entreprises du numérique engagées dans cette démarche citoyenne.</li>
-                <li> Social : en agissant sur l’emploi et la qualification de publics marginalisés sélectionnés uniquement sur la base de critères sociaux et de leur motivation, et non selon les diplômes.</li>
-            </ul>
-            
-            <a id="candidature" href="../simplon.co/candidature.php">Dép<span>o</span>sez votre candidature!</a>
-            
-        </article>
-        
-
          
     </section>
 
