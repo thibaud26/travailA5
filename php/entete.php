@@ -43,11 +43,11 @@
     </li>
 
     <li <?php if ($nav_en_cours == 'medias') {echo 'id="en-cours"';} ?> class="menu">
-        <a href="../seconnecter/Promo2017.php"><span>M</span>edias</a>
+        <a href="../medias/Promo2017.php"><span>M</span>edias</a>
 
             <ul id="sousmenu3" class="sousmenu">
-                <li><a class="S_MENU" href="../seconnecter/Promo2017.php">Promotion 2017</a></li>
-                <li><a class="S_MENU" href="../seconnecter/GalerieTEST.php">Galerie photo</a></li>
+                <li><a class="S_MENU" href="../medias/Promo2017.php">Promotion 2017</a></li>
+                <li><a class="S_MENU" href="../medias/GalerieTEST.php">Galerie photo</a></li>
             </ul>
     </li>
 
