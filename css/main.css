@@ -1503,6 +1503,7 @@ article h3 {
 
 /* debut Admin News */
 
+
 .phpNews {
        margin: 10px;
         padding-bottom: 15px;
@@ -1530,8 +1531,64 @@ article h3 {
     font-size: 110%;
     font-style: normal;
     font-weight: bold;
-    padding: 15px;s
+    padding: 15px;
 }
+
+/* fin admin news */
+
+/*-----------------------------Programme Page "C'est quoi"----------------------*/
+
+.Module-Tableau-container{
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+.Module-Tableau-green{
+	background-color:rgba(116,134,22,1);
+
+}
+
+.Module-Tableau-bar{
+	margin-left: 1em;
+    margin-right: 1em;
+    box-shadow: none;
+    position: relative;
+    top: 2.4em;
+    height: 1em;
+    border: none;
+}
+
+.Module-Tableau-bar-item {
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif !important;
+    font-weight: bold;
+}
+
+.Module-Tableau-button{
+	border: none;
+	background-color:rgba(116,134,22,0.0);
+	padding:2.35%;
+	text-decoration: none;
+    position: relative;
+    right: 3em;
+    margin-bottom: 0.3%;
+    margin-left: -0.2%;
+}
+
+.Module-Tableau-border{
+	border: 1px solid rgba(51,51,51,.3);
+    box-shadow: none;
+}
+
+.Module-Tableau-activ{
+	background-color:rgba(116,134,22,1);
+	color: rgb(51,51,51);
+	outline:none;
+}
+
+/*------------------------Fin Programme Page "C'est quoi"-----------------------*/
 
 
 /*â†‘â†‘SI VOUS DEVEZ AJOUTER DES CHOSES SUR LE CSS CODEZ EN DESSUS DE CETTE LIGNEâ†‘â†‘*/
