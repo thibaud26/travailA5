@@ -91,7 +91,7 @@
                    "mourad" => array ("prenom" => "Mourad",
                                       "nom" => "Betraoui",
                                       "liens" => 'http://www.developont.fr/~mourad/',
-                                      "photo" => "<img src='../Photos/Mourad1.jpg'>"
+                                      "photo" => "<img src='../Photos/Mourad.jpg'>"
                                      ),
                    "piotr" => array ("prenom" => "Piotr",
                                       "nom" => "Kiszczak",
@@ -123,11 +123,7 @@
                                       "liens" => 'http://www.developont.fr/~rita/',
                                       "photo" => "<img src='../Photos/Rita1.jpg'>"
                                      ),
-                   "sylvain" => array ("prenom" => "Sylvain",
-                                      "nom" => "Yang",
-                                      "liens" => 'http://www.developont.fr/~/',
-                                      "photo" => "<img src='../Photos/Sylvain1.jpg'>"
-                                     ),
+
 
 );
       echo display_tableau ($biteacul);
