@@ -1653,12 +1653,12 @@ article h3 {
     background-color: rgba(0, 0, 0, 0.8);
     border: 4em;
     position: relative;
-    top: -49.2em;
-    width: 2em;
-    height: 50.3em;
+    top: -26.5em;
+    width: 3em;
+    height: 4em;
     border-top-right-radius: 1px;
     border-bottom-right-radius: 1px;
-    left: 3.35em;
+    left: -1.65em;
 }
 
 .right_button {
@@ -1666,12 +1666,12 @@ article h3 {
     background-color: rgba(0, 0, 0, 0.7);
     border: 4em;
     position: relative;
-    top: -49.2em;
-    width: 2em;
-    height: 50.3em;
+    top: -26.5em;
+    width: 3em;
+    height: 4em;
     border-top-left-radius: 1px;
     border-bottom-left-radius: 1px;
-    left: 90.7%;
+    left: 77.5em;
 }
 
 .left_button:hover {
