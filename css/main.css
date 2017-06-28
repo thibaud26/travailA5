@@ -1658,7 +1658,6 @@ article h3 {
     height: 4em;
     border-top-right-radius: 1px;
     border-bottom-right-radius: 1px;
-    left: 0.35em;
 }
 
 .right_button {
@@ -1671,7 +1670,7 @@ article h3 {
     height: 4em;
     border-top-left-radius: 1px;
     border-bottom-left-radius: 1px;
-    left: 75.5em;
+    left: 92.4%;
 }
 
 .left_button:hover {
