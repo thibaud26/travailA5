@@ -1693,4 +1693,20 @@ article h3 {
     -o-animation: fadein 0.3s;
     -ms-animation: fadein 0.3s;
 }
+
+.temoignage a:link, .temoignage i a:link {
+    color: #ed1450;
+}
+
+.temoignage a, .temoignage i {
+    position: relative;
+    top: 17em;
+    right: 14.4em;
+    font-size: 89%;
+}
+
+.video_temoignage {
+    position: relative;
+    left: 13.5em;
+}
 /*-----------------------Fin Galerie TEST--------------------------------------*/
