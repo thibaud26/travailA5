@@ -29,7 +29,7 @@
     <section>
 
          <article>
-             <h2>N<span>o</span>s partenaires</h2>
+             <h2>Nos partenaires Develo'P<span>o</span>nt</h2>
                 <ul>Nos partenaires officiels Develo'Pont, on ne les remercieras jamais assez. Un grand <span>MERCI</span> à eux aussi !</ul>
                 <div class= logo_part1>
                     <a href="http://cc-royans-vercors.org/fr_FR/index.php" target="_blank">
