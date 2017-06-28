@@ -31,7 +31,10 @@
             
             <p><center>Ci dessous, quelques photos de la promotion 2017 en formation à <span>Develo'Pont</span> a Pont en Royans :-)</center></p>
             
-             <figure class='galeriePhoto'>
+             
+             <div class="galeriePhoto">
+                 
+                <figure>
                 <img class="slides" src="../Photos/1.jpg">
                 <img class="slides" src="../Photos/2.jpg">
                 <img class="slides" src="../Photos/3.jpg">
@@ -54,8 +57,8 @@
                 <img class="slides" src="../Photos/27.jpg">
                 <img class="slides" src="../Photos/28.jpg">
                 <img class="slides" src="../Photos/29.jpg">
-             </figure>
-             <div>
+                </figure>
+                 
                 <button class="left_button" onclick="plusDivs(-1)">&#10094;</button>
                 <button class="right_button" onclick="plusDivs(1)">&#10095;</button>
             </div>

@@ -1630,9 +1630,6 @@ article h3 {
 .galeriePhoto {
     position: relative;
     top: 2em;
-    border: 5px solid rgba(33, 60, 69, 0.78);
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.6 )
 }
 
 .galeriePhoto:hover {
@@ -1641,19 +1638,25 @@ article h3 {
 
 .slides {
     width: 100%;
-    animation: fadein 0.5s;
     -moz-animation: fadein 0.5s;
     -webkit-animation: fadein 0.5s;
     -o-animation: fadein 0.5s;
     -ms-animation: fadein 0.5s;
+    animation: fadein 0.5s;
+}
+
+figure {
+    border: 5px solid rgba(33, 60, 69, 0.78);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.6 );
 }
 
 .left_button {
     color:aliceblue;
     background-color: rgba(0, 0, 0, 0.8);
     border: 4em;
-    position: relative;
-    top: -26.5em;
+    position: absolute;
+    top: 25.5em;
     width: 3em;
     height: 4em;
     border-top-right-radius: 1px;
@@ -1665,33 +1668,33 @@ article h3 {
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.7);
     border: 4em;
-    position: relative;
-    top: -26.5em;
+    position: absolute;
+    top: 25.5em;
     width: 3em;
     height: 4em;
     border-top-left-radius: 1px;
     border-bottom-left-radius: 1px;
-    left: 77.5em;
+    right: -2em;
 }
 
 .left_button:hover {
     background-color: rgba(0, 0, 0, 0.9);
     animation-name: left_right;
-    animation: fadein 0.3s;
     -moz-animation: fadein 0.3s;
     -webkit-animation: fadein 0.3s;
     -o-animation: fadein 0.3s;
     -ms-animation: fadein 0.3s;
+     animation: fadein 0.3s;
 }
 
 .right_button:hover {
     background-color: rgba(0, 0, 0, 0.9);
     animation-name: left_right;
-    animation: fadein 0.3s;
     -moz-animation: fadein 0.3s;
     -webkit-animation: fadein 0.3s;
     -o-animation: fadein 0.3s;
     -ms-animation: fadein 0.3s;
+     animation: fadein 0.3s;
 }
 
 .temoignage a:link, .temoignage i a:link {
