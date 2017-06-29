@@ -38,7 +38,6 @@
                 <img class="slides" src="../Photos/1.jpg">
                 <img class="slides" src="../Photos/2.jpg">
                 <img class="slides" src="../Photos/3.jpg">
-                <img class="slides" src="../Photos/20.jpg">
                 <img class="slides" src="../Photos/16.jpg">
                 <img class="slides" src="../Photos/6.jpg">
                 <img class="slides" src="../Photos/21.jpg">
