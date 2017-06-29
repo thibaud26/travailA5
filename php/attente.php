@@ -11,7 +11,7 @@
 <body>
     
     <nav>
-        <?php include ('../php/entete.html'); ?>
+        <?php include ('../php/entete.php'); ?>
     </nav>
     
     <header>
