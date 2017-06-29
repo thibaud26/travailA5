@@ -21,9 +21,9 @@
     <section>
         <article>
             <h2>Pr<span>o</span>motion 2017</h2>
-                <ul>Voici la première promotion de Devel<span>o</span>'Pont. Elle a commencée en mai 2017 et se terminera en Novembre de la même année. Elle est composée d'une vingtaine de personnes:<br><br>
+                <p>Voici la première promotion de Devel<span>o</span>'Pont. Elle a commencée en mai 2017 et se terminera en Novembre de la même année. Elle est composée d'une vingtaine de personnes:<br><br>
                 (Petite astuce: si vous passez votre curseur sur chaques photos, vous pouvez voir le prénom de la personne, c'est cool hein !)
-                </ul>
+                </p>
                 <?php include ('../php/fonction.php'); ?>
 
 

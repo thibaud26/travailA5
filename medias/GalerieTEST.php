@@ -31,7 +31,10 @@
             
             <p><center>Ci dessous, quelques photos de la promotion 2017 en formation à <span>Develo'Pont</span> a Pont en Royans :-)</center></p>
             
-             <div class='galeriePhoto'>
+             
+             <div class="galeriePhoto">
+                 
+                <figure>
                 <img class="slides" src="../Photos/1.jpg">
                 <img class="slides" src="../Photos/2.jpg">
                 <img class="slides" src="../Photos/3.jpg">
@@ -50,8 +53,12 @@
                 <img class="slides" src="../Photos/15.jpg">
                 <img class="slides" src="../Photos/18.jpg">
                 <img class="slides" src="../Photos/25.jpg">
-             </div>
-             <div>
+                <img class="slides" src="../Photos/26.jpg">
+                <img class="slides" src="../Photos/27.jpg">
+                <img class="slides" src="../Photos/28.jpg">
+                <img class="slides" src="../Photos/29.jpg">
+                </figure>
+                 
                 <button class="left_button" onclick="plusDivs(-1)">&#10094;</button>
                 <button class="right_button" onclick="plusDivs(1)">&#10095;</button>
             </div>
@@ -78,6 +85,29 @@
             
             <br><br>
             
+        </article>
+        
+        <article>
+        
+            <p><center>
+                Petit b<span>o</span>nus : Une vidéo témoignage ci-dessous sur Develo'P<span>o</span>nt !
+            </center></p>
+            
+            <div class="temoignage">
+                <iframe class="video_temoignage" frameborder="0" width="560" height="315" src="//www.dailymotion.com/embed/video/x5mid8s" allowfullscreen></iframe>
+                <br>
+                <a href="http://www.dailymotion.com/video/x5mid8s_developont-16-mai-2017_school" target="_blank">Vidéo prise le 16 Mai 2017</a>
+                <i>par</i>
+                <a href="http://www.dailymotion.com/epn-du-royans-cybercentre" target="_blank">l'EPN de Pont en Royans</a>
+            </div>
+            
+            <?php
+                for ($br = 0; $br <= 9; $br++)
+                {
+                    echo '<br>';
+                }
+            ?>
+        
         </article>
     
     </section>
