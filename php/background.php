@@ -5,12 +5,12 @@
 	if(isset($_COOKIE['background'])) {
 		$tab = unserialize($_COOKIE['background']);
 	}
-	if(count($tab) > 16){
+	if(count($tab) > 15){
 		$tab = array();
 	}
 
 	do {
-		$number = mt_rand(0, 16);/*variable contenant le numéros entre nombre_minimum et maximum*/
+		$number = mt_rand(0, 15);/*variable contenant le numéros entre nombre_minimum et maximum*/
 	} while(in_array($number, $tab));
 
 	$tab[] = $number;
