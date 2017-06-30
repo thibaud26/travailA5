@@ -40,40 +40,48 @@
                         $verif="!^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]{2,}\.[a-zA-Z]{2,4}$!";
 
                         // On assigne et protège nos variables
-                        $votremail=$_POST["votremail"];
-                        $from=htmlspecialchars("From: ".$votremail."\r\n");
-                        $message=stripslashes(htmlspecialchars($_POST["message"]));
+                        if(isset($_POST["votremail"])) {
+                            $votremail=$_POST["votremail"];
+                            $from=htmlspecialchars("From: ".$votremail."\r\n");
+                        }
+
+                        if(isset($_POST["message"])) {
+                            $message=stripslashes(htmlspecialchars($_POST["message"]));
+                        }
 
                         // On met ici notre e-mail
                         $destinataire="stef.pachot@gmail.com";
 
                         /* On place le sujet du message qui, ici, sera toujours le même
                         puisque dans la partie Html, on l'a mis en caché grâce au type="hidden"<gras><couleur nom="rouge">  </couleur></gras> avec comme valeur "Vous avez un nouveau message"  */
-                        $objet=$_POST['objet'];
+                        if(isset($_POST["objet"])) {
+                            $objet=$_POST['objet'];
+                        }
 
                         // C'est bon : on est ok, vérifions si l'e-mail est valide, grâce à notre sympathique REGEX
+                        if (isset($message) && isset($votremail)) {
+                            if(trim($message)=="" & trim($votremail)=="")
+                                {
+                                    print "";
+                                }
 
-                        if(trim($message)=="" & trim($votremail)=="")
-                            {
-                                print "";
-                            }
+                            elseif( !preg_match ($verif,$votremail))
+                                {
+                                    print "<p class='msgContact'>Votre e-mail n'est pas valide</p>";
+                                }
+                            // On vérifie s'il y a un message
+                            elseif (trim($message)=="")
+                                {
+                                    echo "<p class='msgContact'>Y'en a marre des messages vides !</p>";
+                                }
 
-                        elseif( !preg_match ($verif,$votremail))
-                            {
-                                print "<p class='msgContact'>Votre e-mail n'est pas valide</p>";
-                            }
-                        // On vérifie s'il y a un message
-                        elseif (trim($message)=="")
-                            {
-                                echo "<p class='msgContact'>Y'en a marre des messages vides !</p>";
-                            }
-
-                        // Si tout est ok, on envoie l'e-mail
-                        else
-                            {
-                                mail($destinataire,$objet,$message,$from);
-                                echo "<p class='msgContact'>Message envoyé au webmaster</p>";
-                            }
+                            // Si tout est ok, on envoie l'e-mail
+                            else
+                                {
+                                    mail($destinataire,$objet,$message,$from);
+                                    echo "<p class='msgContact'>Message envoyé au webmaster</p>";
+                                }
+                        }
 
                         ?>
 

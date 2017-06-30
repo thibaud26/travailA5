@@ -15,7 +15,7 @@
 
 	$tab[] = $number;
 	$tab = serialize($tab);
-	setcookie("background",$tab);
+	setcookie("background",$tab,0,"/");
 
 ?>
 
