@@ -50,13 +50,12 @@ h1 {
 }
 
 h2 {
-    border-style: outset;
-    border-width: 3px;
-    border-color: rgba(71, 70, 76, 0.38);
+    border-style: solid;
+    border-color: rgba(40, 58, 64, 1);
     text-align: center;
     background-color: rgb(97, 127, 127);
-    box-shadow: 1px 1px 10px 1px black;
     border-radius: 5px;
+
 }
 
 section {
@@ -1474,7 +1473,10 @@ article h3 {
     footer p {
         align-self: center;
     }
+}
 
+#myBtn:link, #myBtn:visited, #myBtn:hover {
+    align-self : center;
 }
 
 @media screen and (max-width: 1120px) {
